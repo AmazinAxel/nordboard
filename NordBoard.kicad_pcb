@@ -168,7 +168,6 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/e57bbe36-ae8f-4416-962c-db4f1eeb168f")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
 		(attr smd)
@@ -436,7 +435,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "73113758-b7ad-4098-a61e-1506834c8fb5")
+			(uuid "3503e14e-ec59-419d-9c49-a377880dec8b")
 			(effects
 				(font
 					(size 1 1)
@@ -448,7 +447,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58d9e6b6-5dc5-45aa-a9ed-4d5a82779d0d")
+			(uuid "01be0c1d-8967-4b97-bf31-a88a459aace8")
 			(effects
 				(font
 					(size 1 1)
@@ -460,7 +459,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d688644-4fb4-440d-8f32-304cb838bc6f")
+			(uuid "89f4ba45-39ae-480d-9077-e2195bb24665")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -472,7 +471,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da18d656-e290-47f1-90f3-52ad22182f2f")
+			(uuid "7cf7c6c3-0a1c-4665-9964-a26597a87b77")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -483,6 +482,12 @@
 		(path "/8fb2d56b-cbff-4288-a50e-1a281755758c")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -714,7 +719,7 @@
 		(property "Reference" "D30"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "0af0c141-65c3-4253-a7f4-486009e63597")
+			(uuid "c0255505-7c2c-4fdd-9417-d3f9d91d1273")
 			(effects
 				(font
 					(size 1 1)
@@ -726,7 +731,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63a9f7cb-e485-4096-bd10-1f2116409e28")
+			(uuid "cc35ab56-7d4e-4de5-89ee-13f737d7d0e4")
 			(effects
 				(font
 					(size 1 1)
@@ -739,7 +744,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e9e299c-c26e-4ff0-88fc-43a4394035d6")
+			(uuid "126a624d-b930-462d-af95-bba8772d7976")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,7 +757,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae29d369-df88-45fb-92d5-67af8d43c2a2")
+			(uuid "39d389d8-f0a1-41e6-a3fb-cf3047b4b702")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,6 +795,12 @@
 		(path "/f65494cb-2058-474f-942b-e2ea299a73fd")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1055,7 +1066,7 @@
 		(property "Reference" "D39"
 			(at 0.05 -11.699 0)
 			(layer "F.SilkS")
-			(uuid "9f098049-a833-4212-ba1d-0299457ece33")
+			(uuid "98a7ba9c-da72-4506-bf7e-6aa9dee33631")
 			(effects
 				(font
 					(size 1 1)
@@ -1067,7 +1078,7 @@
 			(at 0 3.3 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "719b4a75-96f9-4c5d-9fc8-9d01cc6d910e")
+			(uuid "60f65d42-3538-4e5a-ad34-87c43cbf9075")
 			(effects
 				(font
 					(size 1 1)
@@ -1080,7 +1091,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec840037-49fb-41d8-937e-4f4e0eeaa19e")
+			(uuid "7d246e6c-36fc-4e04-a6c1-2d11867bc37d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1093,7 +1104,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c7ac730-a1b4-4240-ab97-c62976c9ea76")
+			(uuid "ae99920e-659c-4834-a417-ab9c4f27c922")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,6 +1142,12 @@
 		(path "/cfb2f001-b07a-4bb3-869e-678e13b0c80a")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1440,7 +1457,6 @@
 				)
 			)
 		)
-		(path "/f4634a61-262d-4468-9cee-c051aa0d000d")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
 		(attr through_hole)
@@ -1674,7 +1690,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cf241942-c79b-4677-bd48-e486a883ff9b")
+			(uuid "ef947301-6718-4804-b4c1-dd67dd58b95f")
 			(effects
 				(font
 					(size 1 1)
@@ -1686,7 +1702,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06d134d0-d5d5-4a3f-bac8-4760bb11bf90")
+			(uuid "a62754af-d607-4389-a61d-9892768fafda")
 			(effects
 				(font
 					(size 1 1)
@@ -1698,7 +1714,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47dce933-728f-4f4a-acee-c74620a1945b")
+			(uuid "0c0ada4d-9c39-4248-82b9-8bf72e904426")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1726,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8c33c89-2ca2-4ccb-80d6-ec3cfffb3a45")
+			(uuid "d58160bc-5157-490b-9c58-e29b47629f40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,6 +1737,12 @@
 		(path "/8b810707-d136-4297-b616-ebfa3b565c5e")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1952,7 +1974,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d009c559-a26f-4150-9d53-4f0cc7660ded")
+			(uuid "87e2c2ee-9d2b-4894-aa56-770286b01b22")
 			(effects
 				(font
 					(size 1 1)
@@ -1964,7 +1986,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00b2a9d7-46b6-41c2-9d2a-9f20c66a37a0")
+			(uuid "f2704592-3d6c-49c1-af15-b60f36f6e6bf")
 			(effects
 				(font
 					(size 1 1)
@@ -1976,7 +1998,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cc7074ed-8542-401b-9d41-50b7ca5a90eb")
+			(uuid "f0bfd534-96ae-4819-8b25-9df03e1377fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +2010,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b417414-7c60-4878-a818-32aeba272e3d")
+			(uuid "077fcdb3-b418-4283-a61f-563f3e1b9a51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,6 +2021,12 @@
 		(path "/b073d90b-3faa-40a6-996d-64483cb1a716")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2230,7 +2258,7 @@
 		(property "Reference" "D24"
 			(at 0 -12.199 0)
 			(layer "F.SilkS")
-			(uuid "a42b99ee-8dda-4a29-8829-761e88dd9f72")
+			(uuid "79c1dc73-e84e-47a3-b7ad-f79b02986b62")
 			(effects
 				(font
 					(size 1 1)
@@ -2242,7 +2270,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ab7bbff-325a-4fab-b452-c8fed8f4a5de")
+			(uuid "7439553d-5e30-4db2-aa37-4cef5fa7df9f")
 			(effects
 				(font
 					(size 1 1)
@@ -2255,7 +2283,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d68019b-a107-40da-86ca-9d94237bc7b4")
+			(uuid "7d6a5904-9874-499a-9387-65f13a97bf41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2296,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "743ae13a-d218-46bc-a600-f3be2403701d")
+			(uuid "a023dcda-76a5-4355-970f-335592011d6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,6 +2334,12 @@
 		(path "/65ae2dbd-a660-4d61-a382-7b273662d72e")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2571,7 +2605,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8f622d59-9cc8-402a-a8b5-b5f1cfb881f1")
+			(uuid "69a08e66-8ca6-4e73-a5da-aca00d918666")
 			(effects
 				(font
 					(size 1 1)
@@ -2583,7 +2617,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3976cb33-74c2-4b59-8351-79c8ebfac8a1")
+			(uuid "24efba45-2b45-4762-b947-2bf3c9f55f4b")
 			(effects
 				(font
 					(size 1 1)
@@ -2595,7 +2629,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "149c02f6-9d5d-419b-97fb-b57bc044b75d")
+			(uuid "38cd7ff3-69bf-4f7f-ad5d-e96da5c0b282")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2641,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "077ecc13-f7f3-4659-b1e3-36f74f063c86")
+			(uuid "1b417c87-50bc-4044-86eb-11afc6af319a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,6 +2652,12 @@
 		(path "/81f64921-ac62-4196-bc3b-7c66dfa2029c")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2849,7 +2889,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "82d7f546-5c65-4ba8-88a7-8b3880d97c70")
+			(uuid "b715c49c-4785-4aa6-bea8-167818a6b7f3")
 			(effects
 				(font
 					(size 1 1)
@@ -2861,7 +2901,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "426455e4-68f8-4495-92ba-9a0f229e3cf7")
+			(uuid "d4861ab4-1e2a-4d9b-8250-db857fb1b992")
 			(effects
 				(font
 					(size 1 1)
@@ -2873,7 +2913,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f20ff7f3-62e7-482c-9a4c-bd7f739c6923")
+			(uuid "7768c23d-843f-4d88-9c6b-e5480ec84223")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +2925,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5cf1ed9-cd6f-43b0-8ecd-e1e405587824")
+			(uuid "ff90bccb-ad5d-4e24-ac33-cdef2395e35c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,6 +2936,12 @@
 		(path "/324e2663-2375-42e0-9436-142aa02d35a9")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3127,7 +3173,7 @@
 		(property "Reference" "D1"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "32347a05-07b8-4341-980b-13d69e613b76")
+			(uuid "a6d062ef-6371-4d4f-a1bd-789515b23acb")
 			(effects
 				(font
 					(size 1 1)
@@ -3139,7 +3185,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b661b9d8-9db0-43bf-8410-d7283c26d6d5")
+			(uuid "3776af38-30d9-47d4-9942-b1669117692e")
 			(effects
 				(font
 					(size 1 1)
@@ -3152,7 +3198,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f1753ad-c6de-422a-8bec-bc009474c9e5")
+			(uuid "c867c62b-7f7a-4796-8e7a-9ffe123e41fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3211,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7640fbc8-09a9-40ea-9ed5-ade548cfa15d")
+			(uuid "4b5604ee-792e-41e6-b205-6b838002e0d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,6 +3249,12 @@
 		(path "/9f7701ea-6ead-4ff7-a21f-0c24dd0cebb2")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3467,7 +3519,7 @@
 			(at -4 -2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b22b9cac-ca6b-471e-ad6e-12009c8a77cb")
+			(uuid "3a8419c4-49b4-4a3d-b612-be957d22d58c")
 			(effects
 				(font
 					(size 1 1)
@@ -3479,7 +3531,7 @@
 			(at 0.25 -1.5 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7dcdaf86-5c91-4738-a72b-ab845b606bc2")
+			(uuid "77af4132-3761-4f91-99b5-6a542a384ae7")
 			(effects
 				(font
 					(size 1 1)
@@ -3491,7 +3543,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a28bb9e8-ed4a-4d67-b015-632b2bbc99f6")
+			(uuid "4e7af953-3077-4d35-98f9-05abb14e3b88")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3555,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55e23a1d-6b3f-43b9-bd75-468396d1957a")
+			(uuid "ffdaaea9-5d64-421f-ac9c-254220f0d9f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +3650,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cc187bf9-2462-4b61-a422-e6dac859ad2a")
+			(uuid "44efd6b7-c246-42fa-ba59-14f9f698f395")
 			(effects
 				(font
 					(size 1 1)
@@ -3610,7 +3662,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6e02cb1-ec1b-4d3b-9603-bc7b846e6ce4")
+			(uuid "281c9d10-277c-481c-8273-15b45302399e")
 			(effects
 				(font
 					(size 1 1)
@@ -3622,7 +3674,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ffc85e9-08b7-42ce-8b0a-817c788dbe74")
+			(uuid "d3a48874-64b3-42d2-9bb3-4b78746d0380")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3686,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9497710-e09f-41b3-b4c4-b8f1f224c237")
+			(uuid "a935ff8d-3349-4383-a57a-b13d6fc61aba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,6 +3697,12 @@
 		(path "/403d9426-5816-4e82-940e-ed133b623593")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3875,7 +3933,7 @@
 			(at -4 -2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fd84e723-26d1-4e7a-a8a4-83dc5d8c07b5")
+			(uuid "196c4895-69e9-4542-a790-e527c818e716")
 			(effects
 				(font
 					(size 1 1)
@@ -3887,7 +3945,7 @@
 			(at 0.25 -1.5 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52d4acf2-ee1d-476b-baf6-82d1c851d184")
+			(uuid "ff668512-7a11-42fc-878b-0a43ee80ca44")
 			(effects
 				(font
 					(size 1 1)
@@ -3899,7 +3957,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85b0fd21-8c6d-438a-83d9-8d6910488aca")
+			(uuid "1f0cd87f-a1e6-4649-b850-8db6c21c4f16")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3969,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d24b5665-44af-4943-a2e7-29469b41739c")
+			(uuid "7212c4ab-9952-488c-8a9a-0eff083f1620")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +4064,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a88c0f1a-61d0-4a12-a79f-820d8497ec9a")
+			(uuid "0e65c940-1220-49f2-90a7-2d4123f60166")
 			(effects
 				(font
 					(size 1 1)
@@ -4018,7 +4076,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7179306f-a5c4-407f-a0bb-54e7e91805f2")
+			(uuid "b8e6ddec-1e1b-4efd-b2aa-43512d294977")
 			(effects
 				(font
 					(size 1 1)
@@ -4030,7 +4088,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77376ee1-a2cd-4468-9093-f4fb9c0e1f57")
+			(uuid "b2738a01-157e-4d45-bce5-ca1309ac1961")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4100,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "625774e5-c717-48f0-98d9-1c4fa31491fd")
+			(uuid "9f879baa-f578-4eec-ba1b-f5d97593654e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,6 +4111,12 @@
 		(path "/13a7f90f-75a2-4b9b-bd2c-fb04d571ede2")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4285,7 +4349,7 @@
 			(at -4 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "aa3370c4-03b1-47eb-9867-502c46e71081")
+			(uuid "df7c2acb-c93a-459b-8eba-c9e9bac51553")
 			(effects
 				(font
 					(size 1 1)
@@ -4297,7 +4361,7 @@
 			(at -1.5 3.25 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c3c48d0-5b51-44ec-803c-6e7f5dd2a82e")
+			(uuid "14a7cfe3-9d20-4a85-a703-a67e066911fc")
 			(effects
 				(font
 					(size 1 1)
@@ -4309,7 +4373,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "542cfd44-e170-4df0-9d0f-296a5dada353")
+			(uuid "034566f0-d4e7-433e-834c-e9a20c35002c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4385,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db7aadb2-b396-4678-953d-a120f5bef3fa")
+			(uuid "c3741678-2713-4eb4-bb59-c0759dd82586")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,6 +4409,12 @@
 		(path "/a3dbcf6a-2de1-4127-8f4c-117f31c277d9")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -4398,7 +4468,7 @@
 		(property "Reference" "D4"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "cf8440a7-2286-4d9e-a392-dc4bce6287ce")
+			(uuid "950dc1f5-1fc0-477b-adbb-3a8d7ecb0500")
 			(effects
 				(font
 					(size 1 1)
@@ -4410,7 +4480,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca2fec13-6589-4a20-9c63-1a914dfc14b4")
+			(uuid "71cd6bb1-ffb4-40b9-843e-aab105ecf3fd")
 			(effects
 				(font
 					(size 1 1)
@@ -4423,7 +4493,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0eca3cba-3c74-4dbb-b16c-34eb41dffa7b")
+			(uuid "6bc69bc5-f2f3-4b07-8594-aef4a9d37bae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4506,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a293cfc9-a47d-425e-895c-53d9f188cd91")
+			(uuid "90fc7a81-81ec-443a-9ff2-053f8bb493bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,6 +4544,12 @@
 		(path "/d6142f5c-946b-4ebc-9c9d-6b41dd0ec58f")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4739,7 +4815,7 @@
 		(property "Reference" "D33"
 			(at 0 -12.299 0)
 			(layer "F.SilkS")
-			(uuid "1a57020b-8e42-496e-84a3-6272bb0683b3")
+			(uuid "6c4c6dc4-e45c-420b-90ac-d5b27a4117fa")
 			(effects
 				(font
 					(size 1 1)
@@ -4751,7 +4827,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32fdcbe6-e64c-4a17-99c0-7bb491092d72")
+			(uuid "78a4e346-202f-4d30-bc04-6a023ac819d4")
 			(effects
 				(font
 					(size 1 1)
@@ -4764,7 +4840,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebc8a03f-e223-461b-bee6-b7fc1dd6d7b3")
+			(uuid "a12b15ae-78ed-448a-93f5-a870e8b636c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4777,7 +4853,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bc8de0d-f590-4fbd-818e-59c3aa67b92f")
+			(uuid "4335bb57-1dab-41ec-8657-32ef72d7a8f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,6 +4891,12 @@
 		(path "/5e85ea94-9944-4e16-81d0-10280c364298")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5080,7 +5162,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3f3a9030-bc84-46e5-941b-ffbf6ded5f8c")
+			(uuid "2d56a724-b784-4274-923f-bcf6d804053a")
 			(effects
 				(font
 					(size 1 1)
@@ -5092,7 +5174,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "934acf67-77a4-4276-8020-45464bf94cc0")
+			(uuid "b76ce956-6829-4c09-ab7b-4db1c6593d88")
 			(effects
 				(font
 					(size 1 1)
@@ -5104,7 +5186,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c44a6db4-9fdd-4def-9f49-535b1f6e87c4")
+			(uuid "950bcfa0-e02d-4156-9111-02884556c708")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5198,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b13a719-0e0f-4676-ba1e-704504253892")
+			(uuid "d98a45ab-13e4-492d-bc14-9860185b2949")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,6 +5209,12 @@
 		(path "/0ce8a7ee-1cbe-475f-8f24-61c1a1b57c3a")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5357,7 +5445,7 @@
 			(at -4 -2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "23b40019-0501-4436-813d-e9c0480cf7cf")
+			(uuid "d8402c9d-a414-4999-b544-33ce26bbaa78")
 			(effects
 				(font
 					(size 1 1)
@@ -5369,7 +5457,7 @@
 			(at 0.25 -1.5 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d3ff2e7-ff06-469d-9daa-5bc4b41488f3")
+			(uuid "c6f102b9-c41e-464c-9756-ee83ee9514c1")
 			(effects
 				(font
 					(size 1 1)
@@ -5381,7 +5469,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0c6f936-289c-48a4-b7f3-9bc783140209")
+			(uuid "fd284b90-3b1e-44c1-b727-ca110c7adf7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5481,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1fa7fddb-3d2f-403d-a9bf-7cbbef7a3277")
+			(uuid "dd2b4c19-17e8-4e02-a15f-770ffec207e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5576,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b14b2f99-f5e0-4cd9-885a-7133a6df8e80")
+			(uuid "82790271-2fa4-4760-b9df-42d6b55cca94")
 			(effects
 				(font
 					(size 1 1)
@@ -5500,7 +5588,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09e2434f-2e4c-43d5-a8fa-4804ae03253b")
+			(uuid "4cb686b5-c51f-42ba-92e4-f381139dca4e")
 			(effects
 				(font
 					(size 1 1)
@@ -5512,7 +5600,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2b3086e-82c1-4e58-8d72-a37566316938")
+			(uuid "5978cb27-a059-49a3-8c54-ba41083db63d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5612,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b129e22-60ae-4610-8353-05632812ede7")
+			(uuid "9a1d8409-5d4f-451c-b5b4-c9292d2f613a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,6 +5623,12 @@
 		(path "/98634c92-a076-4b00-858c-3976ad9bb7fb")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5766,7 +5860,7 @@
 		(property "Reference" "D13"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "1a6b4bb9-c459-4add-bf7b-e70f694cf0ed")
+			(uuid "82fb7a3b-45ec-44ca-8680-efb0aadd3fc5")
 			(effects
 				(font
 					(size 1 1)
@@ -5778,7 +5872,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43f96e8a-d746-4149-860e-2483a7ca162d")
+			(uuid "2a995147-930d-47a7-b4d6-3bcb4a4d8ea5")
 			(effects
 				(font
 					(size 1 1)
@@ -5791,7 +5885,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dba2a33b-d55e-455a-9b77-0ae388666ca6")
+			(uuid "5d10d9ef-7e30-43c1-89bd-abceeab502ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +5898,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20438564-ff2b-4208-ad00-389a5434efd0")
+			(uuid "7b5b1604-6b4e-433f-bba9-bb0b8126212e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,6 +5936,12 @@
 		(path "/d7518ff0-763b-4338-a44f-5310428f01ff")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6107,7 +6207,7 @@
 		(property "Reference" "D18"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "9db54b80-1a03-4751-afaa-b14f4b9b7141")
+			(uuid "307826f3-0d69-4147-a0e1-8a2e4593fff5")
 			(effects
 				(font
 					(size 1 1)
@@ -6119,7 +6219,7 @@
 			(at -0.5 2.6 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ad98ed3-2b89-43c6-a565-04a6ae522642")
+			(uuid "d3d065ef-7e65-4d56-b306-c228d45db6b2")
 			(effects
 				(font
 					(size 1 1)
@@ -6132,7 +6232,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d240caf-45ae-4101-91d9-22be910e463e")
+			(uuid "7b354872-7e54-4f82-b0eb-737eced8e073")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,7 +6245,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "382565c9-b0c0-4a5c-8f23-72b4394c2d3d")
+			(uuid "0103cccb-a310-4a44-ab18-4b9eacebd050")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,6 +6283,12 @@
 		(path "/bb4550b9-8c55-4774-99c9-a1ece098f0f3")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6448,7 +6554,7 @@
 		(property "Reference" "D21"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "62d9b66f-9fbe-405c-b834-029aad389a19")
+			(uuid "f916d03c-10e8-4eb2-8455-8920757e2bdf")
 			(effects
 				(font
 					(size 1 1)
@@ -6460,7 +6566,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "812ca725-597a-46b5-b61e-cdccca15803d")
+			(uuid "68359c66-e7c8-46e8-9792-50143bad932c")
 			(effects
 				(font
 					(size 1 1)
@@ -6473,7 +6579,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a42fcf17-57c9-4b72-a31d-8a9425876c4c")
+			(uuid "381f15e8-ff9c-4ca9-ace8-3879fca66f66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +6592,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a35737a6-9eb0-40eb-83c8-16d4ba75f674")
+			(uuid "d337a61f-496f-4e4e-8244-268fa9dbedde")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,6 +6630,12 @@
 		(path "/7e7d1bc7-fa62-44e0-bf50-6317a837e0ec")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6789,7 +6901,7 @@
 		(property "Reference" "D32"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "4f5f1ab0-edae-48cf-aaa3-b5a86a4bcfb0")
+			(uuid "bdf296de-dd3e-4485-bfca-ca2bc54e8dd2")
 			(effects
 				(font
 					(size 1 1)
@@ -6801,7 +6913,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8906575-eb69-4993-9503-dbce3998acf8")
+			(uuid "4b919edc-8e96-4e60-9287-29fbc2c72a5a")
 			(effects
 				(font
 					(size 1 1)
@@ -6814,7 +6926,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b895d1a-da82-4c2a-af7e-51955299afbb")
+			(uuid "39b0806d-d71a-4971-a4e6-c35209366e82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,7 +6939,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a867ef5-9b83-4292-9a0b-f70af2ee3eae")
+			(uuid "15961c75-0ac4-461b-90b8-5d577bd334a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,6 +6977,12 @@
 		(path "/3361280d-4f05-4c8b-9e93-fa3ab8ac2866")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7130,7 +7248,7 @@
 		(property "Reference" "D27"
 			(at 0 -11.799 0)
 			(layer "F.SilkS")
-			(uuid "43a4d545-f40d-4a09-807f-fbaac550f020")
+			(uuid "52c9dbe1-dae1-4af2-a92a-51528a7a982e")
 			(effects
 				(font
 					(size 1 1)
@@ -7142,7 +7260,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1d8b8f6-8702-4ae9-8149-ed9abbaec516")
+			(uuid "f8b3d375-f2fc-41ac-a806-b1a32d8a3b38")
 			(effects
 				(font
 					(size 1 1)
@@ -7155,7 +7273,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b327f2c-5ab3-4463-9d2c-73b4eda559ec")
+			(uuid "9a0858c8-055f-472e-92ec-f86bc776a1a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7168,7 +7286,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e6da89b8-c3ec-455d-865b-1b153aa14e1f")
+			(uuid "ac21761e-9a64-418c-a6af-11c63db148c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,6 +7324,12 @@
 		(path "/f4f50a5c-bdac-4d36-a437-eaf41f8dceaf")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7470,7 +7594,7 @@
 			(at -4 -2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b5434f6a-d512-4e8d-979c-e6702488e645")
+			(uuid "9442f79e-f6c8-48ef-b327-d969a06a2447")
 			(effects
 				(font
 					(size 1 1)
@@ -7482,7 +7606,7 @@
 			(at 0.25 -1.5 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e230089d-b118-4173-a583-b8770e19aa92")
+			(uuid "bca0872b-0051-4822-af81-18770b17af8a")
 			(effects
 				(font
 					(size 1 1)
@@ -7494,7 +7618,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "876baebd-cbd4-424a-9ff2-552c6f27bc5e")
+			(uuid "340f9a6f-9065-4fad-a631-445f48c56464")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +7630,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20a13994-56bb-464b-b989-7ce20454f7d5")
+			(uuid "0c5737be-c2ea-4a7a-8cb0-cf6115e6503f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +7725,7 @@
 		(property "Reference" "D9"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "ee319ee6-b9ff-44a4-8d40-37b420c3da48")
+			(uuid "54591055-c995-40dd-a19e-c50ed6af46ee")
 			(effects
 				(font
 					(size 1 1)
@@ -7613,7 +7737,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4249517e-4dca-4946-808b-adf7dbf0f218")
+			(uuid "1d962d04-19e7-4f43-b780-10f90923ae37")
 			(effects
 				(font
 					(size 1 1)
@@ -7626,7 +7750,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cdc53246-81ec-4709-b4eb-8dc2d37fb48b")
+			(uuid "5c527f5c-ef59-4af0-9fd9-d331578d4e29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +7763,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35d5f81c-f040-4b70-86d8-d57867a2628f")
+			(uuid "11cdc293-e1de-4ac5-bc17-de0186b0c4a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,6 +7801,12 @@
 		(path "/5fefd283-2539-4846-8c95-f0b5679752cb")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7942,7 +8072,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.5 0)
 			(layer "F.SilkS")
-			(uuid "567fe749-0dd6-45b0-ae62-7fa68efd230f")
+			(uuid "567a6621-0c2e-4746-9ac9-6c123cda1b7c")
 			(effects
 				(font
 					(size 1 1)
@@ -7954,7 +8084,7 @@
 			(at 0 3.15 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "013876b2-2460-40f3-960f-8e3030e40669")
+			(uuid "9cf1c4d1-05ef-421d-a657-c3cf9ea4a68a")
 			(effects
 				(font
 					(size 1 1)
@@ -7966,7 +8096,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e48f6a6-52a3-4e7b-bea2-17ddbc8eacd6")
+			(uuid "a5b159ad-efe2-40e3-89f2-99650d9ffe7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +8108,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f675d8c-e061-4537-95d1-ffba0dd1deda")
+			(uuid "e5b41bd2-a45d-4a22-b44c-5f36174d760c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,6 +8132,12 @@
 		(path "/2af889c4-46c4-42e3-b08c-eb70b8aa3532")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8055,7 +8191,7 @@
 		(property "Reference" "D37"
 			(at 0 -11.669 0)
 			(layer "F.SilkS")
-			(uuid "a393d80f-1860-4e4f-ab08-7b2b154c2d57")
+			(uuid "61d3800c-a077-4fc9-a647-1e14664fdc1d")
 			(effects
 				(font
 					(size 1 1)
@@ -8067,7 +8203,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29a078b5-954b-4baf-b2d2-22a73908c811")
+			(uuid "5a5ad442-28f9-40b2-a3b8-8321a8fb6287")
 			(effects
 				(font
 					(size 1 1)
@@ -8080,7 +8216,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5b91ff5-1b52-4188-8203-b5445115236c")
+			(uuid "0d31c4eb-fcf9-4718-9f9f-9423cf8f9b94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +8229,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "801d2eb3-5794-4bbe-99ed-16c8ef46d467")
+			(uuid "429d10d1-7b98-44a7-9404-6e5da6e2f088")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,6 +8267,12 @@
 		(path "/2b57884a-22dd-4218-a76f-e692682e9dd9")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8396,7 +8538,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5d6fd867-97f2-4c7d-9011-1716aeb0c7fb")
+			(uuid "e9bf22fc-ccae-4705-91eb-b95eedfafb01")
 			(effects
 				(font
 					(size 1 1)
@@ -8408,7 +8550,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad043da6-009d-48c8-9c80-aff9a1c5c47f")
+			(uuid "6e861d3d-3ba2-45e6-8645-69ba86bcad95")
 			(effects
 				(font
 					(size 1 1)
@@ -8420,7 +8562,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46476d43-9a09-478c-9821-698d0d4c48fb")
+			(uuid "78e72370-7537-445a-90fc-be3f10506fe2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +8574,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9fd341d-9b99-4c96-8a07-8725800a0f02")
+			(uuid "7dc485c0-f8d5-454e-a025-c4797d3c817d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,6 +8585,12 @@
 		(path "/324292fc-7094-4fe6-83f6-821ddf41f372")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8675,7 +8823,7 @@
 			(at 0 3.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f8c50bd8-bf74-4eff-a222-ca03d4224cdd")
+			(uuid "e0a59355-dbce-4c73-9c13-076a02cc85bb")
 			(effects
 				(font
 					(size 1 1)
@@ -8687,7 +8835,7 @@
 			(at 0 3.15 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2f6c8b3-fc9d-4531-9bd6-53c9434c1fc1")
+			(uuid "7b534c69-4430-410b-b288-414ea3b796e9")
 			(effects
 				(font
 					(size 1 1)
@@ -8699,7 +8847,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81cb1c89-1ac8-4ca2-a515-c8bfde9d42a4")
+			(uuid "c8144fcd-b803-4fc4-88c9-01d36accd705")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8711,7 +8859,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4d46f98-bff3-497b-a9fa-6659696a5683")
+			(uuid "f8d1385d-4139-443e-9a0b-f681acc55011")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,6 +8883,12 @@
 		(path "/c1cfb0a6-2f7e-4161-868d-a2bb671ba44d")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8788,7 +8942,7 @@
 		(property "Reference" "D11"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "1ccafc26-931d-4cc0-b886-b204f218a6b6")
+			(uuid "9cc407f3-f64a-4d19-87ec-c1a180b3ff7f")
 			(effects
 				(font
 					(size 1 1)
@@ -8800,7 +8954,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4dd7ecc0-d7ed-426e-8378-a31ad17e3ff3")
+			(uuid "bbdaa6d0-6503-4bf0-a9a8-7b471d21ba1d")
 			(effects
 				(font
 					(size 1 1)
@@ -8813,7 +8967,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f5ef0c9-d8b0-4a94-9315-32ebf51095cc")
+			(uuid "480e6ae7-e3e4-4fb7-8e9f-55ed0a1c3470")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,7 +8980,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e9a40a8-956c-46b7-9c5c-dbbc35172c6a")
+			(uuid "a54eaa20-2781-40ae-855b-0acbcf5e6373")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,6 +9018,12 @@
 		(path "/492759ba-6c95-435b-919f-009c82560a54")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9129,7 +9289,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "63b531b2-130d-4df5-80ca-791fcb584423")
+			(uuid "b14666e3-5b7f-4639-baf5-b836344c868c")
 			(effects
 				(font
 					(size 1 1)
@@ -9141,7 +9301,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "448b5ec2-6d53-4179-8e3d-f0c4f4333385")
+			(uuid "804e8050-a280-4d65-9ecf-daf7390c9b38")
 			(effects
 				(font
 					(size 1 1)
@@ -9153,7 +9313,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e427800-769b-49c3-9d1b-dc9f16c0b4e0")
+			(uuid "744feffd-1f5e-4860-90b8-c29b00ba1359")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +9325,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bcba7e99-deef-4a76-bb59-9553ec9b008b")
+			(uuid "f6c44f6a-0c84-49bf-96ae-ef4ac2d7bd67")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,6 +9336,12 @@
 		(path "/512dbc4f-0409-43c7-905b-beb262d6f0a0")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9407,7 +9573,7 @@
 		(property "Reference" "D40"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "b462b1f2-25e9-471f-b445-fe0fe66369e7")
+			(uuid "875a4af7-d4b8-475f-9c53-0d8c2e271ea2")
 			(effects
 				(font
 					(size 1 1)
@@ -9419,7 +9585,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbd20c59-e950-4953-93f8-36794ac9166a")
+			(uuid "6360300f-72a6-4ae6-9451-9f52898f59b2")
 			(effects
 				(font
 					(size 1 1)
@@ -9432,7 +9598,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd45d8af-7e9d-4146-ade6-f4d5cf799b66")
+			(uuid "68a2edfa-53a1-4b31-943c-6ea387a1e59e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +9611,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc50f300-d757-484c-9b57-e2f712d88315")
+			(uuid "d9ede4a3-a534-43f7-a7f4-59ca90cc804a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9483,6 +9649,12 @@
 		(path "/705d4fb3-53ab-4603-8380-7bfd729d2f3e")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9748,7 +9920,7 @@
 		(property "Reference" "D7"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "34b13068-5801-4514-b4af-b1ab7c84af5b")
+			(uuid "3652593e-951a-4a15-a692-60ba7257bb7d")
 			(effects
 				(font
 					(size 1 1)
@@ -9760,7 +9932,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "37daacfa-0dad-4afa-8e8f-d24f776d75ff")
+			(uuid "2eded83a-a8b4-4a68-9ea6-dce9203e54f1")
 			(effects
 				(font
 					(size 1 1)
@@ -9773,7 +9945,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8156458-cf34-4243-b8d1-b1e6bc2ee50c")
+			(uuid "0d9d5cfc-450e-41ce-b9f9-fd4450750258")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9786,7 +9958,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35c4e3d4-9158-4bb1-a732-ca0f48202972")
+			(uuid "1175f9f3-3ff1-4bed-b111-52ffffea567d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9824,6 +9996,12 @@
 		(path "/a4f29d41-1150-4395-bc86-8d30d383d67a")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10089,7 +10267,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9f80574c-e193-4f28-b523-6ee213aa4bc2")
+			(uuid "14076523-d288-48d0-84c9-2cfd77910ba6")
 			(effects
 				(font
 					(size 1 1)
@@ -10101,7 +10279,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c87f46c6-9e66-49b6-abc8-180bbe263723")
+			(uuid "8d8e70e6-5fe7-4ab3-b39a-226df1fee005")
 			(effects
 				(font
 					(size 1 1)
@@ -10113,7 +10291,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed10f2f3-cfe8-4a47-afe4-316d3bd8df64")
+			(uuid "b884a520-f387-4b33-b9ba-c05e2f0a452e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10125,7 +10303,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78e83e54-57e6-407c-8847-7836ba736648")
+			(uuid "74805857-d472-4136-bf6a-0031320246a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10136,6 +10314,12 @@
 		(path "/8fe20691-2bad-4b6a-8cda-1485363014ab")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10367,7 +10551,7 @@
 		(property "Reference" "D22"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "a6b1db6a-89af-42e5-b2a9-c3f638af5270")
+			(uuid "fb865110-2939-4c8b-98d5-2b405d7c8720")
 			(effects
 				(font
 					(size 1 1)
@@ -10379,7 +10563,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bff321e8-5e7f-4d5b-90f0-833d6ccd9c73")
+			(uuid "a3567312-99c4-496b-b437-4ca2fe968d15")
 			(effects
 				(font
 					(size 1 1)
@@ -10392,7 +10576,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6b14632-5e86-4cf5-9b4f-8cbc6e7b3454")
+			(uuid "7c4a4fdb-a481-4545-afd1-16eb1ca69b1f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10405,7 +10589,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97e01bd5-4ce1-4003-8dec-b36c016a1319")
+			(uuid "ff609589-086e-4d93-acf5-42d4d98bc219")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,6 +10627,12 @@
 		(path "/53748f8e-b55a-4874-9e33-f5d73ed02649")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10708,7 +10898,7 @@
 		(property "Reference" "D35"
 			(at -0.12 -12.299 0)
 			(layer "F.SilkS")
-			(uuid "376a6145-ca85-404c-a4bd-324fc4b07f88")
+			(uuid "a086c5d2-4995-4266-bab1-60477e31dd44")
 			(effects
 				(font
 					(size 1 1)
@@ -10720,7 +10910,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01f98ec0-293f-4489-b209-053e4f259632")
+			(uuid "294b0842-c611-4a42-b2a8-6b8f6ebeeb8d")
 			(effects
 				(font
 					(size 1 1)
@@ -10733,7 +10923,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1adbfca-b690-4bb0-b472-1951fbfd58f8")
+			(uuid "373817b7-4ab8-49e3-9886-17b514645d52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,7 +10936,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dbed1ea8-514f-4035-9400-be21b64fc9d8")
+			(uuid "cf8e4d8c-1078-46b9-b6fa-8a8cde16f21f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10784,6 +10974,12 @@
 		(path "/a8d33486-e334-45c5-b946-c9fdd40003d3")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11049,7 +11245,7 @@
 		(property "Reference" "D12"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "18588309-51db-45c9-90d3-ced14009ee47")
+			(uuid "704c1ffb-b201-4e01-a75d-a15d7e7a9d09")
 			(effects
 				(font
 					(size 1 1)
@@ -11061,7 +11257,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a26cd81-a2cb-4e20-a781-a2953b77e877")
+			(uuid "c47ac730-09ce-4f6a-b8ef-71da95163e62")
 			(effects
 				(font
 					(size 1 1)
@@ -11074,7 +11270,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec2f443d-40e4-4d32-b6a9-353d1ffd6e3b")
+			(uuid "55aadc17-f610-4846-ab48-db3d28ad1a5e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11087,7 +11283,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39e8a34a-299b-434a-a12e-2dc18788298a")
+			(uuid "dfd3b42d-ebb8-47cb-a020-1bf593775c3d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,6 +11321,12 @@
 		(path "/b66fac6d-86e0-40c5-ae9a-950f72bb76ba")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11390,7 +11592,7 @@
 		(property "Reference" "D28"
 			(at 0 -12.099 0)
 			(layer "F.SilkS")
-			(uuid "4e6c2166-755d-4a27-9746-c2e5218d38ba")
+			(uuid "f04c0570-70fd-4985-8603-2d2cbeda7240")
 			(effects
 				(font
 					(size 1 1)
@@ -11402,7 +11604,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "edea5f7b-b421-4e00-ba66-890665fe3551")
+			(uuid "18d3355b-6596-45cf-8a53-ea9a2f0dcb35")
 			(effects
 				(font
 					(size 1 1)
@@ -11415,7 +11617,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6046ad72-cbb9-4407-afb2-d7224b62596e")
+			(uuid "feebe4c2-3401-4486-92dd-d6febfb09e6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +11630,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f44dbe4-deee-48a1-a0b8-dd5b42958da7")
+			(uuid "afc0b324-eb8f-49b7-90fd-c7d18e815875")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11466,6 +11668,12 @@
 		(path "/b97612ce-4dae-4237-ab32-91d0999f2b46")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11731,7 +11939,7 @@
 		(property "Reference" "D14"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "8b0aad1e-95d6-4be7-a58a-1e5864d695f7")
+			(uuid "4cf26f22-5776-4a3e-9736-e943fdd4a443")
 			(effects
 				(font
 					(size 1 1)
@@ -11743,7 +11951,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "757d5ad6-4c29-43a1-9476-42df91ae1e71")
+			(uuid "8031ae9f-bed1-4186-a6ae-0fb75cfd72e8")
 			(effects
 				(font
 					(size 1 1)
@@ -11756,7 +11964,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e82a584-2539-4d9f-a4bd-29b9f20ecc96")
+			(uuid "86a4e3b9-8294-4215-b37e-1aff23cf5f91")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11769,7 +11977,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0048f108-ace7-4637-9cf6-a93e86be9dfa")
+			(uuid "6152b7ad-4f46-47ff-af64-63484f088c5e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11807,6 +12015,12 @@
 		(path "/03740fe5-f9e6-455c-8119-93f136b2f4b2")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12072,7 +12286,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fae8ed1f-4acd-4b19-889e-516a6428e8d9")
+			(uuid "dd3cabab-4905-403d-a064-af8c126c1bf9")
 			(effects
 				(font
 					(size 1 1)
@@ -12084,7 +12298,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "906678e9-21e1-41aa-bd1c-8af0ecfe4b51")
+			(uuid "2d9fcd98-f781-495a-b1cd-75a1a740adfd")
 			(effects
 				(font
 					(size 1 1)
@@ -12096,7 +12310,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d634c7bc-6597-45ea-b210-9d9f4749a603")
+			(uuid "1f926502-95ff-433e-ae3d-ec23b1f8e94d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12108,7 +12322,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62c24a2d-625a-44b4-a439-cbd464b694bd")
+			(uuid "4d6bbcfd-b6a3-40bb-bd10-4a0f916ed738")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12119,6 +12333,12 @@
 		(path "/878077ae-9486-40ed-9860-2d47804ab27a")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12350,7 +12570,7 @@
 		(property "Reference" "D19"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "a15129a4-bbc0-4fc8-aacc-8d615c50b169")
+			(uuid "79c99939-aba6-4bcc-ac68-a453ff53d631")
 			(effects
 				(font
 					(size 1 1)
@@ -12362,7 +12582,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92e80ffe-a647-443d-841d-fd1005fa51db")
+			(uuid "e81dd9d2-ee7d-481b-a427-0674d8baf468")
 			(effects
 				(font
 					(size 1 1)
@@ -12375,7 +12595,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d307f3b6-1281-4c05-a159-bb7a498c7c14")
+			(uuid "d27073ac-640f-4a6a-99ab-6e64866816dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12388,7 +12608,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d557e0d-2926-41f0-b5fe-59725f086aa9")
+			(uuid "38bbd7ed-a5ea-4f5f-98bf-edaa2ded6f5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12426,6 +12646,12 @@
 		(path "/1f155144-186d-401d-b8c0-1935b0385d20")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12691,7 +12917,7 @@
 		(property "Reference" "D31"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "9ded38eb-f1f7-44f5-9a53-7f8df866f951")
+			(uuid "98874078-b66e-43da-9961-f173f860e227")
 			(effects
 				(font
 					(size 1 1)
@@ -12703,7 +12929,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed36d7cb-099d-41e4-ab0b-c5c3ffa5234b")
+			(uuid "ee79d1fb-a298-4068-a9fc-7731fe6fbe81")
 			(effects
 				(font
 					(size 1 1)
@@ -12716,7 +12942,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c99a7ba8-18af-4ac3-838b-ef28d6a50fd5")
+			(uuid "aae6e795-2a1c-499f-ac7e-96893d00f5c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,7 +12955,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "072a8990-47b5-472f-a981-4aaceb8f0225")
+			(uuid "de280387-d9d6-45b7-bd1e-6c204974d495")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12767,6 +12993,12 @@
 		(path "/c16a9337-6cc1-4b7c-aca7-60773d8dd2ce")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13032,7 +13264,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "44f90adf-de5b-45e6-a4f0-159f33a41bd1")
+			(uuid "389323df-8763-44ec-822c-0bb24d352d07")
 			(effects
 				(font
 					(size 1 1)
@@ -13044,7 +13276,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b967312-23b7-4172-818e-625c0a86e107")
+			(uuid "497097d1-d680-4ce5-b8f2-4630062833f0")
 			(effects
 				(font
 					(size 1 1)
@@ -13056,7 +13288,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff73e37c-5df0-4442-bab7-a741cb9e3573")
+			(uuid "804778e1-8d51-48dc-9d05-25eed2d8c2d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13068,7 +13300,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9094e2c-3667-42c4-b559-54173462cfe4")
+			(uuid "55e2e47f-57a7-44c4-890b-b93314dc9a74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13079,6 +13311,12 @@
 		(path "/afb43776-bb84-4eba-be4e-1594dc720dbb")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13310,7 +13548,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3111f6d5-7208-485f-a915-ad86c4ee9333")
+			(uuid "4f6f3552-0fd7-4833-a911-cb422b1da15f")
 			(effects
 				(font
 					(size 1 1)
@@ -13322,7 +13560,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d4a46c9-e5c6-415e-a7b9-1ddc570fc619")
+			(uuid "a56b8dfc-38da-498c-b775-0336ad83d419")
 			(effects
 				(font
 					(size 1 1)
@@ -13334,7 +13572,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2918b697-2c77-40ab-a1de-e8017c60c54a")
+			(uuid "9d6dcc81-ceab-4f33-94a9-69128786fcd9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13346,7 +13584,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "88737c82-cf2a-45e3-b290-15111d74fbc5")
+			(uuid "a70e2f90-65ab-4552-8a70-ea3b2279bdce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13357,6 +13595,12 @@
 		(path "/89275271-ccad-438d-a754-a21e919bc25d")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13588,7 +13832,7 @@
 		(property "Reference" "D26"
 			(at 0 -12.199 0)
 			(layer "F.SilkS")
-			(uuid "2c54bf39-48ea-46ba-9063-7a334b470bd3")
+			(uuid "fbc22c2f-b921-420b-bcce-67fbd508aea6")
 			(effects
 				(font
 					(size 1 1)
@@ -13600,7 +13844,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cbbfc1e0-1b1a-4d8d-b096-64649467f19a")
+			(uuid "ed9d5869-e378-4e29-a5ed-dd8c0dbcca16")
 			(effects
 				(font
 					(size 1 1)
@@ -13613,7 +13857,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a4bf23e9-bed0-4a79-8663-1466cc430af9")
+			(uuid "19744180-86c0-4007-aa7b-09418af9d8e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13626,7 +13870,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85336580-0cc5-4d15-aaea-f14e246b91b6")
+			(uuid "168a177d-ed51-4298-ae5b-6f55af50230a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,6 +13908,12 @@
 		(path "/6bf99740-d7aa-4f91-9c54-f87cbc3d3f5c")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13929,7 +14179,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e2439e70-334b-437f-8264-8af0ecee0a3a")
+			(uuid "94572813-1b3c-42a7-b6d0-a6fdbad95d71")
 			(effects
 				(font
 					(size 1 1)
@@ -13941,7 +14191,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7b14cc5-fdb4-4604-9bed-549d3ae96771")
+			(uuid "68675f55-1aa2-4807-8c29-3a33f8ee62fb")
 			(effects
 				(font
 					(size 1 1)
@@ -13953,7 +14203,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10d2dcac-cbc9-4fd9-ae9f-0bc904a7a26b")
+			(uuid "14bba8ae-9e58-41d8-8f5a-2da6eeb9b215")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13965,7 +14215,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69f2d843-c12d-409f-b944-39d22a9af166")
+			(uuid "f8b685c9-6ac8-41cc-bff0-e462cb150a1e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13976,6 +14226,12 @@
 		(path "/c3ce7080-6743-4869-ac44-cfdefae49238")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14207,7 +14463,7 @@
 		(property "Reference" "H4"
 			(at 0 -3.5 0)
 			(layer "F.SilkS")
-			(uuid "76672b6f-1898-4757-8ca3-a98c1364bf5c")
+			(uuid "26b31e94-cf61-42f9-802b-985b6d6698fe")
 			(effects
 				(font
 					(size 1 1)
@@ -14219,7 +14475,7 @@
 			(at 0 3.15 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8192dc3a-41ea-4828-a92d-957f158b9ed4")
+			(uuid "9bd3a40c-f262-4737-8ba4-e30536eab1c7")
 			(effects
 				(font
 					(size 1 1)
@@ -14231,7 +14487,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28d897a3-8356-4fd3-9cc3-668617e4245f")
+			(uuid "b4df9092-f837-4c0a-b9bf-6b7c202d46c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14243,7 +14499,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c52f87f-ca8b-4733-a98a-10e7e85336ab")
+			(uuid "94a5b469-c08a-4d8a-8fd9-9d1cf235e6e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14267,6 +14523,12 @@
 		(path "/2b767925-d339-48c0-ba9e-10f922942b0a")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -14320,7 +14582,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2765cb42-afa3-44b2-b079-b6f952abf01b")
+			(uuid "2d18630b-f99e-4d14-868a-2c5b1a459786")
 			(effects
 				(font
 					(size 1 1)
@@ -14332,7 +14594,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e7cbcb7-b483-4f4f-add2-4f639562d681")
+			(uuid "5dcd112a-0a67-4113-86de-c7888a6cfccd")
 			(effects
 				(font
 					(size 1 1)
@@ -14344,7 +14606,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef95b683-b373-4d38-bbd4-27d3c88d1b77")
+			(uuid "5b425e75-c523-4425-aa3b-36d28f8c4e30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14356,7 +14618,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df3cf79a-9277-45a5-90f2-4dfbb7028c79")
+			(uuid "81d4a34d-a6e5-446f-8608-787fe436362e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14367,6 +14629,12 @@
 		(path "/4bbc4b1a-6490-4593-b79b-97ec5aa375b7")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14597,7 +14865,7 @@
 			(at 0 -0.119 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "6a555a5b-cdcd-422f-a54d-6114403b6280")
+			(uuid "1d2e9ab5-451a-43b5-90fe-6b4fd2f54812")
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14610,7 +14878,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ec9ec5f-828a-4a19-8012-c43dc38558e3")
+			(uuid "1b91eb87-909d-4019-823a-33c994148ef7")
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14623,7 +14891,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fd3c2c9-157f-4276-90f8-c3dc115b33a6")
+			(uuid "59c287c5-dd39-4c67-bdb9-83e135e9de2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14636,7 +14904,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8320150a-ec35-4985-88e8-f44ca1c39a9e")
+			(uuid "735aded3-1cad-463d-b99b-8cfdfffc8593")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14647,6 +14915,12 @@
 		(path "/f8a7abb0-f1b5-413e-baa5-719a0045afb4")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15228,7 +15502,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "85152944-42cf-403d-b996-846bc81e1c13")
+			(uuid "7b491ec8-9ffe-4ec1-bdaf-66e89ae58496")
 			(effects
 				(font
 					(size 1 1)
@@ -15240,7 +15514,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d990cd5-a368-48c4-abcf-44dc5efec16c")
+			(uuid "c13146b7-f9e3-4a89-8f3e-d34ad5cdf19b")
 			(effects
 				(font
 					(size 1 1)
@@ -15252,7 +15526,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96d15a07-9165-43dd-96d8-feb024b66641")
+			(uuid "12da35a4-6278-4986-908c-7186a36e1a94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15264,7 +15538,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66a823f7-90bd-41fe-aef7-e105f2669c10")
+			(uuid "8ec3cd8a-c689-4901-91d2-fa28a9c33335")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15275,6 +15549,12 @@
 		(path "/57265fc0-3f91-4080-9535-2f685a4f41b6")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15506,7 +15786,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d4e104f7-d3bb-4fbc-9d8b-07eebe38cbae")
+			(uuid "c2bced72-df4a-4dea-bdca-7d5e202b93da")
 			(effects
 				(font
 					(size 1 1)
@@ -15518,7 +15798,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68491b67-898f-4694-9e95-8c0dcb8ca301")
+			(uuid "f3ba631c-63da-449a-a35e-b1263aaa3920")
 			(effects
 				(font
 					(size 1 1)
@@ -15530,7 +15810,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1bb9d686-bf22-4307-bee8-aa18301a2bb1")
+			(uuid "c201a230-99ad-493f-a61d-89fc5f9a6603")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15542,7 +15822,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c20957a1-497a-475a-95ca-abd5b672f5b0")
+			(uuid "581ecc83-fed3-40d4-9a79-680f615134e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15553,6 +15833,12 @@
 		(path "/1922ec91-165e-4bc6-a364-c648180c15fb")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15784,7 +16070,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c2982cef-ef73-40c6-97f5-e2b1e4759bda")
+			(uuid "200e628e-ada5-45a1-85cd-e3ec74bd05f2")
 			(effects
 				(font
 					(size 1 1)
@@ -15796,7 +16082,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ca31a39-2b5a-4df1-b209-21514a469010")
+			(uuid "7444885c-c94d-4d5a-8c7e-555a12cb6651")
 			(effects
 				(font
 					(size 1 1)
@@ -15808,7 +16094,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "742f325d-a0ed-45b4-9740-aecaf4e690ea")
+			(uuid "38468ce6-b9b3-4b53-9d1a-2a626231a319")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15820,7 +16106,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2bb5427-bb30-4429-93c5-204b05f1dc09")
+			(uuid "82ceee96-072d-499a-9332-4bfdf214a0ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15831,6 +16117,12 @@
 		(path "/e6ced498-b5a5-4917-ad9f-b2b9c5460b1e")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16062,7 +16354,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "21def3d3-4558-4ede-8182-e66c17ed2b6a")
+			(uuid "6f8a5d07-2193-4458-b74f-6dd77335d3ac")
 			(effects
 				(font
 					(size 1 1)
@@ -16074,7 +16366,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ec3a94d-a113-4c64-bd87-be1fbfa446e0")
+			(uuid "2509c450-74ef-4be6-986f-5c8a941f8fea")
 			(effects
 				(font
 					(size 1 1)
@@ -16086,7 +16378,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "979022eb-a6ff-4758-ba72-2ab1914fea8e")
+			(uuid "549bd268-0c83-430f-9d74-eaa6aa9077db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16098,7 +16390,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "94b831bc-65c4-4497-92d2-6fe5af580c2f")
+			(uuid "61939d25-decc-423e-81a1-4d01417e45e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16109,6 +16401,12 @@
 		(path "/f698ae0c-151c-41c2-93eb-0c10002bac2b")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16339,7 +16637,7 @@
 			(at -4 -2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b304afc1-cc24-4341-80b4-11175924da5d")
+			(uuid "55626e35-30cd-4781-9304-ffe3ac2dd0e5")
 			(effects
 				(font
 					(size 1 1)
@@ -16351,7 +16649,7 @@
 			(at 0.25 -1.5 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77160fe6-0eed-4842-a02b-ba42bb22e389")
+			(uuid "8b9ad316-fad7-4c83-996b-0131e17c624c")
 			(effects
 				(font
 					(size 1 1)
@@ -16363,7 +16661,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98773878-9b54-4cc9-a26e-bd7054c2bf61")
+			(uuid "3b662f73-fe5c-497a-a416-420975f95833")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16375,7 +16673,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57b395d5-122b-4f84-86df-69adac2f0a32")
+			(uuid "df418e24-234a-4284-aa81-0b6ce6458873")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16470,7 +16768,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ed59df07-d186-4f75-9c64-06a602bdc7c6")
+			(uuid "dec22c71-97f8-42d1-88f5-5bb55a648ca5")
 			(effects
 				(font
 					(size 1 1)
@@ -16482,7 +16780,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0118417-87f6-4302-95e5-03b5ed64dc28")
+			(uuid "5f8bed6e-6dfb-44b1-a0ed-a13c92bd3a06")
 			(effects
 				(font
 					(size 1 1)
@@ -16494,7 +16792,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cae2566-3f40-424e-805f-f0ccf49eb00d")
+			(uuid "7a2cd4f2-52cd-45a5-a4fc-c4ed866dcfb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16506,7 +16804,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2988785e-5a6c-424b-8bcb-1270eef78df3")
+			(uuid "2a0fa91a-539e-4d86-9af8-3f7cc12b6551")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16517,6 +16815,12 @@
 		(path "/41e9ee61-c9fb-494e-933a-1e8024d08f45")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16748,7 +17052,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bdd05594-4524-44ae-bc37-ce56513b1d94")
+			(uuid "8df9cb46-fbda-4b55-b3ed-e6e575aa4917")
 			(effects
 				(font
 					(size 1 1)
@@ -16760,7 +17064,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "498ee3aa-1291-4246-ac07-e945328360bb")
+			(uuid "443d2a78-8747-432b-bc1f-5947858595a9")
 			(effects
 				(font
 					(size 1 1)
@@ -16772,7 +17076,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "959c1e08-b30d-4078-8590-1f05ed50cb6f")
+			(uuid "e6f198e7-a8fb-4607-8965-47d0e4a89b2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16784,7 +17088,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebd475d9-52ab-453c-92e6-9b106ed94bd4")
+			(uuid "7b2b7991-e625-4880-bb05-d192516e115c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16795,6 +17099,12 @@
 		(path "/03f5e1e6-0a0c-4df4-a635-c3441c1942ec")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17026,7 +17336,7 @@
 		(property "Reference" "D15"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "5e622bc1-341c-4da1-94f6-066b3962a82b")
+			(uuid "a365bc2f-ac59-4d0c-88c3-80418559e3eb")
 			(effects
 				(font
 					(size 1 1)
@@ -17038,7 +17348,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99a6b064-830b-47ab-91d8-bd9c4caa7e89")
+			(uuid "97344533-121b-495b-b07f-2d4e195c170b")
 			(effects
 				(font
 					(size 1 1)
@@ -17051,7 +17361,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4287f792-74af-4e04-a0ff-30b3a7f58ad5")
+			(uuid "265f4678-dbd9-4f7d-8f79-8ffebabcc50f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17064,7 +17374,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2095442-6e9f-43d3-aeb7-c94576594b1a")
+			(uuid "2cff77e3-3ca7-410c-89c3-b20a7b192911")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17102,6 +17412,12 @@
 		(path "/acc86e72-776a-4f9d-8a5d-ab6fd701449e")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17367,7 +17683,7 @@
 		(property "Reference" "D23"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "a94d2c2d-3374-44c9-8555-b0de28dcc27f")
+			(uuid "3ce20c8f-305c-4029-aa78-280d50cc4cc2")
 			(effects
 				(font
 					(size 1 1)
@@ -17379,7 +17695,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c50366a8-17c7-4b5a-88ba-0b0c7624d04a")
+			(uuid "a36f4b39-2bda-4632-9c1c-cd0400d79603")
 			(effects
 				(font
 					(size 1 1)
@@ -17392,7 +17708,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "342b21d2-65cd-4914-a6f6-19d6bb2558e4")
+			(uuid "ec1b53d5-a303-4afc-abdf-849e2126712d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17405,7 +17721,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9d51e6a-905a-42fa-916d-4cc4b4cfcf0b")
+			(uuid "080b0d09-0c3a-4dc9-b944-63ae3691f7c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17443,6 +17759,12 @@
 		(path "/41bc816e-74f1-4b72-ada8-f45dc850a03c")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17708,7 +18030,7 @@
 		(property "Reference" "D16"
 			(at -0.1 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "2460eb19-cf1c-40bf-851f-271858b3acb7")
+			(uuid "f0083cce-afbe-4f55-a481-85c057c03c1b")
 			(effects
 				(font
 					(size 1 1)
@@ -17720,7 +18042,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0086107-cbdb-44df-951a-442e88728540")
+			(uuid "53c7aff0-3915-48e5-8783-6472a7539144")
 			(effects
 				(font
 					(size 1 1)
@@ -17733,7 +18055,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "778ba7d7-03eb-4e34-87d3-e99da8be17bb")
+			(uuid "7a7df9b5-4661-40d3-850c-d98d92e57efd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17746,7 +18068,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd4223a2-6d59-4977-9ff4-90ee509d17a5")
+			(uuid "0bd6c48d-2000-4209-b3fe-e8fab9b8c632")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17784,6 +18106,12 @@
 		(path "/c693aac4-3246-4f33-98d2-d76fad312c48")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18049,7 +18377,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "73809bc9-9e95-4bed-b974-44361053931b")
+			(uuid "e3ad8b62-4013-4c41-9502-6617a248d392")
 			(effects
 				(font
 					(size 1 1)
@@ -18061,7 +18389,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63811eb0-c239-41ba-9102-4ef6f45ff540")
+			(uuid "4e85bb8a-dfc3-4da6-bd43-b257b06636b5")
 			(effects
 				(font
 					(size 1 1)
@@ -18073,7 +18401,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38d3a3ea-2451-429c-b07c-e8e15ca99278")
+			(uuid "dd42bffa-88de-4643-b271-b2ce11a37232")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18085,7 +18413,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45d9643b-b9c0-438b-a158-103a10871d71")
+			(uuid "08a840ec-6de5-4ea6-bed4-9559a051a073")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18096,6 +18424,12 @@
 		(path "/2a29abf2-5084-4743-8547-b413a50dece7")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18327,7 +18661,7 @@
 		(property "Reference" "D10"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "632d5663-1391-438b-a3ea-859f206ae506")
+			(uuid "4c5437f2-7427-4806-a099-7e3945885503")
 			(effects
 				(font
 					(size 1 1)
@@ -18339,7 +18673,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "514cbf04-b46b-469c-b7eb-a3ae02811064")
+			(uuid "82b61bd2-ae3e-4ea8-8415-316483919d71")
 			(effects
 				(font
 					(size 1 1)
@@ -18352,7 +18686,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43ee2d71-0129-41d6-b940-b06ee8d543e0")
+			(uuid "93290455-3119-450e-9292-0de3913fc0bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18365,7 +18699,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da9ea8bc-a016-4586-b1e9-e12ce6a3b48f")
+			(uuid "8d286154-5299-483a-b5f0-6de40ae49956")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18403,6 +18737,12 @@
 		(path "/0cc14bae-807a-454c-9a0a-5b35c7702417")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18668,7 +19008,7 @@
 		(property "Reference" "D2"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "322c9cd7-68ef-488f-91ad-8e9464b2c825")
+			(uuid "c11c8a3d-f2c1-4d77-a8fe-121423a0e885")
 			(effects
 				(font
 					(size 1 1)
@@ -18680,7 +19020,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1df04ea3-2cb6-45a2-8ba5-ef15d4fc9669")
+			(uuid "798cb721-9aa3-465e-8301-31dbec7d75eb")
 			(effects
 				(font
 					(size 1 1)
@@ -18693,7 +19033,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f52ec18e-1525-40df-b943-0570a4279805")
+			(uuid "b91f48d6-f0f5-4f27-8665-3cb978c7826b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18706,7 +19046,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1666d385-c55b-4c9a-a416-87a838a8ccff")
+			(uuid "148e4079-f568-415f-959c-8f266ac36972")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18744,6 +19084,12 @@
 		(path "/bb57e1f1-c633-4fe6-80e1-d1eb74219d55")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19009,7 +19355,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3bad65de-5e4c-4e15-b633-ba368eaf2c11")
+			(uuid "93d44ff9-cc9e-4333-ab6f-03dc077f052c")
 			(effects
 				(font
 					(size 1 1)
@@ -19021,7 +19367,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c3db5ab-10aa-4a26-be46-7475825a6283")
+			(uuid "a39aec8d-88e9-46d6-99fa-f203cbebe5dd")
 			(effects
 				(font
 					(size 1 1)
@@ -19033,7 +19379,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c217c00-9c14-4e0f-93f5-80228edc5b67")
+			(uuid "fd318d9d-8f00-41e1-aa6f-b14df9949f26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19045,7 +19391,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9bbf3c94-e4b1-4946-b603-d79ff21c1f35")
+			(uuid "7cc5f961-e2d0-4b8f-9da6-af41866efe7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19056,6 +19402,12 @@
 		(path "/fa2afa48-7302-423c-8f73-4cf5c3332996")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19287,7 +19639,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2fe75444-b11a-4e78-a38a-774478dcc4c1")
+			(uuid "8fcbcebe-9362-4753-888a-208c089b4dd6")
 			(effects
 				(font
 					(size 1 1)
@@ -19299,7 +19651,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27512d5f-c344-4f5a-851e-0d755b3cd00f")
+			(uuid "75933adc-ab08-4c2c-8560-d418a7d74b98")
 			(effects
 				(font
 					(size 1 1)
@@ -19311,7 +19663,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e6e4adc-c05f-42cd-9481-3277e479413a")
+			(uuid "50ddece3-8a42-47a6-9f73-cca5fd691ddb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19323,7 +19675,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b67f903-c4c8-4632-87a9-e09ce5762cd7")
+			(uuid "cc4094ae-e84b-4bb1-a07b-bac23690fea0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19334,6 +19686,12 @@
 		(path "/39317c85-f1ec-45cc-90fe-db2172b72795")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19565,7 +19923,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e4b26f2c-f547-4251-bbf6-9f8b111954f4")
+			(uuid "97f35fe7-d54d-4132-90c8-c7e4cb47a711")
 			(effects
 				(font
 					(size 1 1)
@@ -19577,7 +19935,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d71e1b9a-fdec-45a7-a62d-9758a7f48491")
+			(uuid "2807bdd6-211d-40e3-a778-4aa4d82615a0")
 			(effects
 				(font
 					(size 1 1)
@@ -19589,7 +19947,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0628121f-4983-440a-8a5f-a8a897ef0143")
+			(uuid "dc5448ee-8689-4a97-9f17-c76c908fee95")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19601,7 +19959,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f455762-2e40-4048-8590-1ef4881e7e8c")
+			(uuid "3dc46021-e3ef-4a29-b22a-62017a5683ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19612,6 +19970,12 @@
 		(path "/ba3a3cce-ba43-432c-9228-2527a938e920")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19843,7 +20207,7 @@
 		(property "Reference" "D17"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "5e8cfca0-37e3-4661-93dd-b8838330fc53")
+			(uuid "06004614-3e76-4107-95c7-033acaf974e0")
 			(effects
 				(font
 					(size 1 1)
@@ -19855,7 +20219,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1946a7b9-f88a-42c5-bc77-def6f204ffdd")
+			(uuid "0ad6ac0d-ad3a-4d7c-b5a9-31e86ae227c0")
 			(effects
 				(font
 					(size 1 1)
@@ -19868,7 +20232,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91e20bfb-33e3-4684-a779-950b5917fe53")
+			(uuid "1f75a402-4320-47bc-b484-1d3a48a63cb0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19881,7 +20245,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0117db63-141e-485f-a384-3f9f1edf6736")
+			(uuid "a1ab2d56-646d-44f8-ba5e-6189c655e29a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19919,6 +20283,12 @@
 		(path "/81cae914-55e3-45e6-8637-7d8342065936")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20184,7 +20554,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a01e3738-7fff-4ed0-9ae9-bb6ca0951abf")
+			(uuid "8bce7b02-b85d-4267-837c-7ab0cc9a0f78")
 			(effects
 				(font
 					(size 1 1)
@@ -20196,7 +20566,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f11508e7-3050-45bc-a3e5-54cef9f7d1f5")
+			(uuid "3601d265-a69d-49cd-846b-409e69dc50da")
 			(effects
 				(font
 					(size 1 1)
@@ -20208,7 +20578,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c241416e-ae12-429d-92a6-88c4baa59846")
+			(uuid "50d53e3e-dccd-43e2-a347-aa9efaebbb11")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20220,7 +20590,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53871d00-7470-44e4-b998-eaaa44a1fa64")
+			(uuid "98fa2a1c-e44f-47d5-8880-df4a1a870d41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20231,6 +20601,12 @@
 		(path "/a0c73756-4be1-4ad5-b717-69847a478dc6")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20462,7 +20838,7 @@
 		(property "Reference" "D5"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "d032d081-8766-4448-af2c-b0786018d263")
+			(uuid "98aa0e8e-8d45-42e4-91b0-2c995ab4515c")
 			(effects
 				(font
 					(size 1 1)
@@ -20474,7 +20850,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b94a3ea6-378c-44b2-b09a-63bdb19e4150")
+			(uuid "72385dc6-26e3-4a73-8f98-cef9cd716a11")
 			(effects
 				(font
 					(size 1 1)
@@ -20487,7 +20863,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1ea614d-2fb0-49ec-92d7-2eb4b40b2e54")
+			(uuid "c5fd6736-5883-43e6-a610-0139856a464b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20500,7 +20876,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0efdf15-9ebb-46d8-afdd-395eb115e13d")
+			(uuid "62d70392-5a64-4f60-8275-4f60ece00a99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20538,6 +20914,12 @@
 		(path "/ef1511d0-42c5-49d2-9f70-bd9754430807")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20803,7 +21185,7 @@
 		(property "Reference" "D29"
 			(at 0 -12.099 0)
 			(layer "F.SilkS")
-			(uuid "9ffc2d25-c8f1-4418-9612-af841d2d1f8d")
+			(uuid "18e7e370-ad4c-48ae-a045-a083c0a7a1be")
 			(effects
 				(font
 					(size 1 1)
@@ -20815,7 +21197,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18e200a6-c9ae-46e8-a2db-88a777ad632a")
+			(uuid "38624da2-dc16-447e-9de4-3598c4ac26f2")
 			(effects
 				(font
 					(size 1 1)
@@ -20828,7 +21210,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef58023f-28ac-459b-a9ae-5ad6ae9442e8")
+			(uuid "60d9073c-3573-49e9-8aeb-059b88425981")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20841,7 +21223,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85c9368a-3e0f-420e-b35a-3d6613deefe7")
+			(uuid "f3e48cda-c368-477c-b8c5-1a46eb70cbe0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20879,6 +21261,12 @@
 		(path "/941a7b59-5dc1-449e-b86a-9dc4627ec7b6")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21144,7 +21532,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3e93f2ca-f540-48cd-aa61-5064b9d93751")
+			(uuid "8d2d70f9-ad00-4fb7-9224-c5fdf4ef664e")
 			(effects
 				(font
 					(size 1 1)
@@ -21156,7 +21544,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9d9969e-6d95-44fd-b99a-7b9dd17e82c3")
+			(uuid "5cff2b87-3f91-4f17-a699-177df72876b8")
 			(effects
 				(font
 					(size 1 1)
@@ -21168,7 +21556,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "864c9401-08ef-42cc-a038-cbf8b62da28d")
+			(uuid "8d949a5b-5c5a-4744-8942-45dfd3d0a281")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21180,7 +21568,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47aaf837-d5bd-4f27-932b-03e854fd1549")
+			(uuid "ee2af633-d969-4040-b73f-bf51ea004ff4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21191,6 +21579,12 @@
 		(path "/779b3eba-77de-45d3-b23c-dea8175b28fe")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21423,7 +21817,7 @@
 			(at 0 3.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fa92f847-85fc-47b7-9b6f-5f882910d469")
+			(uuid "64cb66d0-8093-425f-9f0a-b0963180b64b")
 			(effects
 				(font
 					(size 1 1)
@@ -21435,7 +21829,7 @@
 			(at 0 3.15 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbfc0f88-a600-49b1-a685-e9b7974beaf4")
+			(uuid "b8736e03-2bc6-432a-9a5e-7cd2c22b052f")
 			(effects
 				(font
 					(size 1 1)
@@ -21447,7 +21841,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "afdf02bc-fa0f-4817-afd3-8c20cfc94f74")
+			(uuid "98b9c44e-7b4b-43e8-b5e8-ce2b060cc0d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21459,7 +21853,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38f7ed0a-483c-4e27-9a60-f7cd211c8d00")
+			(uuid "36814da5-043f-46d5-a238-bd0d8137e58b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21483,6 +21877,12 @@
 		(path "/ad7bcd5a-8451-43a9-a885-794289757411")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -21536,7 +21936,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "edc4585c-fa28-468e-83b5-bfba67c0e863")
+			(uuid "63a04514-7154-47e8-b86a-f5c909b5669c")
 			(effects
 				(font
 					(size 1 1)
@@ -21548,7 +21948,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29733d72-3f92-4d3a-b627-a42767264cae")
+			(uuid "ea48b41b-4755-4cc4-9da6-4116d4b3610c")
 			(effects
 				(font
 					(size 1 1)
@@ -21560,7 +21960,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cb0120b-8f18-4bd9-882e-f80fa177e967")
+			(uuid "4ee972f3-a658-449a-81fb-fa5322119460")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21572,7 +21972,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9ea31b9-0809-4bf6-b1b1-fe07be201a9e")
+			(uuid "a9a60cb6-3cb8-4eaf-8064-c90dc3d29e2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21583,6 +21983,12 @@
 		(path "/a1892589-5add-4155-95fa-bd84167177e5")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21814,7 +22220,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6fbb52d5-5f1b-45c4-ade5-9fc16ce24831")
+			(uuid "cce1787f-5aef-4b3f-bd3c-134546b61eb3")
 			(effects
 				(font
 					(size 1 1)
@@ -21826,7 +22232,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd1beba9-87ac-4a3e-a8f3-e7387c411c0f")
+			(uuid "3a08070a-51b2-4cc7-a192-8138eaa5769e")
 			(effects
 				(font
 					(size 1 1)
@@ -21838,7 +22244,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95f4e9bb-4751-4a12-94b4-62f62b7a753a")
+			(uuid "01166b01-bd03-4515-9311-77bbbe9a3f55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21850,7 +22256,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7885096-6068-4bc6-9bfb-59519c435452")
+			(uuid "5bbbd65c-e2bf-46aa-8a3d-a49fbc6b7e53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21861,6 +22267,12 @@
 		(path "/651d95ea-7966-4dc0-ba0d-9cb4fbfaf8d5")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22092,7 +22504,7 @@
 		(property "Reference" "D20"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "8bb7c36f-269a-4792-b490-54452e430352")
+			(uuid "01b2e225-073d-4671-8bb8-904c209e3f2c")
 			(effects
 				(font
 					(size 1 1)
@@ -22104,7 +22516,7 @@
 			(at 0 3.5 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1c69ad2-304e-436b-932b-a04509b7f174")
+			(uuid "43d1cb33-da38-4dd6-841a-7aa6a2d86f00")
 			(effects
 				(font
 					(size 1 1)
@@ -22117,7 +22529,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab9ae159-5603-438a-abaf-deff36975195")
+			(uuid "49514b27-b014-43b0-bce4-93206e3279c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22130,7 +22542,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97a4c0bc-00ce-40f0-8e5f-97f915486b14")
+			(uuid "2d6d0358-5da6-4926-8f67-0b15767b66e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22168,6 +22580,12 @@
 		(path "/ffa673c2-bb5b-4c4f-8020-c7fdd100a680")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22433,7 +22851,7 @@
 		(property "Reference" "D3"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "0027a915-cf26-44fc-ac00-4afc2b8157c8")
+			(uuid "264d522b-a07a-4d68-9ff6-6706fe3be8c5")
 			(effects
 				(font
 					(size 1 1)
@@ -22445,7 +22863,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43501ddd-cd5b-4fc0-9600-ab6bcfeec24b")
+			(uuid "2a669dd2-7193-40cb-8932-b177a7cb443e")
 			(effects
 				(font
 					(size 1 1)
@@ -22458,7 +22876,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd531bca-e784-460a-b8b6-2e436fa7996e")
+			(uuid "44a119d7-71f5-4a14-a706-2d836bb330e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22471,7 +22889,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6632b6de-9efa-4ede-8ee9-47412ccdd93d")
+			(uuid "97787f9d-f533-43c3-8193-17a157c0949f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22509,6 +22927,12 @@
 		(path "/b671e9d6-3cd2-4c01-b603-ef451cdd5c9d")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22774,7 +23198,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9b3ad756-3311-4232-977a-edc5044d1a47")
+			(uuid "be23fb79-9b50-44e5-9252-a8a783c22fe6")
 			(effects
 				(font
 					(size 1 1)
@@ -22786,7 +23210,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b7282ef-ae75-4963-ba9f-b475f6cd7989")
+			(uuid "3c5e0340-4efd-4ad5-9a3c-6000287522fd")
 			(effects
 				(font
 					(size 1 1)
@@ -22798,7 +23222,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb27e0ea-7af0-4d2d-aea3-5c0575c94e2e")
+			(uuid "37fdc7f9-28f3-4ba2-974a-f508ce9f042c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22810,7 +23234,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ec61167-ed87-45b0-9530-35c6ac37e4ca")
+			(uuid "24e29b44-c47b-433d-8e5c-39204c1f108e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22821,6 +23245,12 @@
 		(path "/eabe1e08-0816-4883-b323-f9f8b6842008")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23052,7 +23482,7 @@
 		(property "Reference" "D34"
 			(at 0 -12.299 0)
 			(layer "F.SilkS")
-			(uuid "b64c4742-9ff0-4357-bb6e-87d269397f1d")
+			(uuid "4c293dcf-8f97-4c0d-8758-4af28b02866c")
 			(effects
 				(font
 					(size 1 1)
@@ -23064,7 +23494,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec4ce6f2-8068-4d72-924e-1af58233373c")
+			(uuid "a3282312-8b86-4a3e-a57e-66461e192502")
 			(effects
 				(font
 					(size 1 1)
@@ -23077,7 +23507,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c373bba-53e2-44bb-8768-3f32f56c3b85")
+			(uuid "b4f80040-7d33-4ede-93ee-8ac82523ead1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23090,7 +23520,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09239b31-2c8d-4aa0-a371-3c11503a3516")
+			(uuid "2ef5a732-88ea-4364-8c24-49aaab2d55f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23128,6 +23558,12 @@
 		(path "/6bcd7db8-c2da-4c0b-a6df-c2c230a04988")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23393,7 +23829,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6c17af2c-a914-4783-83b3-2f6fa30841a3")
+			(uuid "0ee2f764-0d92-45a6-8a0c-97e213cc150d")
 			(effects
 				(font
 					(size 1 1)
@@ -23405,7 +23841,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "900d343e-9825-4d08-8f77-a21a1572fba7")
+			(uuid "2b4a353c-07f1-4f14-bd70-3deae3d43bc3")
 			(effects
 				(font
 					(size 1 1)
@@ -23417,7 +23853,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ace9810f-eea7-4764-930c-d8cdabf4445e")
+			(uuid "a1c7b071-40eb-415c-b0d7-06595e5ef90d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23429,7 +23865,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fec8e788-d682-4271-9100-e6feb4dbc381")
+			(uuid "3892eb38-373f-4f6c-a283-bac343e55a8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23440,6 +23876,12 @@
 		(path "/d4f4b54f-2c09-478a-a418-5f46dd00ec16")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23671,7 +24113,7 @@
 		(property "Reference" "D38"
 			(at 0 -11.669 0)
 			(layer "F.SilkS")
-			(uuid "1b68c417-c557-4370-9546-4bba442a422e")
+			(uuid "9e4534ca-80eb-4e27-84e0-7bfc4874e0f2")
 			(effects
 				(font
 					(size 1 1)
@@ -23683,7 +24125,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43404eeb-a978-4f3f-a7d7-33614e104b6c")
+			(uuid "4aad546f-fac5-41e1-9d72-706a82c8e50c")
 			(effects
 				(font
 					(size 1 1)
@@ -23696,7 +24138,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea24927c-d2ac-4b03-86c8-005a720e8a84")
+			(uuid "d48a6e75-69a6-4ea6-a124-983383092f64")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23709,7 +24151,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aac17d94-aafe-497f-8130-ce52ed6514e8")
+			(uuid "ce87d689-274c-4c40-9ad1-4e585114a21e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23747,6 +24189,12 @@
 		(path "/5a1838f7-9948-48f9-9493-794f63a00f60")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24012,7 +24460,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dd6189d3-7f3c-46d4-aada-d32ece5a8c71")
+			(uuid "8d2a47c5-7119-4918-9178-58bc1b757516")
 			(effects
 				(font
 					(size 1 1)
@@ -24024,7 +24472,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e48e2a8-9ead-4c11-8283-940e805bd2fd")
+			(uuid "944784c0-2220-496b-9b22-361db7e84398")
 			(effects
 				(font
 					(size 1 1)
@@ -24036,7 +24484,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04a7ecfb-9ba1-4d3e-bae6-7c8cfbdde15e")
+			(uuid "4f5ecd02-bcdf-4c16-adeb-bc760b6cf099")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24048,7 +24496,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c0bbb28-eb85-4c49-a157-f4b13012d36f")
+			(uuid "3ff3e049-522a-49e4-a428-f5db028cca65")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24059,6 +24507,12 @@
 		(path "/9bf83ec2-756e-414e-9c9d-ce014a2eaaff")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24290,7 +24744,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1e08cb90-a866-43e9-b19d-2999489ea320")
+			(uuid "32f3aebd-9f6e-4d38-b0d2-f59e596fc281")
 			(effects
 				(font
 					(size 1 1)
@@ -24302,7 +24756,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d3cb24f2-3109-4f09-b0aa-ce3c553aa681")
+			(uuid "a436cfbc-8893-49a1-b584-a8db6ebff422")
 			(effects
 				(font
 					(size 1 1)
@@ -24314,7 +24768,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71c9e1e4-6e01-49f2-87d1-11405e82882a")
+			(uuid "372bee59-f320-4506-a1c0-252c9773be92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24326,7 +24780,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24748ff7-6f58-426f-9c4a-c20c61bc4bf0")
+			(uuid "1b0c3e58-8058-468d-aa46-d2e6fc37f507")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24337,6 +24791,12 @@
 		(path "/c0edebce-461f-47aa-b971-41ba3c31cf71")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24612,7 +25072,6 @@
 				)
 			)
 		)
-		(path "/ff0a284d-59dd-4b00-821d-9b048493d67f")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
 		(attr through_hole)
@@ -24847,7 +25306,7 @@
 			(at 4 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fe3323b1-4f5c-4b2a-b243-0cb73ba96254")
+			(uuid "5cfb7256-fd2f-4c9f-a347-512958575dee")
 			(effects
 				(font
 					(size 1 1)
@@ -24859,7 +25318,7 @@
 			(at 0 3.15 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "008c0ddc-c8c3-43b1-8f2b-90abf4238e2d")
+			(uuid "4b791bc9-057f-4644-a853-7ce802d6cc2c")
 			(effects
 				(font
 					(size 1 1)
@@ -24871,7 +25330,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b791ae7-59ce-4abf-984f-37d01a91548b")
+			(uuid "0424a7f1-000c-444a-9b25-704100444de1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24883,7 +25342,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1adf024f-4a10-4641-91a5-fadbd972a5a1")
+			(uuid "23a33684-8354-4a4f-95fa-7c3487802248")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24907,6 +25366,12 @@
 		(path "/e3a6f5ba-fda6-4161-ae6e-75e15e2b5678")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -24960,7 +25425,7 @@
 		(property "Reference" "D36"
 			(at 0 -11.749 0)
 			(layer "F.SilkS")
-			(uuid "76549a73-3599-4175-9ef8-009ae553eaf7")
+			(uuid "9d7ce439-6abb-4405-acfd-ce776a84e08f")
 			(effects
 				(font
 					(size 1 1)
@@ -24972,7 +25437,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4fe49a4-d12c-4f97-bbf7-77d3ebdb804d")
+			(uuid "ccb7d537-2420-4873-84da-e2de10537a7d")
 			(effects
 				(font
 					(size 1 1)
@@ -24985,7 +25450,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30fd0674-7a11-41dd-b672-f08405261167")
+			(uuid "0b120572-ac0c-4ac7-b29c-ea8476935bae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24998,7 +25463,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "051a1857-470d-4add-9ad2-ba6d68ddbc20")
+			(uuid "f398d163-d23e-4eae-b8af-43c3b854985b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25036,6 +25501,12 @@
 		(path "/524b653b-7c2d-45f5-9923-5357fe2ddf5d")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25301,7 +25772,7 @@
 		(property "Reference" "D8"
 			(at 0 -11.899 0)
 			(layer "F.SilkS")
-			(uuid "d227ec9b-e3f4-4097-a3a5-dc9b1397f948")
+			(uuid "6c920aa1-ff2a-479a-b1fc-c8e871157efa")
 			(effects
 				(font
 					(size 1 1)
@@ -25313,7 +25784,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fdf58a4f-a717-45fa-a637-fa3afd3068a9")
+			(uuid "ebdc712e-0d61-4563-96b9-8c5483f9ce2a")
 			(effects
 				(font
 					(size 1 1)
@@ -25326,7 +25797,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8598c2e4-d256-41b0-980a-d5552aa8eb85")
+			(uuid "8e01edb7-c72b-49dc-8288-66092e5fc8f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25339,7 +25810,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f93db18-8c16-4be3-a8fa-08c1a3d13830")
+			(uuid "e22bdad8-b7fa-4218-83bc-2949f55619ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25377,6 +25848,12 @@
 		(path "/c0b00a57-4b5a-4b42-9b1d-07123a89837c")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25642,7 +26119,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6a448939-bc5f-43d7-a819-1ce55c9cc957")
+			(uuid "f49d69e8-ac44-4a13-a6f1-c740c10c4c46")
 			(effects
 				(font
 					(size 1 1)
@@ -25654,7 +26131,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "227795df-7776-4fb4-89fd-2f64ce10100b")
+			(uuid "f1b1480c-f30c-4a0f-b03e-086dbf7dadc9")
 			(effects
 				(font
 					(size 1 1)
@@ -25666,7 +26143,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd66c938-f592-44fd-ad92-5dff213b006e")
+			(uuid "75ad34fb-106d-458a-8347-1b42e5c9074c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25678,7 +26155,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5014ac18-aeb1-417a-b04e-eded1d2398d2")
+			(uuid "c2daffa1-5f51-4fe0-8c20-7d44d7d6bc04")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25689,6 +26166,12 @@
 		(path "/6da49d60-fd2e-4a44-81e3-7c006435ff1f")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25919,7 +26402,7 @@
 			(at 0 -0.119 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "36bb988a-ebfc-4286-835c-fd4d1bd9f3ef")
+			(uuid "a7476740-7176-4ea0-9b45-a8e29d7cd4a9")
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -25932,7 +26415,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91c1948b-1117-48bb-b2bb-30dca9b05b20")
+			(uuid "5a236ea3-af68-4efa-a1d0-b1a68fc9d13d")
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -25945,7 +26428,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ddcd1a28-de05-4887-9eec-004933cb624f")
+			(uuid "3017f933-09c4-4cf6-85fa-781d11a0fbc4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25958,7 +26441,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af9175ae-d7dd-4a35-85ba-0901daafdddd")
+			(uuid "f72ab6e4-5d0a-43e2-8a60-52a90ea3381f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25969,6 +26452,12 @@
 		(path "/4695cfd1-7059-4a94-b5a6-3cda83a6db4e")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26550,7 +27039,7 @@
 		(property "Reference" "D25"
 			(at 0 -12.199 0)
 			(layer "F.SilkS")
-			(uuid "cfed32ef-5b7a-4151-9163-eeb3b97b6bb5")
+			(uuid "548f0c68-17c1-4ee6-a9ed-b11a57df1393")
 			(effects
 				(font
 					(size 1 1)
@@ -26562,7 +27051,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86cdb98f-1555-4a22-b393-65c62169f551")
+			(uuid "5378cd16-a7cf-404f-96e3-b3d6609955c2")
 			(effects
 				(font
 					(size 1 1)
@@ -26575,7 +27064,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c01f2e0-b1da-4aaa-ab29-2e045884b828")
+			(uuid "73e6e27d-3382-466a-b044-6b574f6fd467")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26588,7 +27077,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "382cccf6-17c4-495a-bc1c-f9fec8e319e6")
+			(uuid "48a53330-8e25-45e3-bd9c-bdc721d85ba1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26626,6 +27115,12 @@
 		(path "/6ef07668-0313-4204-939f-fc26876881ab")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26891,7 +27386,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9a5d2fd0-04ac-47d3-a82e-40ed6cd2c9cf")
+			(uuid "3e5bf067-3810-4f45-81a8-60f05f95e0b7")
 			(effects
 				(font
 					(size 1 1)
@@ -26903,7 +27398,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f0f4cb7-8531-476c-b954-7e552462a906")
+			(uuid "2fa70466-873a-4f5f-9c20-cc40019f218f")
 			(effects
 				(font
 					(size 1 1)
@@ -26915,7 +27410,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b602bcf8-d557-4663-8e0c-03a37c2f786e")
+			(uuid "c2623ace-2b4d-429e-8e52-9c127ba615e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26927,7 +27422,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33198fe2-4859-4c9e-9f0c-1adda628a5ef")
+			(uuid "6401244e-1a2e-4948-a40d-5d952007c78e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26938,6 +27433,12 @@
 		(path "/860c65f5-3867-4e99-944e-7e936e513616")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27241,7 +27742,6 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/025d4f8b-dde6-4559-a46d-d28b8194e13c")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
 		(attr smd)
@@ -27509,7 +28009,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ed08bb8b-f140-4aa0-995d-b33d575b02ba")
+			(uuid "5a6f6f38-9ce3-4048-9c9b-0d9a075d959c")
 			(effects
 				(font
 					(size 1 1)
@@ -27521,7 +28021,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8954f60-e613-42a9-afb9-f7e08940a10c")
+			(uuid "0f29c3f3-8377-44c6-9fb9-e9efb193c390")
 			(effects
 				(font
 					(size 1 1)
@@ -27533,7 +28033,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af614e56-c3d5-421c-9c70-f8ea5b10455e")
+			(uuid "2be89901-43c1-440a-87f2-5e894298a798")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27545,7 +28045,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b65af573-83f4-4ebc-8295-d9545f62f657")
+			(uuid "4d3a5e51-38f4-4e79-b1c7-32bd595e99c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27556,6 +28056,12 @@
 		(path "/2e817fab-f39c-4b49-89e9-d26ebfae7537")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27787,7 +28293,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dfab07c2-baa5-407e-b34b-efa06382d7e4")
+			(uuid "a9de1433-c25b-4a87-b1da-b6f50200be8a")
 			(effects
 				(font
 					(size 1 1)
@@ -27799,7 +28305,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96868ad8-6764-46e3-9999-85d1c764a9b0")
+			(uuid "20b0804c-ebdf-4c5f-a863-cf70d6ffe816")
 			(effects
 				(font
 					(size 1 1)
@@ -27811,7 +28317,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48d97475-9d37-4fac-a977-c000313f81c8")
+			(uuid "893e2449-7f00-4015-a47b-9ff983dd2b97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27823,7 +28329,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46da6f67-78d9-407f-ba03-9a09117c8d56")
+			(uuid "347b776c-44bc-40fb-ab93-a32219da025d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27834,6 +28340,12 @@
 		(path "/cc95cec9-dd7a-45c8-9c34-a272946f9ac0")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28065,7 +28577,7 @@
 			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "90e8dfe1-e51d-487f-9069-3db84dbfc90b")
+			(uuid "db46c608-97f5-4763-918c-d6f2ea1e5638")
 			(effects
 				(font
 					(size 1 1)
@@ -28077,7 +28589,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e3d9bd3-aae4-4f67-8402-5e9b97ba396b")
+			(uuid "4edf1fce-23e2-49f9-a7d3-642659aa05d7")
 			(effects
 				(font
 					(size 1 1)
@@ -28089,7 +28601,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "765e43a9-cc19-4c7b-b2b6-85093e97966f")
+			(uuid "735e1c23-6659-430e-a6d8-e5d72394b3e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28101,7 +28613,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea0247c3-7e2c-4210-9f13-506dd4b817ca")
+			(uuid "23a8b66f-cab7-46f0-9270-be09e78939fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28112,6 +28624,12 @@
 		(path "/9d2388a1-7dec-45c5-ab0f-14ba189b602a")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28343,7 +28861,7 @@
 		(property "Reference" "D6"
 			(at 0 -11.999 0)
 			(layer "F.SilkS")
-			(uuid "d08e2be8-7108-4083-b110-71abec6461ea")
+			(uuid "4c5fb189-d2c6-4ebf-bd8f-7e54a92987fe")
 			(effects
 				(font
 					(size 1 1)
@@ -28355,7 +28873,7 @@
 			(at 0 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7bb3fd3b-892a-4fe5-a1d3-88163422ba48")
+			(uuid "dd5fdfa4-0e92-4bfe-a50a-2b4a3c2fdefa")
 			(effects
 				(font
 					(size 1 1)
@@ -28368,7 +28886,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a71a91a-3a93-4e8f-baf8-83f7a955005c")
+			(uuid "f07d9a21-2bb2-4c83-83f6-d744fc5ca8e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28381,7 +28899,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2b39f41-2353-4045-89f8-96e73aa2cc77")
+			(uuid "f5ce8352-4692-49be-b4af-cc6de4998a36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28419,6 +28937,12 @@
 		(path "/73b6b1d6-0be4-47bd-b32d-1411e5654d8e")
 		(sheetname "/")
 		(sheetfile "NordBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31348,6 +31872,14 @@
 		(uuid "088f2bf6-f166-4494-91d5-61250f9ce972")
 	)
 	(segment
+		(start 267.899 125.8)
+		(end 270.1 123.599)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "0d953273-9d44-4d63-87c5-bfe1dd4f7792")
+	)
+	(segment
 		(start 125.9 69.8995)
 		(end 123.9995 67.999)
 		(width 0.2)
@@ -31362,6 +31894,14 @@
 		(layer "B.Cu")
 		(net "/COL0")
 		(uuid "20378b47-1d17-46a4-9218-45861430ee9e")
+	)
+	(segment
+		(start 155 139.299)
+		(end 177.960108 139.299)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "23a4610a-45a5-4fe1-a7a4-732ea7c0e64e")
 	)
 	(segment
 		(start 56 66.999)
@@ -31396,6 +31936,14 @@
 		(uuid "3570de16-1b4d-4455-ae79-54e121bbf7d9")
 	)
 	(segment
+		(start 271.1 86.379)
+		(end 270.12 85.399)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "3cf90b9f-0428-467c-ad3b-14440cc117e6")
+	)
+	(segment
 		(start 15.299 87)
 		(end 15.299 102.598)
 		(width 0.2)
@@ -31420,6 +31968,22 @@
 		(uuid "409cb5ae-2e22-4df6-b7e2-313780491942")
 	)
 	(segment
+		(start 270.1 123.599)
+		(end 271.1 122.599)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "481b54e0-536a-440d-907f-e3505ccae6d9")
+	)
+	(segment
+		(start 177.960108 139.299)
+		(end 191.459108 125.8)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "5978667a-4364-4236-a703-61ed866b73a9")
+	)
+	(segment
 		(start 69 66.999)
 		(end 56 66.999)
 		(width 0.2)
@@ -31434,6 +31998,14 @@
 		(layer "B.Cu")
 		(net "/COL0")
 		(uuid "5ea103c0-3218-4ea9-b66a-f1782394d9f6")
+	)
+	(segment
+		(start 153.299 107.82)
+		(end 153.299 137.598)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "6776013b-83eb-4f18-a8e0-bed7abbf5ae7")
 	)
 	(segment
 		(start 176 80.299)
@@ -31492,6 +32064,30 @@
 		(uuid "9bb5b5c2-7c88-409a-8636-6ce4848ee44f")
 	)
 	(segment
+		(start 191.459108 125.8)
+		(end 267.899 125.8)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "a11148c4-ed58-493a-879e-a7018e207a18")
+	)
+	(segment
+		(start 153.299 137.598)
+		(end 155 139.299)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "a8a91d93-22fd-4621-a0f4-2bc373116c92")
+	)
+	(segment
+		(start 153.88 107.239)
+		(end 153.299 107.82)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "b084bb19-68cf-46fc-a8f3-b7d46121913e")
+	)
+	(segment
 		(start 15.299 106)
 		(end 15.299 121.598)
 		(width 0.2)
@@ -31516,6 +32112,14 @@
 		(uuid "c0073fea-7e27-4a4e-9c8e-686d4516dce1")
 	)
 	(segment
+		(start 270.1 104.499)
+		(end 271.1 103.499)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "cb41d7e4-5f2f-4cab-88b5-455763dc4a3c")
+	)
+	(segment
 		(start 17 82.69747)
 		(end 17 85.299)
 		(width 0.2)
@@ -31532,12 +32136,36 @@
 		(uuid "d33ef950-6c16-4abf-88f6-b15d38e8ee07")
 	)
 	(segment
+		(start 271.1 122.599)
+		(end 271.1 105.499)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "d5e68d17-c258-4b73-a1a5-fc8111f5b5db")
+	)
+	(segment
+		(start 271.1 105.499)
+		(end 270.1 104.499)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "d82da92d-b4f0-46ac-ad89-311b9bcbb4b2")
+	)
+	(segment
 		(start 108 67.999)
 		(end 103.5 63.499)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "/COL0")
 		(uuid "d8dc84c4-5a6e-4d31-af24-eb2fd6000444")
+	)
+	(segment
+		(start 271.1 103.499)
+		(end 271.1 86.379)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/COL0")
+		(uuid "f1f0c9b6-13c0-43cd-81fc-3a5c7a9d0f15")
 	)
 	(segment
 		(start 15.299 102.598)
@@ -33740,14 +34368,6 @@
 		(uuid "ae430b36-9efa-48e0-bf94-c4de8650202e")
 	)
 	(segment
-		(start 267.899 125.8)
-		(end 270.1 123.599)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "0d953273-9d44-4d63-87c5-bfe1dd4f7792")
-	)
-	(segment
 		(start 121.5 70.499)
 		(end 119 70.499)
 		(width 0.2)
@@ -33764,14 +34384,6 @@
 		(uuid "1cef26a9-0515-42a5-840b-6b4b79f54352")
 	)
 	(segment
-		(start 155 139.299)
-		(end 177.960108 139.299)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "23a4610a-45a5-4fe1-a7a4-732ea7c0e64e")
-	)
-	(segment
 		(start 112 77.499)
 		(end 112 79.299)
 		(width 0.2)
@@ -33780,28 +34392,12 @@
 		(uuid "2630115d-4124-4949-8eb2-84b20f007206")
 	)
 	(segment
-		(start 271.1 86.379)
-		(end 270.12 85.399)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "3cf90b9f-0428-467c-ad3b-14440cc117e6")
-	)
-	(segment
 		(start 112 117.299)
 		(end 111 118.299)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "/COL5")
 		(uuid "44f2fe6e-e2b4-4fe5-8d36-ac6816edf7df")
-	)
-	(segment
-		(start 270.1 123.599)
-		(end 271.1 122.599)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "481b54e0-536a-440d-907f-e3505ccae6d9")
 	)
 	(segment
 		(start 112 98.299)
@@ -33820,14 +34416,6 @@
 		(uuid "541ed46b-85b8-4e36-9eba-c23e1d94a654")
 	)
 	(segment
-		(start 177.960108 139.299)
-		(end 191.459108 125.8)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "5978667a-4364-4236-a703-61ed866b73a9")
-	)
-	(segment
 		(start 110.299 100)
 		(end 110.299 115.598)
 		(width 0.2)
@@ -33842,14 +34430,6 @@
 		(layer "B.Cu")
 		(net "/COL5")
 		(uuid "666faf68-e11a-4942-80bf-3bd1a7fb8fe3")
-	)
-	(segment
-		(start 153.299 107.82)
-		(end 153.299 137.598)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "6776013b-83eb-4f18-a8e0-bed7abbf5ae7")
 	)
 	(segment
 		(start 111 118.299)
@@ -33884,36 +34464,12 @@
 		(uuid "88e3324b-6dec-44c8-a10e-4a48fd09f035")
 	)
 	(segment
-		(start 191.459108 125.8)
-		(end 267.899 125.8)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "a11148c4-ed58-493a-879e-a7018e207a18")
-	)
-	(segment
-		(start 153.299 137.598)
-		(end 155 139.299)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "a8a91d93-22fd-4621-a0f4-2bc373116c92")
-	)
-	(segment
 		(start 111 125.999)
 		(end 118.7 125.999)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "/COL5")
 		(uuid "af286b7b-7b89-4bd0-878a-918409258e4e")
-	)
-	(segment
-		(start 153.88 107.239)
-		(end 153.299 107.82)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "b084bb19-68cf-46fc-a8f3-b7d46121913e")
 	)
 	(segment
 		(start 110.299 96.598)
@@ -33930,38 +34486,6 @@
 		(layer "B.Cu")
 		(net "/COL5")
 		(uuid "c8c4a04c-f8ef-4c61-a4e0-014626cd7110")
-	)
-	(segment
-		(start 270.1 104.499)
-		(end 271.1 103.499)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "cb41d7e4-5f2f-4cab-88b5-455763dc4a3c")
-	)
-	(segment
-		(start 271.1 122.599)
-		(end 271.1 105.499)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "d5e68d17-c258-4b73-a1a5-fc8111f5b5db")
-	)
-	(segment
-		(start 271.1 105.499)
-		(end 270.1 104.499)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "d82da92d-b4f0-46ac-ad89-311b9bcbb4b2")
-	)
-	(segment
-		(start 271.1 103.499)
-		(end 271.1 86.379)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/COL5")
-		(uuid "f1f0c9b6-13c0-43cd-81fc-3a5c7a9d0f15")
 	)
 	(segment
 		(start 112 79.299)

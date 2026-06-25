@@ -159,3 +159,19 @@ I also completely redid the schematic now. I reordered the buttons on both sides
 ![3](https://cdn.hackclub.com/019efc0e-587c-7562-a4c7-6d8c63f7a714/20260624-165415-edited.png)
 
 Anyways, as you can see, I have been quite productive even with the major setback. I plan on getting the interconnect wired up, then I'll improve some of the edge cuts and work on the plates and case. Until next time!
+
+# 6/25/2026 - Finishing the new schematic and interconnect
+
+Time spent: 2.5h
+
+I've been hard at work yesterday evening and this morning getting the schematic finished up. I have had a lot of discussion about whether I can connect the left interconnect directly to the Xiao on the right, but unfortunately that does not seem to be possible and I'll just have to live with an unused USB-C port on the right sadly. I can't even use it for something like type-C charging or as an extra data port, so we're basically just wasting an entire receptacle. There are a few good things that came out of this. The first is that with a USB-C interconnect, that means that it's a removable C-to-C cable I can use for other devices in an emergency (when traveling). The other is that this will allow me to have the two boards communicate with each other for more key combos. And it also reduces the total cable clutter since I won't have another cable plugged into my computer. There is also space in the PCB for me to add the USB receptacles without causing too large of a redesign.
+
+I pondered whether I would want to add Bluetooth and a battery to this board. After realizing that I literally just used up the very last pin on my Xiao (I maxed this thing out pin-wise, I think that's pretty cool) I realized that this would have been too much of an undertaking and I'll leave that for a v2.
+
+![1](https://cdn.hackclub.com/019efff9-8540-7369-bdb7-a91660340769/20260625-110958-edited.png)
+
+![2](https://cdn.hackclub.com/019f0026-8ab1-7ae0-b9e8-1faa99029846/20260625-115909-edited.png)
+
+There are a few issues with the schematic import into the PCB. The most obvious is the wackiness with the new switches, I don't even know why they are there since the new ones should've replaced them. I'll figure that out later today and hopefully get the PCB finalized so I can work on the case and plates.
+
+![3](https://cdn.hackclub.com/019f0027-6364-76ca-b2ae-02fc2c782c12/20260625-120004-edited.png)
