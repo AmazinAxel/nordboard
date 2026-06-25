@@ -133,3 +133,29 @@ Also, remember how I basically hardlinked the entire thing to my Downloads folde
 ![5](https://cdn.hackclub.com/019ecee6-26e1-7ebf-915e-efebc7f13535/20260615-222728-edited.png)
 
 So now it's just a matter of actually doing the interconnect cable. Seeing that the annotations have changed with the new switch placements, I still think the whole PCB will have to be retraced.
+
+# 6/24/2026 - Redoing everything (part two!!!)
+
+Time spent: 5h
+
+Been working on this for a while. Very very happy to report that I have finally managed to reorganize and clean up this project enough that I can now work on it on another computer. So for context: I had hardcoded all of the paths for the libraries and symbols and everything to my _Downloads_ folder. Anyone who cloned my project would've encountered numerous errors, but now that's a thing of the past. I successfully managed to get all of the paths softcoded to the project library, so there shouldn't be any more issues.
+
+This is what the checks look like now (no more errors!! and everything is vendored in the project!)
+
+![1](https://cdn.hackclub.com/019efc03-e24d-7d59-9d53-cc0953a79dfe/20260624-164249-edited.png)
+
+![2](https://cdn.hackclub.com/019efc0a-3147-7fe0-8c88-a4b123768704/20260624-164943-edited.png)
+
+(those aren't DRC checks though, those are footprint and symbol updates, which fetch from the libraries! I also took this opportunity to clean up and massively reduced the libraries this depends on by only importing what is needed.)
+
+So I also did some reorganizing of the PCB. I updated the edge cuts to be slimmer and fit more with the additional thumb cluster button (yes that's right - there are 3 thumb clusters now!)
+
+![1](https://cdn.hackclub.com/019efbfe-5312-7047-92b9-eb0d1e1a1d1b/20260624-163642-edited.png)
+
+I also completely redid the schematic now. I reordered the buttons on both sides and fixed a major issue with it being connected to the wrong rows, which would've made the button double press. I attempted to do an interconnect with just a USB-C port on the left and the Xiao on the right but I guess that's not possible, so I've started working on adding USB-C ports for interconnect on both sides.
+
+![2](https://cdn.hackclub.com/019efc0c-9c93-7aba-9b8b-505b753cbb2c/20260624-165220-edited.png)
+
+![3](https://cdn.hackclub.com/019efc0e-587c-7562-a4c7-6d8c63f7a714/20260624-165415-edited.png)
+
+Anyways, as you can see, I have been quite productive even with the major setback. I plan on getting the interconnect wired up, then I'll improve some of the edge cuts and work on the plates and case. Until next time!
