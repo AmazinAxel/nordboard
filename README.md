@@ -22,7 +22,7 @@ A few design choices:
   - Why: there are a lot of reasons:
   - Batteries are heavy and this would mean expanding the footprint of this design. Right now it's as minimal as it gets, adding wireless support is where things start to get bulky
   - You don't need to worry about charging or latency over bluetooth since it's always plugged in! Having cables on a desk is almost never a problem if your laptop has a spare port.
-  - While an audio jack DOES have just enough pins to carry data, ground and power (and is almost always the right choice for this) using a standard port with cables available everywhere allows you to use the interconnect cable for emergencies or other temporary purposes. It is highly versatile. When left in a bag, a 3.6mm headphone cable is basically useless.
+  - While an audio jack DOES have just enough pins to carry data, ground and power (and is almost always the right choice for this) using a standard port with cables available everywhere allows you to use the interconnect cable for emergencies or other temporary purposes. It is highly versatile. When left in a bag, a 3.5mm headphone cable is basically useless.
   - Adding wireless support means to switch away from the XIAO that we are using. Every single GPIO pin exposed by the Xiao is used by the keyboard (this is a good thing! We don't waste any pins), so there is no easy opportunity of adding this support without switching the MCU and redesigning the schematic/PCB.
 
 The advantages of all of the above result in a very well thought-out product which is as cheap as it gets while prioritizing function and ergonomics over all. I'm quite proud of the design. I hope you enjoy it too!
