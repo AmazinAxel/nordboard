@@ -175,3 +175,23 @@ I pondered whether I would want to add Bluetooth and a battery to this board. Af
 There are a few issues with the schematic import into the PCB. The most obvious is the wackiness with the new switches, I don't even know why they are there since the new ones should've replaced them. I'll figure that out later today and hopefully get the PCB finalized so I can work on the case and plates.
 
 ![3](https://cdn.hackclub.com/019f0027-6364-76ca-b2ae-02fc2c782c12/20260625-120004-edited.png)
+
+# 6/25/2026 - THE PCB IS DONE
+
+Time spent: 5.5h
+
+oh my god this is insane. I have spent the ENTIRE evening working on this and I feel very accomplished. For starters, basically I redid the entire board in some capacity. Edge cuts, placements and basically the entire PCB routing has been redone for interconnect performance and stability. Now I have to start worrying about interference and wider trace widths for large power. I think honestly it's just easier to look at the board and see how different it is:
+
+![wow](https://cdn.hackclub.com/019f0220-cebd-7855-84a9-9f4c26bf8281/20260625-211200-edited.png)
+
+Starting with the schematic, I spent hours fiddling with the USB-C ports in the PCB because the 0.5mm 5v lines were too thick and there was a total mess of wires clogging up that area. So I decided to relabel the left Xiao to prioritize wires that go to the left so that there'd be no interference with wires that go down. After doing so, I went from a mess of wires with the resistor and the Xiao and USB-C receptacle to THIS:
+
+![also wow](https://cdn.hackclub.com/019f0234-927d-7c55-9173-fa8e6a656916/20260625-213343-edited.png)
+
+I know I don't have a comparison image for this but you can take my word for it that this thing is pretty well optimized for both space and speed. Did I mention that the USB-C port trace is as close together as possible to reduce right-side latency? Also, the big blue fill you see is me figuring out how ground fills work, since apparently these help reduce noise for things like this. I had a lot of issues with it messing with the DRC so I fixed those issues and now I have a perfect score!
+
+![1](https://cdn.hackclub.com/019f0237-f9d8-7bfc-936f-762b27d28713/20260625-213726-edited.png)
+
+Basically I touched up on every single trace on the board to optimize & clean it up. (I also learned that KiCAD has a few built-in tools to clean up the PCB, this would've been nice to know sooner!)
+
+Anyways the PCB is fully completed now. Everything is in order for me to start modeling the plates and cases!! I think that I spent a little too much time on this devlog since the last journal, I might try doing a Lapse next time when I am using Onshape for modeling.
