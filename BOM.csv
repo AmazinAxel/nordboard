@@ -1,7 +1,6 @@
-Switches (35pc, need 5 more)
-https://www.amazon.com/Profile-Mechanical-Switch-Split-Ergo-Mechanical-Keyboard/dp/B0BLC92THN
-
-Keycaps (40pc transparent)
-https://www.amazon.com/Chocolate-Mechanical-Keyboard-Transparent-1U-40Pcs/dp/B0CP27QXG7
-
-SEEED Xiao
+Part,Where to buy,Cost before tax,Notes
+Keycaps,https://www.aliexpress.us/item/3256806548230734.html,$26 ,"50pc, transparent (Does come with 8 extras)"
+Seeed XIAO RP2040,https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html,$7.89 ,"2pc, may charge shipping"
+Choc Switches,https://www.aliexpress.us/item/3256808697103313.html,$25 ,"50pc, blue (Also comes with 8 extras)"
+The board itself!,JLCPCB,$48.41 ,"5 boards, cheapest settings"
+Total cost: $107.3

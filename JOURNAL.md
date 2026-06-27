@@ -195,3 +195,38 @@ I know I don't have a comparison image for this but you can take my word for it 
 Basically I touched up on every single trace on the board to optimize & clean it up. (I also learned that KiCAD has a few built-in tools to clean up the PCB, this would've been nice to know sooner!)
 
 Anyways the PCB is fully completed now. Everything is in order for me to start modeling the plates and cases!! I think that I spent a little too much time on this devlog since the last journal, I might try doing a Lapse next time when I am using Onshape for modeling.
+
+## 6/26/2026 - Modeling is almost done!
+
+Time spent: 6.5h
+
+It's time for me to submit this project! A lot has happened today. For starters, the case is now 100% complete. I spent literally three hours on this simple case because Onshape is annoying and slow when it's dealing with huge composite parts like this PCB. Here's what it looks like!
+
+![1](https://cdn.hackclub.com/019f061d-a93b-74f6-a9eb-b2ab288ddd44/20260626-154708-edited.png)
+![2](https://cdn.hackclub.com/019f061e-140e-74b2-a618-c20484e5b335/20260626-154737-edited.png)
+![3](https://cdn.hackclub.com/019f061f-481e-7f67-bef8-47d9cb795bd0/20260626-154856-edited.png)
+![4](https://cdn.hackclub.com/019f0620-249b-7dce-b437-22621c4eb3fb/20260626-154952-edited.png)
+
+If you have a keen eye, you might have noticed that there were several board revisions since my last journal entry. After putting this case together, I realized that the screw holes have to be close to the edge of the board without any solder obstructions so that they're stable. I realized that the mounting holes near the USB-C ports would actually destabilize the structure, so I decided that I won't include those and revised both the board and the schematic to remove those. This means that yes, there is only two mounting holes but they are strategically located so lifting up on the board should not seperate it from the case. (also updated my signature a little bit, I think it looks nicer :D)
+
+For anyone interested, this is what the final schematic and PCB looks like after all the revisions and trace routing updates:
+
+![5](https://cdn.hackclub.com/019f0626-1abc-71b3-97cc-2e662d702b12/20260626-155622-edited.png)
+![6](https://cdn.hackclub.com/019f0626-c87d-7cba-bdd6-6c85389102d0/20260626-155708-edited.png)
+
+I also managed to get 3D models working for all components in KiCAD so I could do full renders like what you see above.
+
+![7](https://cdn.hackclub.com/019f062e-5b49-7400-8840-18d611797bc9/20260626-160524-edited.png)
+![8](https://cdn.hackclub.com/019f062e-dee9-7d6c-8b82-878c8b134c4f/20260626-160558-edited.png)
+
+This actually took a lot of work hunting down 3D models that would work for all the footprints. I think the models look great! Also it really helps to have the actual components on the board for taking renders. Sadly Onshape's support for importing models is pretty lame and slow and took me ages to get imported for rendering and building.
+
+I rewrote the README. It has a lot more information now. After pondering and researching whether I should include a plate with this build, I realized that I actually don't need one and my original intent for including these models was kind of unnecessary. So for right now, I won't be modeling a plate and we'll be sticking with a bare PCB for right now. From my research, as long as there are 5 pins for each switch, it is stable enough and because it is low-profile, there is little to no advantage other than sound dampening and maybe some protection. I did attempt to model a plate though, but that was kind of wasted effort since I realized with how close together these keys are there is very little room for the plate to wedge by the diodes and switches (this board is VERY compact and optimized).
+
+I put the gerbers into JLC and it's pretty cheap. I did optimize for cost, and I was very pleased to see that choosing a white PCB does not increase cost (this is great for the overall final build design)
+
+![9](https://cdn.hackclub.com/019f06a8-2d19-791b-a9ad-4a6b64d31f45/20260626-181826-edited.png)
+
+(also there is like $30 shipping which is pretty bad. I accounted for that in the BOM, hopefully it'll actually cost less when I enter my address, we'll see)
+
+The very last thing remaining is writing up the firmware. I'll have to figure out how to get the interconnect part over USB-C working with the firmware and then make some key layers. I have finished up the BOM and the README so I'm almost at the finish line!
