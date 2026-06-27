@@ -233,7 +233,7 @@ The very last thing remaining is writing up the firmware. I'll have to figure ou
 
 ## 6/26/2026 - The firmware is done! Project complete!!
 
-Time spent: 0h
+Time spent: 0.1h
 
 I did a LOT of research of the different firmwares I could use for this. In the end, I decided on QMK because it can be the lightest and fastest for this chip. I didn't like ZMK because it's basically just for Bluetooth/battery keyboards and would not work well with my board that lacks wireless capabilities. KMK was also another option, however I don't think it's very lightweight (it runs Python...) and I feel like C, as a lower-level language, would provide better resource management, energy usage and lower latency.
 
@@ -241,6 +241,6 @@ I spent a few hours tinkering with the firmware to get it to build. I followed t
 
 ![1](https://cdn.hackclub.com/019f0716-0ba9-708e-a732-e6e5454ffb3a/20260626-201827-edited.png)
 
-(note that I set the time spent here to 0 hours but I actually spent 3-4 hours on this. I think Hackatime tracked this well enough so I won't include any hours in this journal.)
+(note that I set the time spent here to 0.1 hours but I actually spent 3-4 hours on this. I think Hackatime tracked this well enough so I won't include any hours in this journal. Hackatime project name: NordBoard)
 
 Seeing as the case, PCB, and firmware are all complete, this project is DONE. I'm sending it off for design review now!
