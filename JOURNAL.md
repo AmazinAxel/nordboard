@@ -230,3 +230,17 @@ I put the gerbers into JLC and it's pretty cheap. I did optimize for cost, and I
 (also there is like $30 shipping which is pretty bad. I accounted for that in the BOM, hopefully it'll actually cost less when I enter my address, we'll see)
 
 The very last thing remaining is writing up the firmware. I'll have to figure out how to get the interconnect part over USB-C working with the firmware and then make some key layers. I have finished up the BOM and the README so I'm almost at the finish line!
+
+## 6/26/2026 - The firmware is done! Project complete!!
+
+Time spent: 0h
+
+I did a LOT of research of the different firmwares I could use for this. In the end, I decided on QMK because it can be the lightest and fastest for this chip. I didn't like ZMK because it's basically just for Bluetooth/battery keyboards and would not work well with my board that lacks wireless capabilities. KMK was also another option, however I don't think it's very lightweight (it runs Python...) and I feel like C, as a lower-level language, would provide better resource management, energy usage and lower latency.
+
+I spent a few hours tinkering with the firmware to get it to build. I followed the docs to get it all set up on NixOS (which was a little more difficult than something like Debian, but it does seem like there is good unofficial support) and I struggled with the fact that QMK does not like projects stored outside of its config directory. I was able to symlink the folder from my Github project into my home and the builds worked pretty well. I am still a little confused with all the files in the firmware folder, I don't know why it can't just entirely be a JSON file. Anyways, I used a template setup for a Corne keyboard and it compiles! Unfortunately I don't have another keyboard to test it on, so I'll have to wait until I can build the keyboard before I can iterate on this firmware. But it is finished!
+
+![1](https://cdn.hackclub.com/019f0716-0ba9-708e-a732-e6e5454ffb3a/20260626-201827-edited.png)
+
+(note that I set the time spent here to 0 hours but I actually spent 3-4 hours on this. I think Hackatime tracked this well enough so I won't include any hours in this journal.)
+
+Seeing as the case, PCB, and firmware are all complete, this project is DONE. I'm sending it off for design review now!

@@ -48,6 +48,16 @@ The advantages of all of the above result in a very well thought-out product whi
 ![7](https://cdn.hackclub.com/019f0626-1abc-71b3-97cc-2e662d702b12/20260626-155622-edited.png)
 ![8](https://cdn.hackclub.com/019f0626-c87d-7cba-bdd6-6c85389102d0/20260626-155708-edited.png)
 
+## Firmware setup
+
+I am using QMK firmware for this since it's lightweight and fast. To flash it yourself, you need to install qmk (if you're on Nix, set `hardware.keyboard.qmk.enable` to true and install `qmk`)
+
+After cloning this project, run:
+```
+ln -s <nordboard project folder>/firmware ~/qmk_firmware/keyboards/nordboard
+qmk compile -kb nordboard -km default
+```
+
 ## Bill of Materials
 
 | Part | Where to buy | Cost before tax | Notes |
