@@ -244,3 +244,21 @@ I spent a few hours tinkering with the firmware to get it to build. I followed t
 (note that I set the time spent here to 0.1 hours but I actually spent 3-4 hours on this. I think Hackatime tracked this well enough so I won't include any hours in this journal. Hackatime project name: NordBoard)
 
 Seeing as the case, PCB, and firmware are all complete, this project is DONE. I'm sending it off for design review now!
+
+## 07/08/2026 - Saving costs
+
+Time spent: 0.15h
+
+So my little brother showed me a trick which both simplifies my schematic and reduces fabrication cost! Instead of using mousebites, I've instead replaced them with a few indented areas and a silkscreen to show what needs to be dremmeled. Since I will have to dremmel the board, it'll save on printing fees since it won't be paneled as according to JLCPCB (and I won't be charged as such). Other than reducing cost, I have fixed a few issues with the ground plane for the USB-C receptacles so now it'll function better. Specifically, the ground plane islands weren't connecting to the primary plane so I used my (only) vias (with larger traces) to connect them together and reduce the area for ground to travel through. Also the wiring was kind of messy for the top level ground connections so I improved those too with wider traces.
+
+![1](https://cdn.hackclub.com/019f4418-cd87-70d0-a5a2-9dc2c6ed7118/20260708-163818-edited.png)
+
+I also rewired a lot of this area to reduce wasted space from the USB-C port and made it match evenly with the left side.
+
+![2](https://cdn.hackclub.com/019f441b-ff23-71bf-97ba-bfa1241945b4/20260708-161143-edited.png)
+
+Here are the updated schematic and PCB pictures:
+
+![3](https://cdn.hackclub.com/019f441e-7212-724a-ad94-82588fa37a3f/20260708-164425-edited.png)
+
+![4](https://cdn.hackclub.com/019f4420-9048-788f-9010-9d2a70c978c9/20260708-164646-edited.png)
