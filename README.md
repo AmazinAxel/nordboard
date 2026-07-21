@@ -62,14 +62,14 @@ qmk compile -kb nordboard -km default
 
 ## Bill of Materials
 
-| Part | Where to buy | Cost before tax | Notes |
-| -- | -- | -- | -- |
-| Keycaps | <https://www.aliexpress.us/item/3256806548230734.html> | $26 | 50pc, transparent (Does come with 8 extras) |
-| Seeed XIAO RP2040 | <https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html> | $7.89 | 2pc, may charge shipping |
-| Choc Switches | <https://www.aliexpress.us/item/3256808697103313.html> | $25 | 50pc, blue (Also comes with 8 extras) |
-| A short C-to-C interconnect | https://www.aliexpress.us/item/3256811852128073.html | $0.99 | Variant 1 (15cm) |
-| The board itself! | JLCPCB | $48.41 | 5 boards, cheapest settings |
-| | | **Total cost: $107.30** |
+| Part                        | Where to buy                                               | Cost before tax         | Notes                                       |
+| --------------------------- | ---------------------------------------------------------- | ----------------------- | ------------------------------------------- |
+| Keycaps                     | <https://www.aliexpress.us/item/3256806548230734.html>     | $26                     | 50pc, transparent (Does come with 8 extras) |
+| Seeed XIAO RP2040           | <https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html> | $7.89                   | 2pc, may charge shipping                    |
+| Choc Switches               | <https://www.aliexpress.us/item/3256808697103313.html>     | $25                     | 50pc, blue (Also comes with 8 extras)       |
+| A short C-to-C interconnect | https://www.aliexpress.us/item/3256810399626545.html       | $11.87                  | T6A-T6B 20P, 0.25m                          |
+| The board itself!           | JLCPCB                                                     | $48.41                  | 5 boards, cheapest settings                 |
+|                             |                                                            | **Total cost: $107.30** |
 
 You will need a 5.1k resistor (or something close to that), two USB type-C receptacles and a 3D printer/filament for the case. The four mounting holes are 2.2mm radius, 3mm deep. Don't forget a type-C power cable!
 

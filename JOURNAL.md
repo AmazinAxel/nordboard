@@ -262,3 +262,24 @@ Here are the updated schematic and PCB pictures:
 ![3](https://cdn.hackclub.com/019f441e-7212-724a-ad94-82588fa37a3f/20260708-164425-edited.png)
 
 ![4](https://cdn.hackclub.com/019f4420-9048-788f-9010-9d2a70c978c9/20260708-164646-edited.png)
+
+## 07/21/2026 - Taking a new approach
+
+Time spent: 2h
+
+I've reviewed the feedback that Cyao gave me and I still want to keep this as a T2, so I will be moving away from a XIAO RP2040 and will instead be soldering a STM32F042K6T6 to the board. I am removing the right side's MCU and instead will be using a massive nonreversible interconnect cable to connect both boards together.
+
+Left side with the unfinished MCU and interconnect:
+
+![1](https://cdn.hackclub.com/019f867f-e60c-7c33-a5c0-513ad2ff14b6/20260721-140549-edited.png)
+
+Right side with the unfinished interconnect and the MCU removed:
+
+![2](https://cdn.hackclub.com/019f8680-6cf0-71b9-8a04-2ba9e5a4c650/20260721-140628-edited.png)
+
+The USB-C interconnects have been upgraded to support more pins, as you can see.
+
+I spent a lot of time researching the best approach for this setup. I found out that with this approach, it's much cheaper and I'll save on component costs and energy usage since the STM32 is more efficient for this board. It is also well supported by QMK but I will have to rewrite the firmware to make it think that the board is not split. Also - I had looked around to find a new interconnect cable that would be capable of supporting all the interconnect pins. This looks the most promising (and cheapest) so I'll add this to the BOM:
+
+![3](https://ae-pic-a1.aliexpress-media.com/kf/Sc54c7a3081e74ab1be07f6bd2b0bc798L.jpg?width=1500&height=516&hash=2016)
+![4](https://ae-pic-a1.aliexpress-media.com/kf/Sdcada97e91f042c28924582e489e1af6p.jpg?width=1500&height=500&hash=2000)
