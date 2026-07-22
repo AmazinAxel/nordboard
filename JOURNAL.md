@@ -305,3 +305,15 @@ I wired up the interconnect USB-C ports. This was really hard since I can't get 
 Anyways this entire project has been a rollercoaster. I'm hoping that after this, I get a good opportunity to trim down the keyboard some more since it'll be smaller and even cheaper (we are going from two Xiaos ($20) to a MCU that costs just 56 cents on LCSC). In the next journal, I should have the schematic complete!
 
 Side note: I plan on renaming this project soon. I don't know what yet, but seeing as this is a more technically complex project than I had anticipated, it feels fitting to rename it for the new v2 design that I'm going for here with the new MCU. I dont know, I'll keep thinking about it.
+
+# 7/21/2026 - Finishing up the new schematic
+
+Time spent: 1.5h
+
+The schematic is DONE!!! Now I can finally work on the PCB (which honestly is the most fun part). Had a lot of struggles with DRC/ERC errors because of all the footprints, and I was able to massively reduce the amount of waste and diodes and capacitors as compared to the STM32 design. It is now very efficient and cheap and should work great!
+
+![0](https://cdn.hackclub.com/019f8810-02bb-7745-bfb6-300a19935261/20260721-212253-edited.png)
+
+![0](https://cdn.hackclub.com/019f87f6-6e56-7e41-9433-a805d7bb5d81/20260721-205446-edited.png)
+
+Next journal should be me finishing up the PCB. It's gona be quite difficult since the components are so small. I'm going to save a LOT of space without these Xiaos! (this does mean that I'll have to rework my CAD model and firmware, though)
