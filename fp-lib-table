@@ -4,4 +4,6 @@
 	(lib (name "Panelization") (type "KiCad") (uri "${KIPRJMOD}/footprints/Panelization.pretty") (options "") (descr ""))
 	(lib (name "PCM_marbastlib-choc") (type "KiCad") (uri "${KIPRJMOD}/footprints/nordboard.pretty") (options "") (descr ""))
 	(lib (name "Module") (type "KiCad") (uri "${KIPRJMOD}/footprints/nordboard.pretty") (options "") (descr ""))
+	(lib (name "SOT23") (type "KiCad") (uri "${KIPRJMOD}/footprints/SOT23") (options "") (descr ""))
+	(lib (name "SKRPACE010") (type "KiCad") (uri "${KIPRJMOD}/footprints/SKRPACE010") (options "") (descr ""))
 )

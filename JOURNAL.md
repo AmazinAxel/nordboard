@@ -283,3 +283,25 @@ I spent a lot of time researching the best approach for this setup. I found out 
 
 ![3](https://ae-pic-a1.aliexpress-media.com/kf/Sc54c7a3081e74ab1be07f6bd2b0bc798L.jpg?width=1500&height=516&hash=2016)
 ![4](https://ae-pic-a1.aliexpress-media.com/kf/Sdcada97e91f042c28924582e489e1af6p.jpg?width=1500&height=500&hash=2000)
+
+## 07/21/2026 - Finding a great new MCU, wiring most of it up
+
+Time spent: 3h
+
+So I went with a STM32 originally, but I wasn't happy about it. Look at this mess, there's so much I needed to do for it to safely work (all these components!!):
+
+![0](https://cdn.hackclub.com/019f878b-55f3-7d1d-857c-6e67e6ed2cc1/20260721-185758-edited.png)
+
+The STM32 chip I chose was over a decade old, not in stock in LCSC, super expensive (like $4 for a small underpowered outdated chip? Really?) and honestly it felt like it shouldn't even be recommended for new designs. I did a LOT of digging. Trust me, hours spent on finding the right MCU and researching how to use them (yet I am not counting them, I'm only counting hours making the schematic). I compared a bunch of these together and I really want to make something I can share with others at the lowest possible price. I found a line of products called the CH32 and they have zero QMK support. Yet, they are super cheap and it would work great for a keyboard! The thing is, there is not much documentation since it is a really new MCU but I'm willing to spend the time to get it working with my own firmware not based on QMK. I found an Arduino library that I can use for using it as an HID emulator, and I would just need to implement the matrix scanning and layers to have it work as a fully functioning keyboard.
+
+![1](https://cdn.hackclub.com/019f877b-ad79-799a-82b9-9bcd6281d580/20260721-184052-edited.png)
+
+I wired up the interconnect USB-C ports. This was really hard since I can't get this wrong. It has to run all of the wires (meaning all the columns and rows that the right side has) through that fat cable and because of how USB-C is designed, it flip flops RX/TX and I have to account for that.
+
+![2](https://cdn.hackclub.com/019f8791-3ffe-7be1-9990-94b66e3e6f1c/20260721-190420-edited.png)
+
+![3](https://cdn.hackclub.com/019f8791-77a6-72a0-9c6a-9f65480b0758/20260721-190434-edited.png)
+
+Anyways this entire project has been a rollercoaster. I'm hoping that after this, I get a good opportunity to trim down the keyboard some more since it'll be smaller and even cheaper (we are going from two Xiaos ($20) to a MCU that costs just 56 cents on LCSC). In the next journal, I should have the schematic complete!
+
+Side note: I plan on renaming this project soon. I don't know what yet, but seeing as this is a more technically complex project than I had anticipated, it feels fitting to rename it for the new v2 design that I'm going for here with the new MCU. I dont know, I'll keep thinking about it.
