@@ -317,3 +317,17 @@ The schematic is DONE!!! Now I can finally work on the PCB (which honestly is th
 ![0](https://cdn.hackclub.com/019f87f6-6e56-7e41-9433-a805d7bb5d81/20260721-205446-edited.png)
 
 Next journal should be me finishing up the PCB. It's gona be quite difficult since the components are so small. I'm going to save a LOT of space without these Xiaos! (this does mean that I'll have to rework my CAD model and firmware, though)
+
+# 7/22/2026 - PCB work, and realizing that I messed up
+
+Time spent: 2.5h
+
+I've been hard at work on the PCB. It's been very difficult (as compared to the last iteration) because these USB-C ports are so tiny. This is the first time that I've had to use vias to route around these small areas, and I kind of went crazy with it. Honestly this has been a huge undertaking since I basically had to redo half the board since most of the lines were around the XIAO which got moved down to the board. I'm trying out a few names like Snowdrift for the board, I'm not sure I will settle on that yet.
+
+![1](https://cdn.hackclub.com/019f8b72-c8e8-733a-9a4f-34b72b593324/20260722-130939-edited.png)
+
+![2](https://cdn.hackclub.com/019f8b73-0627-7039-9d1c-f31c12b80d5e/20260722-130956-edited.png)
+
+![3](https://cdn.hackclub.com/019f8b73-bac3-7590-8240-42e426d50e32/20260722-131041-edited.png)
+
+I realized I made a huge mistake. First thing is that the MCU is way too far away from USB-C. Like I don't even know what I was thinking making it so far away like that, it's gonna add so much latency. So I'm going to redo that. However, the right side of the board is fully complete over USB-C and I haven't yet finished the wiring for all the capacitors and pulldowns yet, so I don't think this is a major issue. I am going to have to add a lot more space on the part of the PCB where the Xiao's were so I'm not particularly happy about that (since it makes it even more asymmetrical) but hopefully it will function better that way. Anyways, not going so good... hopefully the next devlog will be better.
