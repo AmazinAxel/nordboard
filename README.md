@@ -29,11 +29,11 @@ Designed to be extremely portable while being ergonomic and comfortable. A few t
 - Plateless/no hot-swap sockets
   - Why: This makes the board lighter, thinner and cheaper for carrying, and helps with assembly and keeping it low-profile
   - For me, I never need to swap my switches. I consider this a gimmick in a lot of ways since you can always desolder the switch if it breaks. There's really no reason to have it imo
-- CH32X035
+- CH32X035 (CH32X035G8U6)
   - When this project was named NordBoard, it used a XIAO RP2040 which was kind of overkill since it was a devboard. When optimizing for cost (and complexity) it makes a lot more sense to just have the mcu on the board.
-  - I chose a CH32X035 because its new, well-stocked, _extremely_ cheap (50 cents??) and has enough pins for scanning both sides. It is plenty fast and has USB flashing (and supports HID) and didn't require me to add additional parts for ESD protection since it's all built in.
+  - I chose a CH32X035G8U6 because its new, well-stocked, _extremely_ cheap (50 cents??) and has enough pins for scanning both sides. It is plenty fast and has USB flashing (and supports HID) and didn't require me to add additional parts for ESD protection since it's all built in.
   - It has flash and a crystal already so there's less components to place and its overall cheaper than something like an RP2040.
-  - HOWEVER, it has terrible firmware support and no keyboard firmware supports it right now. I found some Arduino resources that can turn this chip into an HID keyboard emulator, all that's needed is to implement some matrix scanning, keyboard features like layers and then you don't need a big firmware like qmk!
+  - HOWEVER, the CH32X035 has terrible firmware support and no keyboard firmware supports it right now. I found some Arduino resources that can turn this chip into an HID keyboard emulator, all that's needed is to implement some matrix scanning, keyboard features like layers and then you don't need a big firmware like qmk!
   - This is what makes this board stand out. From what I can tell, this is the first keyboard that uses this new chip. It is better than its counterparts in every way. This keyboard is ahead of its curve!
 
 The advantages of all of the above result in a very well thought-out keyboard for travel and ergonomics. I'm quite proud of the design. I hope you enjoy it too!
@@ -61,13 +61,20 @@ We use a very new chip which does not have support for those firmwares yet. The 
 
 First, you need to short the two pads on the top right of the board and plug the device into your computer through a data cable. This puts the device into boot mode so you can flash the firmware.
 
-Clone the repo and go into the conifer/ folder. This is the custom firmware that Snowlayer runs on. Make sure you have platformio installed and run `pio run -t upload`. The firmware should flash to the device, but if you are running Linux and have any issues make sure you add these udev rules:
+Clone the repo and go into the conifer/ folder. This is the custom firmware that Snowlayer runs on.
 
-```
+If you are running Nix, I highly recommend running `nix develop` to download deps and setup an environment for running the build.
+
+Run `pio run -t upload`. The firmware should flash to the device, but if you are running Linux and have any issues make sure you add these udev rules:
+
+```nix
 SUBSYSTEM=="usb|tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="8010", GROUP:="plugdev"
 SUBSYSTEM=="usb|tty", ATTRS{idVendor}=="4348", ATTRS{idProduct}=="55e0", GROUP:="plugdev"
 SUBSYSTEM=="usb|tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="8012", GROUP:="plugdev"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="1a86", MODE="0666"
 ```
+
+If you are not able to flash it over USB, I broke out the UART pins on the chip so that you can use a programmer and flash directly to the device. I recommend going over USB though.
 
 Once I finish the firmware I'll attach a screenshot showing the layers and keybinds for common actions. This firmware is only partly complete.
 

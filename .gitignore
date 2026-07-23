@@ -2,3 +2,5 @@ snowlayer-backups
 *.lck
 _autosave*
 *auto_saved_files#
+.pio/
+.platformio/
