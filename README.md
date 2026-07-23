@@ -88,15 +88,14 @@ Once I finish the firmware I'll attach a screenshot showing the layers and keybi
 | The board itself!                    | JLCPCB                                                 | $15.60                   | 5 boards, cheapest settings (white PCB)                 |
 | CH32X035DS0                          | <https://www.lcsc.com/product-detail/C7437027.html>    | $0.56                    | You only need one for the whole board!                  |
 | Switch diodes                        | <https://www.lcsc.com/product-detail/C917030.html>     | $0.50                    | 8 extras                                                |
-| 100nF                                | <https://www.lcsc.com/product-detail/C14663.html>      | $1.27                    | 49 extras, I already have these from a previous project |
-| 4.7uF                                | <https://www.lcsc.com/product-detail/C77077.html>      | $0.68                    | 9 extras                                                |
-| 2x 1kO                               | <https://www.lcsc.com/product-detail/C21190.html>      | $0.30                    | 98 extras, I already have these from a previous project |
-| 1kO                                  | <https://www.lcsc.com/product-detail/C21190.html>      | $0.30                    | 99 extras, I already have some from a previous project  |
+| 100nF capacitor                      | <https://www.lcsc.com/product-detail/C14663.html>      | $1.27                    | 49 extras, I already have these from a previous project |
+| 4.7uF capacitor                      | <https://www.lcsc.com/product-detail/C77077.html>      | $0.68                    | 9 extras                                                |
+| 3x 1kO resistors                     | <https://www.lcsc.com/product-detail/C21190.html>      | $0.30                    | 97 extras, I already have these from a previous project |
 | 24pin USB-C interconnect receptacles | <https://www.lcsc.com/product-detail/C134092.html>     | $1.05\*2 = $2.10         | No extras                                               |
 | 12pin USB-C data receptacle          | <https://www.lcsc.com/product-detail/C165948.html>     | $0.85                    | 4 extras, I already have some from a previous project   |
-|                                      |                                                        | **Total cost: 85.03**    | Does not include tax or shipping, actual cost higher    |
+|                                      |                                                        | **Total cost: 84.73**    | Does not include tax or shipping, actual cost higher    |
 
-<!-- 26+25+11.87+15.60+0.56+0.5+1.27+0.68+0.3+0.3+2.1+0.85 -->
+<!-- 26+25+11.87+15.60+0.56+0.5+1.27+0.68+0.3+2.1+0.85 -->
 
 You will need a 3D printer & filament (I recommend blue PLA) for the case. The four mounting holes are 2.2mm radius, 3mm deep, you will need mounting screws for those. The C-C interconnect MUST be Superspeed (like the item above) or else it won't have enough lines so the right half of the board won't work right.
 
