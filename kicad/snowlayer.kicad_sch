@@ -6983,7 +6983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 148.59 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7045,7 +7045,7 @@
 			(uuid "e30afbe0-4af0-4a38-a589-49c866ee1a39")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D14")
 					(unit 1)
@@ -7125,7 +7125,7 @@
 			(uuid "b0602cef-63b9-4f1f-a96f-23029e4116f6")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW2")
 					(unit 1)
@@ -7167,7 +7167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 393.7 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7229,7 +7229,7 @@
 			(uuid "15783006-213e-4266-a004-e78b78f3f5f1")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D51")
 					(unit 1)
@@ -7271,7 +7271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7333,7 +7333,7 @@
 			(uuid "eb5b2114-3af3-46d5-945e-70e79ca5a6eb")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D10")
 					(unit 1)
@@ -7413,7 +7413,7 @@
 			(uuid "ac98262f-e683-4e36-bd99-9cc4ee2c70af")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW13")
 					(unit 1)
@@ -7492,7 +7492,7 @@
 			(uuid "337a46de-e006-479b-931b-10f09ecd819f")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "C5")
 					(unit 1)
@@ -7572,7 +7572,7 @@
 			(uuid "f3c39fe4-64c0-4349-a295-f9a663a25f58")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW8")
 					(unit 1)
@@ -7652,7 +7652,7 @@
 			(uuid "6d159499-7d24-4a40-a8a6-447ff2318a47")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW50")
 					(unit 1)
@@ -7733,7 +7733,7 @@
 			(uuid "33483199-ee79-43f0-b80a-1c3e691d6a53")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "C2")
 					(unit 1)
@@ -7813,7 +7813,7 @@
 			(uuid "59da212d-eb71-4614-b97a-e051f8a9b70e")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW18")
 					(unit 1)
@@ -7890,7 +7890,7 @@
 			(uuid "52a50e11-706f-4b69-9eb8-ebec3c8e62d9")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR05")
 					(unit 1)
@@ -7932,7 +7932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 171.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7994,7 +7994,7 @@
 			(uuid "fd76a59f-5a7a-4280-b5c4-7682e3ab2c4b")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D19")
 					(unit 1)
@@ -8073,7 +8073,7 @@
 			(uuid "af76a0a9-6dc5-4c86-acc1-55819855577f")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR035")
 					(unit 1)
@@ -8153,7 +8153,7 @@
 			(uuid "38a2f326-852d-48d1-ab8d-3f3b94d3972c")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW17")
 					(unit 1)
@@ -8230,7 +8230,7 @@
 			(uuid "79a74084-d0ca-442c-9564-19db3cd5e0d1")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR028")
 					(unit 1)
@@ -8306,7 +8306,7 @@
 			)
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "H1")
 					(unit 1)
@@ -8348,7 +8348,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 393.7 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8410,7 +8410,7 @@
 			(uuid "de3a53bb-5a65-4ec5-ae37-dad35267abb4")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D37")
 					(unit 1)
@@ -8486,7 +8486,7 @@
 			)
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "H3")
 					(unit 1)
@@ -8566,7 +8566,7 @@
 			(uuid "db439c72-ffbd-4685-9bac-517297cf9a80")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#FLG01")
 					(unit 1)
@@ -8645,7 +8645,7 @@
 			(uuid "4809ad4d-d78d-48a5-9927-b0a8c245c3ce")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "R1")
 					(unit 1)
@@ -8724,7 +8724,7 @@
 			(uuid "2bc6a991-d284-41a2-8afd-e165940a1348")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "TP1")
 					(unit 1)
@@ -8804,7 +8804,7 @@
 			(uuid "587e05a0-a016-480a-8425-e0bf4152f9b1")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW9")
 					(unit 1)
@@ -8884,7 +8884,7 @@
 			(uuid "17b0104e-6c21-48cd-bb65-2134ed7deaa3")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW15")
 					(unit 1)
@@ -8964,7 +8964,7 @@
 			(uuid "9432a6cc-825b-468f-a994-44c474acb84b")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW5")
 					(unit 1)
@@ -9006,7 +9006,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 347.98 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9068,7 +9068,7 @@
 			(uuid "31a0df1a-38f5-4559-9994-17d0d9d741c7")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D32")
 					(unit 1)
@@ -9148,7 +9148,7 @@
 			(uuid "00b3eb18-e0c1-4156-b1c5-8bbd1362e0a0")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW4")
 					(unit 1)
@@ -9299,7 +9299,7 @@
 			(uuid "b1594761-b23f-4e8f-a60e-4b3fa913dfb3")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "P1")
 					(unit 1)
@@ -9378,7 +9378,7 @@
 			(uuid "53f01174-5802-4d84-9aca-3a11e53fbbb3")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "TP3")
 					(unit 1)
@@ -9458,7 +9458,7 @@
 			(uuid "c20bcfad-5aa2-457b-ad4d-0ee8d78cb967")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW26")
 					(unit 1)
@@ -9500,7 +9500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 280.67 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9562,7 +9562,7 @@
 			(uuid "02f9e847-b404-49cd-b330-67fe64067bc5")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D23")
 					(unit 1)
@@ -9642,7 +9642,7 @@
 			(uuid "7100d5eb-7cf0-40a9-971b-03ab394d5301")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW20")
 					(unit 1)
@@ -9721,7 +9721,7 @@
 			(uuid "97197ba9-1780-4dd1-8778-2c50641f3b9a")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR023")
 					(unit 1)
@@ -9763,7 +9763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.73 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9825,7 +9825,7 @@
 			(uuid "e667f13f-b14e-475b-83ac-dc0912ff6aeb")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D11")
 					(unit 1)
@@ -9905,7 +9905,7 @@
 			(uuid "42d40688-52b7-4358-b49b-c56fe7e66017")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW6")
 					(unit 1)
@@ -9985,7 +9985,7 @@
 			(uuid "d955ab2b-cbed-42b9-82be-47f3665da081")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW51")
 					(unit 1)
@@ -10065,7 +10065,7 @@
 			(uuid "654f630e-71cf-49a0-add2-1f88b3dcccef")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW27")
 					(unit 1)
@@ -10107,7 +10107,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 347.98 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10169,7 +10169,7 @@
 			(uuid "aa5653ea-cc38-42f6-a3c8-2148384e67f3")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D36")
 					(unit 1)
@@ -10211,7 +10211,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 280.67 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10273,7 +10273,7 @@
 			(uuid "04ae07c8-672d-4010-80b5-f0dbf43dada4")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D22")
 					(unit 1)
@@ -10353,7 +10353,7 @@
 			(uuid "c4659400-33a6-45db-a7ed-7e4966f7c2fe")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW24")
 					(unit 1)
@@ -10395,7 +10395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 393.7 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10457,7 +10457,7 @@
 			(uuid "20074483-8e05-43dd-98f9-69e5173d5e3b")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D38")
 					(unit 1)
@@ -10499,7 +10499,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 370.84 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10561,7 +10561,7 @@
 			(uuid "6edeec6d-9dbb-4012-8326-098aef08105f")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D33")
 					(unit 1)
@@ -10640,7 +10640,7 @@
 			(uuid "80b4bec6-530f-483d-979c-b54fbedb6f96")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "TP4")
 					(unit 1)
@@ -10682,7 +10682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 102.87 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10744,7 +10744,7 @@
 			(uuid "d78fc1fa-c0ff-4d1f-870b-cba8843f978a")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D9")
 					(unit 1)
@@ -10824,7 +10824,7 @@
 			(uuid "a3d2a11e-1ddb-4af8-9819-f68b002abb0e")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW36")
 					(unit 1)
@@ -10866,7 +10866,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 302.26 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10928,7 +10928,7 @@
 			(uuid "06245935-a1a1-440f-8c42-46a461d6efdc")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D24")
 					(unit 1)
@@ -11007,7 +11007,7 @@
 			(uuid "94e799ee-0fb4-4417-bc86-e2fbd70d82a8")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR026")
 					(unit 1)
@@ -11087,7 +11087,7 @@
 			(uuid "2d918d48-3881-4f96-be84-0ed3cb358142")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#FLG02")
 					(unit 1)
@@ -11164,7 +11164,7 @@
 			(uuid "15fd8fa3-238b-452b-b869-fed150d04b0c")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR018")
 					(unit 1)
@@ -11206,7 +11206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 370.84 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11268,7 +11268,7 @@
 			(uuid "bfaa9e3b-d58c-4d10-85f6-b1287204e766")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D34")
 					(unit 1)
@@ -11310,7 +11310,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 302.26 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11372,7 +11372,7 @@
 			(uuid "cbcdc97e-e9c7-4274-a3d4-094f470934e6")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D26")
 					(unit 1)
@@ -11452,7 +11452,7 @@
 			(uuid "afc52c8b-34a2-433f-8c65-e9e3d69b772f")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW28")
 					(unit 1)
@@ -11494,7 +11494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 302.26 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11556,7 +11556,7 @@
 			(uuid "7e821d0a-d1b6-4f3c-a560-5919b17c6ab8")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D25")
 					(unit 1)
@@ -11598,7 +11598,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 370.84 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11660,7 +11660,7 @@
 			(uuid "5092f6bf-f63a-40ee-adee-22f2b28ea052")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D40")
 					(unit 1)
@@ -11702,7 +11702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 80.01 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11764,7 +11764,7 @@
 			(uuid "95b14763-66d7-43c1-be26-57b906aceec7")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D6")
 					(unit 1)
@@ -11844,7 +11844,7 @@
 			(uuid "6719121f-ec52-4c78-b779-55ced37e9c33")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW23")
 					(unit 1)
@@ -11886,7 +11886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 280.67 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11948,7 +11948,7 @@
 			(uuid "b8d1fd2c-a1b9-421b-a099-ce2a04dfaa18")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D21")
 					(unit 1)
@@ -11990,7 +11990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 171.45 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12052,7 +12052,7 @@
 			(uuid "c1534471-117c-4cff-9245-ca82db9eff11")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D50")
 					(unit 1)
@@ -12094,7 +12094,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 171.45 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12156,7 +12156,7 @@
 			(uuid "41453da1-d1c1-4707-9e8e-f3ce35d208e9")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D17")
 					(unit 1)
@@ -12236,7 +12236,7 @@
 			(uuid "5ced3904-0b5c-4b35-9732-57306b070643")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW32")
 					(unit 1)
@@ -12315,7 +12315,7 @@
 			(uuid "af3ab0cd-d0f1-427d-8c5f-5852381c3eff")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR024")
 					(unit 1)
@@ -12395,7 +12395,7 @@
 			(uuid "5d60e778-d021-487d-bd6b-34a7fd7b5600")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW38")
 					(unit 1)
@@ -12475,7 +12475,7 @@
 			(uuid "b1f2dc08-5ec6-4839-b13f-af9459a20373")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW16")
 					(unit 1)
@@ -12555,7 +12555,7 @@
 			(uuid "b4de42aa-dea4-4ce6-b1d6-2ad2dd2f17a7")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW21")
 					(unit 1)
@@ -12635,7 +12635,7 @@
 			(uuid "a0386ad0-86b5-4050-b512-c811ac4b2444")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW7")
 					(unit 1)
@@ -12714,7 +12714,7 @@
 			(uuid "2c24c572-820e-4e37-8be4-646b12d3e515")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "TP2")
 					(unit 1)
@@ -12794,7 +12794,7 @@
 			(uuid "89009607-29a1-4bd8-b77d-c16a8cce827d")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW1")
 					(unit 1)
@@ -12874,7 +12874,7 @@
 			(uuid "10ae0c52-5afe-41fe-afa1-8e76931c2adb")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW31")
 					(unit 1)
@@ -12953,7 +12953,7 @@
 			(uuid "d5d899e3-77ed-40b4-b6c0-e1e5794b90b0")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR031")
 					(unit 1)
@@ -12995,7 +12995,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 325.12 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13057,7 +13057,7 @@
 			(uuid "ef7a4177-e45b-41f3-8f58-613868bb0368")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D29")
 					(unit 1)
@@ -13137,7 +13137,7 @@
 			(uuid "fa94367f-1fc0-4913-886d-94eb2e82a802")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW35")
 					(unit 1)
@@ -13217,7 +13217,7 @@
 			(uuid "3c4879f3-7a7e-449f-a22e-2560f9a0bfac")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW11")
 					(unit 1)
@@ -13297,7 +13297,7 @@
 			(uuid "ce2f3407-fafe-4e76-9ca5-d22f339a17ba")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW29")
 					(unit 1)
@@ -13339,7 +13339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 58.42 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13401,7 +13401,7 @@
 			(uuid "64424279-6fb3-4620-93c2-0360d075dbeb")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D1")
 					(unit 1)
@@ -13481,7 +13481,7 @@
 			(uuid "57937886-5464-4f66-87f8-f3c70e79a257")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW25")
 					(unit 1)
@@ -13561,7 +13561,7 @@
 			(uuid "fe018fb1-35e7-483c-9c20-3ae2a8195787")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW3")
 					(unit 1)
@@ -13603,7 +13603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 102.87 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -13665,7 +13665,7 @@
 			(uuid "11dc690b-4272-4a47-a419-6f98648ccbfa")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D7")
 					(unit 1)
@@ -13707,7 +13707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 370.84 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13769,7 +13769,7 @@
 			(uuid "2daa7f91-2ca4-4320-859b-247680dbf1b4")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D35")
 					(unit 1)
@@ -13811,7 +13811,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 148.59 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13873,7 +13873,7 @@
 			(uuid "639f850d-0b68-490f-9c2f-7e6b6a114c3e")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D15")
 					(unit 1)
@@ -13949,7 +13949,7 @@
 			)
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "H2")
 					(unit 1)
@@ -14029,7 +14029,7 @@
 			(uuid "97d9144e-9264-4445-8f83-e596e12bde7c")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW34")
 					(unit 1)
@@ -14179,7 +14179,7 @@
 			(uuid "9a735a80-ed5f-437d-94b2-82485982405d")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "P2")
 					(unit 1)
@@ -14259,7 +14259,7 @@
 			(uuid "fc3a7ae0-a22b-4060-801b-830485d620ad")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW12")
 					(unit 1)
@@ -14338,7 +14338,7 @@
 			(uuid "97522699-20dd-4682-aed6-975fe483d379")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR033")
 					(unit 1)
@@ -14415,7 +14415,7 @@
 			(uuid "f83bfb0e-9011-495a-a7d9-1536cea46066")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR03")
 					(unit 1)
@@ -14457,7 +14457,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.73 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14519,7 +14519,7 @@
 			(uuid "4019f6ca-e8ea-4c7f-a4dd-f4d46c2cb79e")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D12")
 					(unit 1)
@@ -14561,7 +14561,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 58.42 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14623,7 +14623,7 @@
 			(uuid "f1aa90a4-7989-4dcd-985d-f49bd51f0146")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D3")
 					(unit 1)
@@ -14665,7 +14665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 325.12 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14727,7 +14727,7 @@
 			(uuid "038130f2-ca29-4440-bdca-daeca72f7553")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D28")
 					(unit 1)
@@ -14807,7 +14807,7 @@
 			(uuid "eca18b6c-79c5-4e7b-9884-3af9cad7ee52")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW19")
 					(unit 1)
@@ -14849,7 +14849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 171.45 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -14911,7 +14911,7 @@
 			(uuid "d4768079-f681-4246-80a1-07034794766f")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D18")
 					(unit 1)
@@ -14953,7 +14953,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 58.42 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15015,7 +15015,7 @@
 			(uuid "d2706148-ae47-426c-b120-ff549a6d4070")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D2")
 					(unit 1)
@@ -15092,7 +15092,7 @@
 			(uuid "e1d065f8-c447-4ac9-ad66-80b2a340d9d4")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR06")
 					(unit 1)
@@ -15171,7 +15171,7 @@
 			(uuid "5078ff45-2a85-4f20-ab3f-da0ca8187a34")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR025")
 					(unit 1)
@@ -15251,7 +15251,7 @@
 			(uuid "9d443e2b-f5bd-4c31-835f-c32fcc891705")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW41")
 					(unit 1)
@@ -15293,7 +15293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 102.87 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15355,7 +15355,7 @@
 			(uuid "51c5a18f-53b2-4316-8f48-c28b9398d5fd")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D8")
 					(unit 1)
@@ -15435,7 +15435,7 @@
 			(uuid "6dcdb774-91d4-4230-80fe-79ad0ebe6fc7")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW30")
 					(unit 1)
@@ -15477,7 +15477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 347.98 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15539,7 +15539,7 @@
 			(uuid "411a29ef-bf6c-4bf1-beea-e37c41467612")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D31")
 					(unit 1)
@@ -15666,7 +15666,7 @@
 			(uuid "3fd3ae1c-a822-49c9-a168-32cd97e906e1")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "P3")
 					(unit 1)
@@ -15742,7 +15742,7 @@
 			)
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "H4")
 					(unit 1)
@@ -15822,7 +15822,7 @@
 			(uuid "373b08c3-7a8c-48ff-9541-8b08eb41a8b2")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW22")
 					(unit 1)
@@ -15864,7 +15864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.73 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -15926,7 +15926,7 @@
 			(uuid "508432cd-222a-4c3a-8bc9-74381e9bcf32")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D16")
 					(unit 1)
@@ -16004,7 +16004,7 @@
 			(uuid "75f8421f-78f4-4874-a7b3-8dcf2418c818")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR027")
 					(unit 1)
@@ -16084,7 +16084,7 @@
 			(uuid "e0f69e41-7df9-4c6e-83df-791d9985e30f")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW40")
 					(unit 1)
@@ -16126,7 +16126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 393.7 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -16188,7 +16188,7 @@
 			(uuid "f7772f33-46d4-4e29-b78a-880fdcdeb38c")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D39")
 					(unit 1)
@@ -16268,7 +16268,7 @@
 			(uuid "83bfecba-bd85-489e-9cfe-4c69d566287c")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW39")
 					(unit 1)
@@ -16310,7 +16310,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 80.01 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16372,7 +16372,7 @@
 			(uuid "1c0518db-bdd3-42dd-ae8f-b2bce474b898")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D4")
 					(unit 1)
@@ -16414,7 +16414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -16476,7 +16476,7 @@
 			(uuid "e6aad573-e130-45ef-a363-2d5f623e8c15")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D13")
 					(unit 1)
@@ -16555,7 +16555,7 @@
 			(uuid "a2e7b34b-fb84-459b-8551-43be02d6d24a")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR032")
 					(unit 1)
@@ -16634,7 +16634,7 @@
 			(uuid "9f4bbd48-dba7-4b79-a839-96655bb93392")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "R2")
 					(unit 1)
@@ -16714,7 +16714,7 @@
 			(uuid "ce57758e-19f1-4cbe-85bb-4d0332f3e415")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW14")
 					(unit 1)
@@ -16791,7 +16791,7 @@
 			(uuid "6b5402f7-e9eb-4a29-9f26-31eea7f1d7ae")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR04")
 					(unit 1)
@@ -16821,7 +16821,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kO"
 			(at 64.008 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16872,7 +16872,7 @@
 			(uuid "4b5f0cdb-0e4d-4e68-b69a-e17e5b265b93")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "R3")
 					(unit 1)
@@ -16952,7 +16952,7 @@
 			(uuid "3e8b25fc-2b0c-4edc-ba70-3d07136ad56f")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW10")
 					(unit 1)
@@ -16994,7 +16994,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 80.01 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -17056,7 +17056,7 @@
 			(uuid "d975becc-d91b-4a14-9792-70c91a8ede5b")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D5")
 					(unit 1)
@@ -17135,7 +17135,7 @@
 			(uuid "aef030e7-4d1b-4067-8454-a3083758d2de")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR034")
 					(unit 1)
@@ -17214,7 +17214,7 @@
 			(uuid "97920423-5033-4a85-a986-ae363c17675f")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "#PWR030")
 					(unit 1)
@@ -17256,7 +17256,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 325.12 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17318,7 +17318,7 @@
 			(uuid "ee5bf004-2102-462e-9654-2f3586614505")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D27")
 					(unit 1)
@@ -17360,7 +17360,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 347.98 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -17422,7 +17422,7 @@
 			(uuid "cca20857-4e27-4513-8aeb-2e6a660c5f85")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D30")
 					(unit 1)
@@ -17502,7 +17502,7 @@
 			(uuid "c50dc226-8d8a-476f-a430-af4c198ef504")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW37")
 					(unit 1)
@@ -17664,7 +17664,7 @@
 			(uuid "89a0552c-258f-4000-975c-b6947b9003d7")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "U1")
 					(unit 1)
@@ -17744,7 +17744,7 @@
 			(uuid "cb87e042-e1c8-4d36-9dbb-10fe08a21ee7")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "SW33")
 					(unit 1)
@@ -17786,7 +17786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 148.59 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17848,7 +17848,7 @@
 			(uuid "f471e508-d7e6-40d5-97ba-fc4c4b3a624d")
 		)
 		(instances
-			(project "NordBoard"
+			(project "snowlayer"
 				(path "/7cf7f72d-7ab1-4807-b592-339093d5ca44"
 					(reference "D20")
 					(unit 1)

@@ -373,3 +373,23 @@ Unfortunately, PCB price didn't change much. Didn't expect it to, but its still 
 ![6](https://cdn.hackclub.com/019f8ce7-38af-7127-a1b2-f0e043c2f349/20260722-195627-edited.png)
 
 Thats it for this journal entry. Hopefully it's going to be the second-to-last as I finish up the base firmware and the new 3D CAD model. Maybe I'll even get it done tonight?? We'll see..
+
+## 7/23/2026 - Finishing snowlayer up (again)
+
+Time spent: 2h
+
+The hard part's out of the way. I imported the model back into Onshape and rebuilt the case. I took a few renders and polished up the readme once again.
+
+I used Platformio to make a quick firmware for the board. I can't test it, but it should work in a basic sense and I will finish it once I assemble the board. I put some flashing instructions in the readme as well!
+
+I went through LCSC and found everything I'd need for the BOM. Everything's in there, including the stuff I already have. I removed the shipping from the price list and it's now sub-$100 when not taking into account taxes and shipping. A sub $100 split is pretty good IMO.
+
+I changed out a few footprints to use cheaper components. The diodes were the big thing. I found a much cheaper diode and it required a different footprint, which required me to rewire the entire diode part of the keyboard.
+
+![0](https://cdn.hackclub.com/019f90a7-53c5-72fb-987f-460367fbd10d/20260723-132454-edited.png)
+
+![1](https://cdn.hackclub.com/019f8d8f-bb65-7fe4-a43e-4d95700b46c2/20260722-230015-edited.png)
+
+It might not be that visible in the screenshot but all of the red wires connecting the diodes and switches had to be redone to support a smaller footprint. I'm also really mad at myself right now after I realized that I can move the diodes to be inline under the keycaps, meaning I can actually make the board _smaller_ which saves even more on costs, spacing and increases portability. Since I'm done (again) I'm going to resubmit and fix up the diodes later before I build it.
+
+I also had my little brother review my PCB again. It can be improved, I might ask some other people in #electronics to see if they can help me out. Most important thing is getting the USB-C data port working, that's probably where I will have the most issues.
