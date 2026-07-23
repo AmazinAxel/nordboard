@@ -9,14 +9,15 @@ Designed to be extremely portable while being ergonomic and comfortable. A few t
 - Kalih Choc v1 linear switches
   - Why: for reduced key travel distance and less noise
   - Especially when using in public spaces, clicky switches are kind of obnoxious
-- No battery or Bluetooth support, and a USB-C interconnect instead of an audio jack
+- No battery or Bluetooth support, and a SS USB-C interconnect
   - Why: there are a lot of reasons:
   - Batteries are heavy and this would mean expanding the footprint of this design. Right now it's as minimal as it gets, adding wireless support is where things start to get bulky
-  - You don't need to worry about charging or latency over bluetooth since it's always plugged in! Having cables on a desk is almost never a problem if your laptop has a spare port.
+  - You don't need to worry about charging or latency over bluetooth! Having cables on a desk is almost never a problem if your laptop has a spare port. This is well worth the peace of mind of having to check the keyboard battery, remembering to charge it and having to deal with connecting/disconnecting it.
+  - It's the lowest latency you can possibly get. Especially for productivity, every keystroke counts and the faster something updates, the faster you can work.
   - While an audio jack DOES have just enough pins to carry data, ground and power (and is almost always the right choice for this) using a standard port with cables available everywhere allows you to use the interconnect cable for emergencies or other temporary purposes. It is highly versatile. When left in a bag, a 3.5mm headphone cable is basically useless.
-  - Adding wireless support means to switch away from the XIAO that we are using. Every single GPIO pin exposed by the Xiao is used by the keyboard (this is a good thing! We don't waste any pins), so there is no easy opportunity of adding this support without replacing the MCU and redesigning the schematic and PCB ![8](https://cdn.hackclub.com/019f0f66-aaf9-7c55-b3ad-93bf6701fc76/20260628-110330-edited.png)
-- NOT curved, it's flat and without any key spacing
-  - Why: This is a daily carry item. Therefore a keyboard in your backpack should be light and fit in a small pocket.
+  - The SS cable is necessary since it has all the necessary wires to transmit the entire right-half of the keyboard's data without needing to process it on its own half. This means we reduce cost, latency and processing cost and get to carry around a high speed cable with us fo emergencies wherever you travel.
+- NOT curved, it's flat and without any key spacing (besides thumb clusters)
+  - Why: This is a daily carry item. Therefore a keyboard in your backpack should be light and fit in a small front pocket.
   - Key spacing is good for keeping this compact and minimal key distance means you can fit more keys and access them faster in a smaller form factor
   - It's cheaper to produce the board
 - Chocolate [Corne](https://github.com/foostan/crkbd) layout (it's very popular and its design is proven!)
@@ -27,10 +28,13 @@ Designed to be extremely portable while being ergonomic and comfortable. A few t
   - Why: a big goal of this project is to be suuuper cheap. These are gimmicks and add unnecessary cost for no useful benefit. This PCB is designed to be as affordable to produce as possible
 - Plateless/no hot-swap sockets
   - Why: This makes the board lighter, thinner and cheaper for carrying, and helps with assembly and keeping it low-profile
-- XIAO RP2040
-  - Why: it's very inexpensive, resource-efficient (so it doesn't drain your laptop battery), and very well-supported by a lot of keyboard firmwares
-  - It's vertically small enough to be placed center to the center of the board so that a cable head takes up less desk space (compare that to a Pico)
-  - (it also requires less soldering)
+  - For me, I never need to swap my switches. I consider this a gimmick in a lot of ways since you can always desolder the switch if it breaks. There's really no reason to have it imo
+- CH32X035
+  - When this project was named NordBoard, it used a XIAO RP2040 which was kind of overkill since it was a devboard. When optimizing for cost (and complexity) it makes a lot more sense to just have the mcu on the board.
+  - I chose a CH32X035 because its new, well-stocked, _extremely_ cheap (50 cents??) and has enough pins for scanning both sides. It is plenty fast and has USB flashing (and supports HID) and didn't require me to add additional parts for ESD protection since it's all built in.
+  - It has flash and a crystal already so there's less components to place and its overall cheaper than something like an RP2040.
+  - HOWEVER, it has terrible firmware support and no keyboard firmware supports it right now. I found some Arduino resources that can turn this chip into an HID keyboard emulator, all that's needed is to implement some matrix scanning, keyboard features like layers and then you don't need a big firmware like qmk!
+  - This is what makes this board stand out. From what I can tell, this is the first keyboard that uses this new chip. It is better than its counterparts in every way. This keyboard is ahead of its curve!
 
 The advantages of all of the above result in a very well thought-out keyboard for travel and ergonomics. I'm quite proud of the design. I hope you enjoy it too!
 
@@ -46,19 +50,10 @@ The advantages of all of the above result in a very well thought-out keyboard fo
 
 ## PCB & schematic
 
-![7](https://cdn.hackclub.com/019f0626-1abc-71b3-97cc-2e662d702b12/20260626-155622-edited.png)
-![8](https://cdn.hackclub.com/019f0626-c87d-7cba-bdd6-6c85389102d0/20260626-155708-edited.png)
+![7](https://cdn.hackclub.com/019f8cf5-5d7f-7e67-87f0-bd69dac8989d/20260722-201155-edited.png)
+![8](https://cdn.hackclub.com/019f8cf4-6372-7091-b804-5b71b93f28a9/20260722-201051-edited.png)
 
 ## Firmware setup
-
-I am using QMK firmware for this since it's lightweight and fast. To flash it yourself, you need to install qmk (if you're on Nix, set `hardware.keyboard.qmk.enable` to true and install the `qmk` package)
-
-After cloning this project, symlink this firmware and compile it with:
-
-```
-ln -s [nordboard project folder dir here]/firmware ~/qmk_firmware/keyboards/nordboard
-qmk compile -kb nordboard -km default
-```
 
 ## Bill of Materials
 
