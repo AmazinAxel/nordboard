@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -82,11 +82,47 @@
           ""
         ],
         [
-          "unconnected_items|138585000|113750000|F.Cu|4|c8bf79ea-938d-46b0-911b-34a5d3338b6a|8619fd29-abb3-49bb-8fec-9f292857fece",
+          "unconnected_items|137285000|117500000|F.Cu|4|1ec05f94-9b04-4b47-89ea-4384fad23ccd|a4abfd42-3588-40d8-99d4-e8d6ab4da313",
           "USB-C Cable"
         ],
         [
-          "unconnected_items|156810000|113750000|F.Cu|4|a4abfd42-3588-40d8-99d4-e8d6ab4da313|1ec05f94-9b04-4b47-89ea-4384fad23ccd",
+          "unconnected_items|137285000|118000000|F.Cu|4|2849f657-8c36-4d04-a23d-acd3a45cc4e6|80cebb8d-11e1-45da-9f1f-90ce3f7626cf",
+          "USB-C Cable"
+        ],
+        [
+          "unconnected_items|138468734|116098816|F.Cu|4|25c43d2f-31f7-48bb-9c85-29d657541742|d56c05af-2bae-41e5-935b-b0c00ccb7b30",
+          "USB-C Cable"
+        ],
+        [
+          "unconnected_items|138585000|113750000|F.Cu|4|c8bf79ea-938d-46b0-911b-34a5d3338b6a|f572663d-0d2e-4839-85a6-1a6282308683",
+          "USB-C Cable"
+        ],
+        [
+          "unconnected_items|138585000|115750000|F.Cu|4|ed44cfab-9dca-4b62-8761-40bf4991308b|4650b693-6af2-4fb8-8e85-89c07877c9d9",
+          "USB-C Cable"
+        ],
+        [
+          "unconnected_items|140000000|110679619|F.Cu|4|b13d9540-08ac-44c0-9a35-794dccdf8729|44b24b4b-85ce-45f1-9c11-f50f5ba3d2eb",
+          "USB-C Cable"
+        ],
+        [
+          "unconnected_items|145411568|108871693|F.Cu|4|4c6110b4-f950-45fb-ac66-601dd4708fc9|845f7e98-302f-4ff3-a92c-9b6b705d32ef",
+          "USB-C Cable"
+        ],
+        [
+          "unconnected_items|156750000|113067501|F.Cu|4|7e4370b5-a911-4306-a974-117d12e54ec0|2951500d-4c64-47e6-acc3-7fbb3239fdd3",
+          "USB-C Cable"
+        ],
+        [
+          "unconnected_items|156810000|115750000|F.Cu|4|f048944b-3bf1-46dd-94ff-f746bd8e25f6|bb2926d0-c3b0-4b75-b8dd-bcd1989442c4",
+          "USB-C Cable"
+        ],
+        [
+          "unconnected_items|156810000|117250000|F.Cu|4|071d0557-92b7-4b18-9021-a5222a30beee|f77d85a7-1c65-4aa5-a200-6a0e1ea7c090",
+          "USB-C Cable"
+        ],
+        [
+          "unconnected_items|158110000|113500000|F.Cu|4|f0a33719-11a0-4272-b025-660e271b2801|df5d6220-d663-4bdd-8868-d9669884a933",
           "USB-C Cable"
         ]
       ],

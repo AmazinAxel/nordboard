@@ -3867,7 +3867,7 @@
 	)
 	(text "Left MCU"
 		(exclude_from_sim no)
-		(at 20.828 108.712 0)
+		(at 21.082 108.966 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3875,7 +3875,7 @@
 		)
 		(uuid "72a9cc1c-9d30-4533-8baa-126f3134b5f8")
 	)
-	(text "Data Connection"
+	(text "Computer Connection"
 		(exclude_from_sim no)
 		(at 83.566 130.302 0)
 		(effects
@@ -3898,7 +3898,7 @@
 	)
 	(text "Right Mounting"
 		(exclude_from_sim no)
-		(at 344.932 108.966 0)
+		(at 345.186 108.966 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16809,10 +16809,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea47795d-66d3-4920-afc1-b9f91796c2ce")
 		(property "Reference" "R3"
-			(at 64.77 121.9199 0)
+			(at 64.008 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16823,7 +16822,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 64.77 124.4599 0)
+			(at 64.008 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

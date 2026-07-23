@@ -331,3 +331,45 @@ I've been hard at work on the PCB. It's been very difficult (as compared to the 
 ![3](https://cdn.hackclub.com/019f8b73-bac3-7590-8240-42e426d50e32/20260722-131041-edited.png)
 
 I realized I made a huge mistake. First thing is that the MCU is way too far away from USB-C. Like I don't even know what I was thinking making it so far away like that, it's gonna add so much latency. So I'm going to redo that. However, the right side of the board is fully complete over USB-C and I haven't yet finished the wiring for all the capacitors and pulldowns yet, so I don't think this is a major issue. I am going to have to add a lot more space on the part of the PCB where the Xiao's were so I'm not particularly happy about that (since it makes it even more asymmetrical) but hopefully it will function better that way. Anyways, not going so good... hopefully the next devlog will be better.
+
+## 7/22/2026 - Finishing the PCB!! Yay!!
+
+Time spent: 4h
+
+OK spent the ENTIRE day on this. I feel really happy now.
+
+I realized a few times that I needed to move components around. The most major of these times was realizing I had placed the USB-C port 1mm too far up so I moved it down a millimeter. This is before:
+
+![0](https://cdn.hackclub.com/019f8c94-126a-7ff3-acff-36238d9c488a/20260722-182539-edited.png)
+
+And this is after:
+
+![1](https://cdn.hackclub.com/019f8ccd-4b74-7a11-9517-c678ca4f3909/20260722-192808-edited.png)
+
+That took a lot more time than it looked. Also, I had made a few schematic changes.
+
+![2](https://cdn.hackclub.com/019f8cce-bbb2-72d5-8508-9fa27bb9dbcf/20260722-192943-edited.png)
+
+From the above, you can see that I've moved away from using a button and instead I'm using a switch with the footprint of two test pads. This is cheaper, slimmer (so I can fit it into the side profile of the new board, between the key and the board's edge, just under the keycaps near the USB-C port so it has easy access) and fits a lot more with the ideology of this board.
+
+I am renaming this project to Snowlayer. I am going to update the Github URLs but I don't think I can rename this Forge project.
+
+THe most difficult part of the routing was my tendency to redo everything after realizing I can move components closer together. I also had a lot of difficulty with the USB-C ports since they were so jam packed together! And the MCU had much less spacing than I had with the XIAO. I'm glad I made this change - it does a lot to my end goal of reducing costs, increasing efficiency and reducing waste, although it will take a lot more of my time as I figure out a firmware.
+
+Here's the DRC for anyone interested. I managed to fix everything, but I did have to adjust some settings because of the USB-C port restrictions, so I'm not really happy about that (it shouldn't affect JLCPCB price though and I think electrically it's fine)
+
+![3](https://cdn.hackclub.com/019f8cd5-e48c-740f-9623-b8aceac0f17e/20260722-193731-edited.png)
+
+The reason for the unconnected parts is because they are supposed to be connected together (they are linked in the schematic) but I am running a USB-C cable between them so that's the thing thats actually transferring the signals. So it will work, but I had to silence those DRC errors.
+
+Another big change is that I switched to a dual ground plane pour, so now the top layer has a pour connected with a few stitchings that I placed around the USB-C ports. It actually looks cooler this way. Here is the 3D views!
+
+![4](https://cdn.hackclub.com/019f8cd9-441e-72ac-84aa-1779d69756d6/20260722-194111-edited.png)
+
+![5](https://cdn.hackclub.com/019f8cd9-bd06-7336-ab7b-ba15dca32e09/20260722-194139-edited.png)
+
+Unfortunately, PCB price didn't change much. Didn't expect it to, but its still pretty cheap for what it is.
+
+![6](https://cdn.hackclub.com/019f8ce7-38af-7127-a1b2-f0e043c2f349/20260722-195627-edited.png)
+
+Thats it for this journal entry. Hopefully it's going to be the second-to-last as I finish up the base firmware and the new 3D CAD model. Maybe I'll even get it done tonight?? We'll see..
