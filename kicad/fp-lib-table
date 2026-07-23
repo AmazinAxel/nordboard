@@ -1,0 +1,9 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "kicad_care_package") (type "KiCad") (uri "${KIPRJMOD}/lib/footprints.pretty") (options "") (descr ""))
+	(lib (name "Panelization") (type "KiCad") (uri "${KIPRJMOD}/lib/Panelization.pretty") (options "") (descr ""))
+	(lib (name "PCM_marbastlib-choc") (type "KiCad") (uri "${KIPRJMOD}/lib/nordboard.pretty") (options "") (descr ""))
+	(lib (name "Module") (type "KiCad") (uri "${KIPRJMOD}/lib/nordboard.pretty") (options "") (descr ""))
+	(lib (name "SOT23") (type "KiCad") (uri "${KIPRJMOD}/lib/SOT23") (options "") (descr ""))
+	(lib (name "SKRPACE010") (type "KiCad") (uri "${KIPRJMOD}/lib/SKRPACE010") (options "") (descr ""))
+)

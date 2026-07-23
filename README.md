@@ -2,7 +2,7 @@
 
 Column staggered Nord-inspired Corne-based split keyboard
 
-![1](https://cdn.hackclub.com/019f061d-a93b-74f6-a9eb-b2ab288ddd44/20260626-154708-edited.png)
+![1](https://cdn.hackclub.com/019f8d8c-a3bc-7d7f-b3ad-4761dd6f6ee2/20260722-225705-edited.png)
 
 Designed to be extremely portable while being ergonomic and comfortable. A few things this board considers:
 
@@ -40,11 +40,11 @@ The advantages of all of the above result in a very well thought-out keyboard fo
 
 ## Some renders
 
-![2](https://cdn.hackclub.com/019f061e-140e-74b2-a618-c20484e5b335/20260626-154737-edited.png)
-![3](https://cdn.hackclub.com/019f061f-481e-7f67-bef8-47d9cb795bd0/20260626-154856-edited.png)
-![4](https://cdn.hackclub.com/019f0620-249b-7dce-b437-22621c4eb3fb/20260626-154952-edited.png)
-![5](https://cdn.hackclub.com/019f062e-5b49-7400-8840-18d611797bc9/20260626-160524-edited.png)
-![6](https://cdn.hackclub.com/019f062e-dee9-7d6c-8b82-878c8b134c4f/20260626-160558-edited.png)
+![4](https://cdn.hackclub.com/019f8d8d-cd99-7fde-bf6e-9c936678b130/20260722-225822-edited.png)
+![2](https://cdn.hackclub.com/019f8d8a-2c4c-7f75-bca8-700eb1c67e0f/20260722-225424-edited.png)
+![3](https://cdn.hackclub.com/019f8d89-9f32-711b-a373-c41567c0502e/20260722-225341-edited.png)
+![5](https://cdn.hackclub.com/019f8d8e-e329-7c42-a243-b244bb74b4b8/20260722-225931-edited.png)
+![6](https://cdn.hackclub.com/019f8d8f-bb65-7fe4-a43e-4d95700b46c2/20260722-230015-edited.png)
 
 [Model available on Onshape](https://cad.onshape.com/documents/24ef5e976496ee201db7b05f/w/fbfc374ac70f5cb67c606ba5/e/005f221e2e9fc59a8e2e02ea)
 
@@ -55,18 +55,33 @@ The advantages of all of the above result in a very well thought-out keyboard fo
 
 ## Firmware setup
 
+**This keyboard CANNOT run QMK or ZMK or any mainline keyboard firmware!!**
+
+We use a very new chip which does not have support for those firmwares yet. The chip is easily programmable with Platformio and there has been work already to make it work as an HID keyboard device, so I am expanding on that to make this function as a layered keyboard.
+
+First, you need to short the two pads on the top right of the board and plug the device into your computer through a data cable. This puts the device into boot mode so you can flash the firmware.
+
+Clone the repo and go into the conifer/ folder. This is the custom firmware that Snowlayer runs on. Make sure you have platformio installed and run `pio run -t upload`. The firmware should flash to the device, but if you are running Linux and have any issues make sure you add these udev rules:
+
+```
+SUBSYSTEM=="usb|tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="8010", GROUP:="plugdev"
+SUBSYSTEM=="usb|tty", ATTRS{idVendor}=="4348", ATTRS{idProduct}=="55e0", GROUP:="plugdev"
+SUBSYSTEM=="usb|tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="8012", GROUP:="plugdev"
+```
+
+Once I finish the firmware I'll attach a screenshot showing the layers and keybinds for common actions. This firmware is only partly complete.
+
 ## Bill of Materials
 
-| Part                        | Where to buy                                               | Cost before tax         | Notes                                       |
-| --------------------------- | ---------------------------------------------------------- | ----------------------- | ------------------------------------------- |
-| Keycaps                     | <https://www.aliexpress.us/item/3256806548230734.html>     | $26                     | 50pc, transparent (Does come with 8 extras) |
-| Seeed XIAO RP2040           | <https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html> | $7.89                   | 2pc, may charge shipping                    |
-| Choc Switches               | <https://www.aliexpress.us/item/3256808697103313.html>     | $25                     | 50pc, blue (Also comes with 8 extras)       |
-| A short C-to-C interconnect | https://www.aliexpress.us/item/3256810399626545.html       | $11.87                  | T6A-T6B 20P, 0.25m                          |
-| The board itself!           | JLCPCB                                                     | $48.41                  | 5 boards, cheapest settings                 |
-|                             |                                                            | **Total cost: $107.30** |
+| Part                        | Where to buy                                           | Cost before tax         | Notes                                       |
+| --------------------------- | ------------------------------------------------------ | ----------------------- | ------------------------------------------- |
+| Keycaps                     | <https://www.aliexpress.us/item/3256806548230734.html> | $26                     | 50pc, transparent (Does come with 8 extras) |
+| Choc Switches               | <https://www.aliexpress.us/item/3256808697103313.html> | $25                     | 50pc, blue (Also comes with 8 extras)       |
+| A short C-to-C interconnect | <https://www.aliexpress.us/item/3256810399626545.html> | $11.87                  | T6A-T6B 20P, 0.25m                          |
+| The board itself!           | JLCPCB                                                 | $48.41                  | 5 boards, cheapest settings                 |
+|                             |                                                        | **Total cost: $107.30** |
 
-You will need a 5.1k resistor (or something close to that), two USB type-C receptacles and a 3D printer/filament for the case. The four mounting holes are 2.2mm radius, 3mm deep. Don't forget a type-C power cable!
+You will need a 5.1k resistor (or something close to that), two USB type-C receptacles and a 3D printer/filament for the case. The four mounting holes are 2.2mm radius, 3mm deep, you will need mounting screws for those. The C-C interconnect MUST be Superspeed (like the item above) or else it won't have enough lines so the right half of the board won't work right.
 
 ---
 

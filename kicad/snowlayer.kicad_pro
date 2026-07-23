@@ -82,15 +82,15 @@
           ""
         ],
         [
-          "unconnected_items|137285000|117500000|F.Cu|4|1ec05f94-9b04-4b47-89ea-4384fad23ccd|a4abfd42-3588-40d8-99d4-e8d6ab4da313",
+          "unconnected_items|137285000|117500000|F.Cu|4|1ec05f94-9b04-4b47-89ea-4384fad23ccd|5cf6e2d5-6df3-4025-8c5a-bcbce539d56e",
           "USB-C Cable"
         ],
         [
-          "unconnected_items|137285000|118000000|F.Cu|4|2849f657-8c36-4d04-a23d-acd3a45cc4e6|80cebb8d-11e1-45da-9f1f-90ce3f7626cf",
+          "unconnected_items|137285000|118000000|F.Cu|4|2849f657-8c36-4d04-a23d-acd3a45cc4e6|d5b4a559-fbec-4232-8260-ad8af175fd3f",
           "USB-C Cable"
         ],
         [
-          "unconnected_items|138468734|116098816|F.Cu|4|25c43d2f-31f7-48bb-9c85-29d657541742|d56c05af-2bae-41e5-935b-b0c00ccb7b30",
+          "unconnected_items|138468734|116098816|F.Cu|4|4e2dd82e-87a6-45ab-94a7-d009f00c4e55|d56c05af-2bae-41e5-935b-b0c00ccb7b30",
           "USB-C Cable"
         ],
         [
@@ -98,11 +98,11 @@
           "USB-C Cable"
         ],
         [
-          "unconnected_items|138585000|115750000|F.Cu|4|ed44cfab-9dca-4b62-8761-40bf4991308b|4650b693-6af2-4fb8-8e85-89c07877c9d9",
+          "unconnected_items|138585000|115750000|F.Cu|4|ed44cfab-9dca-4b62-8761-40bf4991308b|176c3416-23e5-4665-aaef-65927af6b9c2",
           "USB-C Cable"
         ],
         [
-          "unconnected_items|140000000|110679619|F.Cu|4|b13d9540-08ac-44c0-9a35-794dccdf8729|44b24b4b-85ce-45f1-9c11-f50f5ba3d2eb",
+          "unconnected_items|140000000|110679619|F.Cu|4|481f616c-b5fd-4eec-9042-02f2f4389f86|44b24b4b-85ce-45f1-9c11-f50f5ba3d2eb",
           "USB-C Cable"
         ],
         [
@@ -118,11 +118,11 @@
           "USB-C Cable"
         ],
         [
-          "unconnected_items|156810000|117250000|F.Cu|4|071d0557-92b7-4b18-9021-a5222a30beee|f77d85a7-1c65-4aa5-a200-6a0e1ea7c090",
+          "unconnected_items|156810000|117250000|F.Cu|4|e28a4fbf-4245-4198-990d-ab68f66de60f|f3520306-212b-4019-b71e-48132a001a28",
           "USB-C Cable"
         ],
         [
-          "unconnected_items|158110000|113500000|F.Cu|4|f0a33719-11a0-4272-b025-660e271b2801|df5d6220-d663-4bdd-8868-d9669884a933",
+          "unconnected_items|158110000|113500000|F.Cu|4|5d788ce1-714d-444b-973c-0c6a43c26ed6|67b31ad4-aa1a-4e6a-9f4d-72042ae2ab74",
           "USB-C Cable"
         ]
       ],
@@ -560,7 +560,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "NordBoard.kicad_pro",
+    "filename": "snowlayer.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -752,12 +752,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "NordBoard.kicad_sch",
-        "name": "NordBoard",
+        "filename": "snowlayer.kicad_sch",
+        "name": "snowlayer",
         "uuid": "7cf7f72d-7ab1-4807-b592-339093d5ca44"
       }
     ],
-    "used_designators": "#FLG1-2,S1,#PWR1-35,TP1-5,R1-3,P1-3,U1-4,SW1-80,B1-5,H1-12,C1-8,D1-80",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
