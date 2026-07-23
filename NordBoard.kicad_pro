@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.5,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -80,6 +80,14 @@
         [
           "silk_edge_clearance|147500000|132000000|b90549f4-fa8a-4bfc-857d-8771b1e05d61|8754a6e6-ed81-428d-8f26-57517f6d2202",
           ""
+        ],
+        [
+          "unconnected_items|138585000|113750000|F.Cu|4|c8bf79ea-938d-46b0-911b-34a5d3338b6a|8619fd29-abb3-49bb-8fec-9f292857fece",
+          "USB-C Cable"
+        ],
+        [
+          "unconnected_items|156810000|113750000|F.Cu|4|a4abfd42-3588-40d8-99d4-e8d6ab4da313|1ec05f94-9b04-4b47-89ea-4384fad23ccd",
+          "USB-C Cable"
         ]
       ],
       "meta": {
@@ -523,7 +531,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
