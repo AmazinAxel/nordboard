@@ -396,6 +396,8 @@ I also had my little brother review my PCB again. It can be improved, I might as
 
 ## 7/23/2026 - Rerouting once more...
 
+Time spent: 1h
+
 Well, being a perfectionist isn't always easy...
 
 I'm rerouting the entire board once more. This time, I am learning from my mistakes and I'm going to have this be my _final_ revision (hopefully..) so I'm going to slow down a bit. I'll see if i can get Lapse set up, since i think its back online, and then I'll try recording my screen to see if that works better than having to rely on a clock for tracking my wiring hours.
