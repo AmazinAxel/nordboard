@@ -76,56 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|147500000|132000000|b90549f4-fa8a-4bfc-857d-8771b1e05d61|8754a6e6-ed81-428d-8f26-57517f6d2202",
-          ""
-        ],
-        [
-          "unconnected_items|137285000|117500000|F.Cu|4|1ec05f94-9b04-4b47-89ea-4384fad23ccd|5cf6e2d5-6df3-4025-8c5a-bcbce539d56e",
-          "USB-C Cable"
-        ],
-        [
-          "unconnected_items|137285000|118000000|F.Cu|4|2849f657-8c36-4d04-a23d-acd3a45cc4e6|d5b4a559-fbec-4232-8260-ad8af175fd3f",
-          "USB-C Cable"
-        ],
-        [
-          "unconnected_items|138468734|116098816|F.Cu|4|25c43d2f-31f7-48bb-9c85-29d657541742|2b797d62-5764-4a05-adbc-65787f07667b",
-          "USB-C Cable"
-        ],
-        [
-          "unconnected_items|138585000|113750000|F.Cu|4|c8bf79ea-938d-46b0-911b-34a5d3338b6a|f572663d-0d2e-4839-85a6-1a6282308683",
-          "USB-C Cable"
-        ],
-        [
-          "unconnected_items|138585000|115750000|F.Cu|4|ed44cfab-9dca-4b62-8761-40bf4991308b|4650b693-6af2-4fb8-8e85-89c07877c9d9",
-          "USB-C Cable"
-        ],
-        [
-          "unconnected_items|139450000|115753947|F.Cu|4|67b31ad4-aa1a-4e6a-9f4d-72042ae2ab74|5d788ce1-714d-444b-973c-0c6a43c26ed6",
-          "USB-C Cable"
-        ],
-        [
-          "unconnected_items|152340000|111180000|F.Cu|4|845f7e98-302f-4ff3-a92c-9b6b705d32ef|4c6110b4-f950-45fb-ac66-601dd4708fc9",
-          "USB-C Cable"
-        ],
-        [
-          "unconnected_items|156750000|113067501|F.Cu|4|7e4370b5-a911-4306-a974-117d12e54ec0|f8ce233e-fdc7-40da-ab14-d251d9429b2e",
-          "USB-C Cable"
-        ],
-        [
-          "unconnected_items|156810000|115750000|F.Cu|4|f048944b-3bf1-46dd-94ff-f746bd8e25f6|bb2926d0-c3b0-4b75-b8dd-bcd1989442c4",
-          "USB-C Cable"
-        ],
-        [
-          "unconnected_items|156810000|117250000|F.Cu|4|071d0557-92b7-4b18-9021-a5222a30beee|f77d85a7-1c65-4aa5-a200-6a0e1ea7c090",
-          "USB-C Cable"
-        ],
-        [
-          "unconnected_items|158110000|113000000|F.Cu|4|4a72cf27-80e9-46c6-85e6-513780e20a71|b13d9540-08ac-44c0-9a35-794dccdf8729",
-          "USB-C Cable"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
