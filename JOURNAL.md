@@ -393,3 +393,15 @@ I changed out a few footprints to use cheaper components. The diodes were the bi
 It might not be that visible in the screenshot but all of the red wires connecting the diodes and switches had to be redone to support a smaller footprint. I'm also really mad at myself right now after I realized that I can move the diodes to be inline under the keycaps, meaning I can actually make the board _smaller_ which saves even more on costs, spacing and increases portability. Since I'm done (again) I'm going to resubmit and fix up the diodes later before I build it.
 
 I also had my little brother review my PCB again. It can be improved, I might ask some other people in #electronics to see if they can help me out. Most important thing is getting the USB-C data port working, that's probably where I will have the most issues.
+
+## 7/23/2026 - Rerouting once more...
+
+Well, being a perfectionist isn't always easy...
+
+I'm rerouting the entire board once more. This time, I am learning from my mistakes and I'm going to have this be my _final_ revision (hopefully..) so I'm going to slow down a bit. I'll see if i can get Lapse set up, since i think its back online, and then I'll try recording my screen to see if that works better than having to rely on a clock for tracking my wiring hours.
+
+Anyways, i'm doing the _opposite_ of pricemaxxing and making the board literally as small as it gets. There is almost nothing I can do to make it smaller than this, other than removing a few keys which i just cannot do if I want to stay productive. I literally moved every single component on the board and I am going to be redesigning the case to support proper edges. This is what it now looks like, WITHOUT the new routing and still with the wires for layout (since it is now pixel-perfect):
+
+![0](https://cdn.hackclub.com/019f9185-ef23-75a9-b3a2-8aabe9791d94/20260723-172817-edited.png)
+
+I'm going to keep this one short as there really isn't much else to say. Gonna have to move all of the diodes back to where they were though, that's gonna be even more painful.
