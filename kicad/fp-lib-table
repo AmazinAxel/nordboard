@@ -6,4 +6,5 @@
 	(lib (name "Module") (type "KiCad") (uri "${KIPRJMOD}/lib/nordboard.pretty") (options "") (descr ""))
 	(lib (name "SOT23") (type "KiCad") (uri "${KIPRJMOD}/lib/SOT23") (options "") (descr ""))
 	(lib (name "SKRPACE010") (type "KiCad") (uri "${KIPRJMOD}/lib/SKRPACE010") (options "") (descr ""))
+	(lib (name "snowlayer") (type "KiCad") (uri "${KIPRJMOD}/lib/snowlayer.pretty") (options "") (descr ""))
 )

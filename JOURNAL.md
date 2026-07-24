@@ -407,3 +407,27 @@ Anyways, i'm doing the _opposite_ of pricemaxxing and making the board literally
 ![0](https://cdn.hackclub.com/019f9185-ef23-75a9-b3a2-8aabe9791d94/20260723-172817-edited.png)
 
 I'm going to keep this one short as there really isn't much else to say. Gonna have to move all of the diodes back to where they were though, that's gonna be even more painful.
+
+## 7/24/2026 -
+
+Time spent: 1.2h
+
+It's fun seeing what you can change to fix two problems at once.
+
+After talking a bit in [#electronics](https://hackclub.slack.com/archives/C056AMWSFKJ/p1784867138268339) to see what i can do, I found a few ways to improve my board. Like I said in my last post, I'm starting from scratch again and I think _this_ time will be it. There's so many things I've changed and learned throughout this project, and I'm not going to settle for something jank like what I had originally.
+
+![0](https://cdn.hackclub.com/019f95a3-5688-7703-8897-8310418f01e7/20260724-123855-edited.png)
+
+I repositioned everything, by hand. Basically all of the alignments of the key switches were off, and I moved them all by hand and centered each of the diodes so that they're pixel perfect. As part of this, I'm wiping the entire wiring of the board. There is a lot to be said about this project - its something that can only end when I have found nothing else to optimize or fix.
+
+The biggest change to this project is the new USB-C interconnect. it's a much cheaper component (only 40 cents!) and its footprint allows me to wire things underneath it, which is HUGE for space saving and reducing the mess of wires that I have.
+
+![1](https://cdn.hackclub.com/019f95aa-3b9a-78c9-9642-5fc3af0991ff/20260724-124624-edited.png)
+
+The above component change means we can reduce the size of the board even further since I can route under the USB-C port. And it saves us more money! However this took a lot of time - I had to learn how to use easyeda2kicad (which was actually really easy on NixOS, had to get around some weird upstream bug though) and change all the pins to Passive to fix some ERC warnings. Was quite painful, but otherwise the schematic is a lot cleaner now!
+
+![2](https://cdn.hackclub.com/019f95ae-631e-7578-ae89-c6c560f88270/20260724-125056-edited.png)
+
+![3](https://cdn.hackclub.com/019f95ae-91df-712c-997c-32fe9caf7f7a/20260724-125110-edited.png)
+
+At this point, I don't think there is anything else here that I can optimize for cost... I'm going to lapse myself completing the traces and then it's done!
