@@ -92,10 +92,10 @@ Once I finish the firmware I'll attach a screenshot showing the layers and keybi
 | 4.7uF capacitor                      | <https://www.lcsc.com/product-detail/C77077.html>      | $0.68                    | 9 extras                                                |
 | 3x 1kO resistors                     | <https://www.lcsc.com/product-detail/C21190.html>      | $0.30                    | 97 extras, I already have these from a previous project |
 | 24pin USB-C interconnect receptacles | <https://www.lcsc.com/product-image/C53207800.html>    | $0.4\*2 = $0.81          | No extras                                               |
-| 12pin USB-C data receptacle          | <https://www.lcsc.com/product-detail/C165948.html>     | $0.85                    | 4 extras, I already have some from a previous project   |
-|                                      |                                                        | **Total cost: 83.44**    | Does not include tax or shipping, actual cost higher    |
+| 12pin USB-C data receptacle          | <https://www.lcsc.com/product-detail/C5178539.html>    | $0.36                    | 4 extras, I already have some from a previous project   |
+|                                      |                                                        | **Total cost: 82.95**    | Does not include tax or shipping, actual cost higher    |
 
-<!-- 26+25+11.87+15.60+0.56+0.5+1.27+0.68+0.3+0.81+0.85 -->
+<!-- 26+25+11.87+15.60+0.56+0.5+1.27+0.68+0.3+0.81+0.36 -->
 
 You will need a 3D printer & filament (I recommend blue PLA) for the case. The four mounting holes are 2.2mm radius, 3mm deep, you will need mounting screws for those. The C-C interconnect MUST be Superspeed (like the item above) or else it won't have enough lines so the right half of the board won't work right.
 
