@@ -431,3 +431,25 @@ The above component change means we can reduce the size of the board even furthe
 ![3](https://cdn.hackclub.com/019f95ae-91df-712c-997c-32fe9caf7f7a/20260724-125110-edited.png)
 
 At this point, I don't think there is anything else here that I can optimize for cost... I'm going to lapse myself completing the traces and then it's done!
+
+## 7/26/2026 - Finishing the layout
+
+Time spent: 1h
+
+OK I'm going to be honest - I spent two days on this and I'm tracking 1hr because I think I'm taking this a bit too far. I have been meticulously moving the silkscreen edges so that they are perfectly aligned on both sides. Everything is perfectly aligned now (as best I can anyways) and I am happy with the result. HOWEVER, I did not do any routing because I moved basically everything around. For starters, the furthest edge keys have been aligned so that they are the same y-level. The cuts have been optimized to the micro-millimeter and the cost is down by another dollar.
+
+This is what it finally looks like in 3D, minus the new routing:
+
+![0](https://cdn.hackclub.com/019fa008-7654-73ec-bb08-291acb38d444/20260726-130528-edited.png)
+
+Here's what the pcb looks like now:
+
+![1](https://cdn.hackclub.com/019fa00b-6782-7b38-8760-32aeb992442f/20260726-130843-edited.png)
+
+And this is what the new outlines look like now (I spent way too much time on this)
+
+![2](https://cdn.hackclub.com/019fa00c-9a61-76df-8f1f-59e87ed466ac/20260726-130954-edited.png)
+
+So yeah, no new routing progress. Just thought that I would share what the new design looks like before I finish the routing part. And about Lapse, I tried to get that working but I unfortunately couldn't get that working in my browser and Lookout doesn't work with forge so I'm just going to do it like I am with these journals for now.
+
+Also - other than completely repositioning the layout, I also repositioned each of the keys and checked them on both sides so that they match perfectly! I did a little more research about the Cheapuino boards and I think there is room for cost improvement here, but I think I will leave that to a v2. Anyways, super happy with how things are right now and I am excited to start routing once more!
