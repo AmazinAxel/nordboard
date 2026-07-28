@@ -1,10 +1,12 @@
-# Nord themed custom split keyboard
+# CH32X035 custom split keyboard
 
-Column staggered Nord-inspired Corne-based split keyboard
+Column staggered Corne-based wired split keyboard
+
+Main features are its single onboard CH32X035G8U6 MCU, USB-C interconnect, lowest-latency-possible yet highly portable ideology, its low cost all while being very ergonomic and comfortable!
 
 ![1](https://cdn.hackclub.com/019fa619-bbc7-7646-bde0-3c78c302dddb/20260727-172209-edited.png)
 
-Designed to be extremely portable while being ergonomic and comfortable. A few things this board considers:
+A few things this board considers:
 
 - Kalih Choc v1 linear switches
   - Why: for reduced key travel distance and less noise
@@ -93,7 +95,7 @@ Once I finish the firmware I'll attach a screenshot showing the layers and keybi
 | 3x 1kO resistors                     | <https://www.lcsc.com/product-detail/C21190.html>      | $0.30                    | 97 extras, I already have these from a previous project |
 | 24pin USB-C interconnect receptacles | <https://www.lcsc.com/product-image/C53207800.html>    | $0.4\*2 = $0.81          | No extras                                               |
 | 12pin USB-C data receptacle          | <https://www.lcsc.com/product-detail/C5178539.html>    | $0.36                    | 4 extras, I already have some from a previous project   |
-|                                      |                                                        | **Total cost: $73.11**    | Does not include tax or shipping, actual cost higher    |
+|                                      |                                                        | **Total cost: $73.11**   | Does not include tax or shipping, actual cost higher    |
 
 <!-- 20+25+8.93+14.70+0.56+0.5+1.27+0.68+0.3+0.81+0.36 -->
 
