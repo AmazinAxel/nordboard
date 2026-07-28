@@ -2,7 +2,7 @@
 
 Column staggered Nord-inspired Corne-based split keyboard
 
-![1](https://cdn.hackclub.com/019f8d8c-a3bc-7d7f-b3ad-4761dd6f6ee2/20260722-225705-edited.png)
+![1](https://cdn.hackclub.com/019fa619-bbc7-7646-bde0-3c78c302dddb/20260727-172209-edited.png)
 
 Designed to be extremely portable while being ergonomic and comfortable. A few things this board considers:
 
@@ -40,18 +40,18 @@ The advantages of all of the above result in a very well thought-out keyboard fo
 
 ## Some renders
 
-![4](https://cdn.hackclub.com/019f8d8d-cd99-7fde-bf6e-9c936678b130/20260722-225822-edited.png)
-![2](https://cdn.hackclub.com/019f8d8a-2c4c-7f75-bca8-700eb1c67e0f/20260722-225424-edited.png)
-![3](https://cdn.hackclub.com/019f8d89-9f32-711b-a373-c41567c0502e/20260722-225341-edited.png)
-![5](https://cdn.hackclub.com/019f8d8e-e329-7c42-a243-b244bb74b4b8/20260722-225931-edited.png)
-![6](https://cdn.hackclub.com/019f8d8f-bb65-7fe4-a43e-4d95700b46c2/20260722-230015-edited.png)
+![2](https://cdn.hackclub.com/019fa618-3c11-7e15-b919-1cba0bc6a83d/20260727-172029-edited.png)
+![3](https://cdn.hackclub.com/019fa61b-0a2f-7fd6-a8e7-d7de19380bca/20260727-172319-edited.png)
+![4](https://cdn.hackclub.com/019fa61a-a146-7aa7-8660-b4a134bdcec8/20260727-172304-edited.png)
+![5](https://cdn.hackclub.com/019fa617-0b5a-7234-b03e-b6576f4f3ada/20260727-171911-edited.png)
 
 [Model available on Onshape](https://cad.onshape.com/documents/24ef5e976496ee201db7b05f/w/fbfc374ac70f5cb67c606ba5/e/005f221e2e9fc59a8e2e02ea)
 
 ## PCB & schematic
 
-![7](https://cdn.hackclub.com/019f8cf5-5d7f-7e67-87f0-bd69dac8989d/20260722-201155-edited.png)
-![8](https://cdn.hackclub.com/019f8cf4-6372-7091-b804-5b71b93f28a9/20260722-201051-edited.png)
+![6](https://cdn.hackclub.com/019fa615-7933-7461-a414-206acfe8cad1/20260727-171728-edited.png)
+
+![7](https://cdn.hackclub.com/019fa61e-4834-7efd-8de3-5fff9ce08d67/20260727-172705-edited.png)
 
 ## Firmware setup
 
@@ -85,7 +85,7 @@ Once I finish the firmware I'll attach a screenshot showing the layers and keybi
 | Keycaps                              | <https://www.aliexpress.us/item/3256809223879113.html> | $20                      | 50pc/1350 V1 A (Does come with 8 extras)                |
 | Choc Switches                        | <https://www.aliexpress.us/item/3256808697103313.html> | $25                      | 50pc, blue (Also comes with 8 extras)                   |
 | A short C-to-C interconnect          | <https://www.aliexpress.us/item/3256811793020961.html> | $8.93                    | T6A-T6B 20P, 0.25m                                      |
-| The board itself!                    | JLCPCB                                                 | $15.60                   | 5 boards, cheapest settings (white PCB)                 |
+| The board itself!                    | JLCPCB                                                 | $14.70                   | 5 boards, cheapest settings (white PCB)                 |
 | CH32X035DS0                          | <https://www.lcsc.com/product-detail/C7437027.html>    | $0.56                    | You only need one for the whole board!                  |
 | Switch diodes                        | <https://www.lcsc.com/product-detail/C917030.html>     | $0.50                    | 8 extras                                                |
 | 100nF capacitor                      | <https://www.lcsc.com/product-detail/C14663.html>      | $1.27                    | 49 extras, I already have these from a previous project |
@@ -93,9 +93,9 @@ Once I finish the firmware I'll attach a screenshot showing the layers and keybi
 | 3x 1kO resistors                     | <https://www.lcsc.com/product-detail/C21190.html>      | $0.30                    | 97 extras, I already have these from a previous project |
 | 24pin USB-C interconnect receptacles | <https://www.lcsc.com/product-image/C53207800.html>    | $0.4\*2 = $0.81          | No extras                                               |
 | 12pin USB-C data receptacle          | <https://www.lcsc.com/product-detail/C5178539.html>    | $0.36                    | 4 extras, I already have some from a previous project   |
-|                                      |                                                        | **Total cost: 74.01**    | Does not include tax or shipping, actual cost higher    |
+|                                      |                                                        | **Total cost: $73.11**    | Does not include tax or shipping, actual cost higher    |
 
-<!-- 20+25+8.93+15.60+0.56+0.5+1.27+0.68+0.3+0.81+0.36 -->
+<!-- 20+25+8.93+14.70+0.56+0.5+1.27+0.68+0.3+0.81+0.36 -->
 
 You will need a 3D printer & filament (I recommend blue PLA) for the case. The four mounting holes are 2.2mm radius, 3mm deep, you will need mounting screws for those. The C-C interconnect MUST be Superspeed (like the item above) or else it won't have enough lines so the right half of the board won't work right.
 

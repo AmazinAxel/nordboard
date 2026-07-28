@@ -453,3 +453,39 @@ And this is what the new outlines look like now (I spent way too much time on th
 So yeah, no new routing progress. Just thought that I would share what the new design looks like before I finish the routing part. And about Lapse, I tried to get that working but I unfortunately couldn't get that working in my browser and Lookout doesn't work with forge so I'm just going to do it like I am with these journals for now.
 
 Also - other than completely repositioning the layout, I also repositioned each of the keys and checked them on both sides so that they match perfectly! I did a little more research about the Cheapuino boards and I think there is room for cost improvement here, but I think I will leave that to a v2. Anyways, super happy with how things are right now and I am excited to start routing once more!
+
+# 7/27/2026 - Finished!!!
+
+Time spent: 0h
+
+And... it's done!! (again)
+
+So this time I figured out how to use Lapse. I realized the whole time that it _was_ working but I wasn't waiting long enough for a new snapshot to be taken, I just thought it would record at a normal 60fps but it only takes a screenshot every minute, so that confused me... anyways, I lapsed EVERYTHING in this devlog!! Yay!!
+
+Here are my lapses, I hooked it up to hackatime as well:
+
+<https://lapse.hackclub.com/timelapse/3SJWrnRTiUxC>
+
+<https://lapse.hackclub.com/timelapse/YeEumRzy1A_l>
+
+<https://lapse.hackclub.com/timelapse/cq0qLvTQu5AG>
+
+Since I feel like the lapses explained basically everything I did, I don't think this will be a very long devlog. (also I'm marking this as 0 hours since lapse recorded EVERYTHING)
+
+So what does the final product look like? THIS:
+
+![0](https://cdn.hackclub.com/019fa615-7933-7461-a414-206acfe8cad1/20260727-171728-edited.png)
+
+![1](https://cdn.hackclub.com/019fa617-0b5a-7234-b03e-b6576f4f3ada/20260727-171911-edited.png)
+
+And the case:
+
+![2](https://cdn.hackclub.com/019fa618-3c11-7e15-b919-1cba0bc6a83d/20260727-172029-edited.png)
+
+![3](https://cdn.hackclub.com/019fa619-bbc7-7646-bde0-3c78c302dddb/20260727-172209-edited.png)
+
+![4](https://cdn.hackclub.com/019fa61b-0a2f-7fd6-a8e7-d7de19380bca/20260727-172319-edited.png)
+
+![5](https://cdn.hackclub.com/019fa61a-a146-7aa7-8660-b4a134bdcec8/20260727-172304-edited.png)
+
+And that's it!

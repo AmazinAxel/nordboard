@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('KiCad electronic assembly'),'2;1');
-FILE_NAME('snowlayer.step','2026-07-27T15:20:27',('Pcbnew'),('Kicad'),
+FILE_NAME('NordBoard.step','2026-07-27T15:17:33',('Pcbnew'),('Kicad'),
   'Open CASCADE STEP processor 7.6','KiCad to STEP converter','Unknown'
   );
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
@@ -15,7 +15,7 @@ DATA;
 #4 = PRODUCT_DEFINITION_SHAPE('','',#5);
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
-#7 = PRODUCT('snowlayer 1','snowlayer 1','',(#8));
+#7 = PRODUCT('NordBoard 1','NordBoard 1','',(#8));
 #8 = PRODUCT_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #10 = SHAPE_REPRESENTATION('',(#11,#15,#19),#23);
@@ -21145,8 +21145,8 @@ REPRESENTATION_CONTEXT('Context #1',
 #20902 = PRODUCT_DEFINITION_SHAPE('','',#20903);
 #20903 = PRODUCT_DEFINITION('design','',#20904,#20907);
 #20904 = PRODUCT_DEFINITION_FORMATION('','',#20905);
-#20905 = PRODUCT('snowlayer-unsaved-export-SPMSRG_silkscreen',
-  'snowlayer-unsaved-export-SPMSRG_silkscreen','',(#20906));
+#20905 = PRODUCT('snowlayer-unsaved-export-VQAgqH_silkscreen',
+  'snowlayer-unsaved-export-VQAgqH_silkscreen','',(#20906));
 #20906 = PRODUCT_CONTEXT('',#2,'mechanical');
 #20907 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #20908 = CONTEXT_DEPENDENT_SHAPE_REPRESENTATION(#20909,#20911);
@@ -33345,8 +33345,8 @@ REPRESENTATION_CONTEXT('Context #1',
 #32989 = PRODUCT_DEFINITION_SHAPE('','',#32990);
 #32990 = PRODUCT_DEFINITION('design','',#32991,#32994);
 #32991 = PRODUCT_DEFINITION_FORMATION('','',#32992);
-#32992 = PRODUCT('snowlayer-unsaved-export-SPMSRG_PCB',
-  'snowlayer-unsaved-export-SPMSRG_PCB','',(#32993));
+#32992 = PRODUCT('snowlayer-unsaved-export-VQAgqH_PCB',
+  'snowlayer-unsaved-export-VQAgqH_PCB','',(#32993));
 #32993 = PRODUCT_CONTEXT('',#2,'mechanical');
 #32994 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #32995 = CONTEXT_DEPENDENT_SHAPE_REPRESENTATION(#32996,#32998);
